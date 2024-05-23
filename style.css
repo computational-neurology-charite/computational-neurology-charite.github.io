@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 2px solid #6e7dfb;
+    border-bottom: 2px solid #34d2eb;
 }
 
 section {
@@ -51,7 +51,7 @@ section {
 .section-title {
     font-size: 2em;
     margin-bottom: 20px;
-    border-bottom: 2px solid #6e7dfb;
+    border-bottom: 2px solid #34d2eb;
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -94,6 +94,19 @@ section {
     max-height: 150px; /* Ensure the image doesn't overflow */
     object-fit: contain; /* Scale image to fit within the card */
     margin-bottom: 15px;
+}
+
+/* Institution logos banner */
+.banner {
+    background: #34d2eb;
+    /*background: linear-gradient(135deg, #34d2eb, #9badaf); */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.logo {
+    height: 200px; /* Increased height */
+    margin: 0 20px;
 }
 
 /* Team member styles */
@@ -202,5 +215,9 @@ footer {
     }
     .principle-card {
         max-width: 90%;
+    }
+    .logo {
+        height: 70px; /* Adjusted height for smaller screens */
+        margin: 10px 0;
     }
 }
