@@ -1,0 +1,206 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #6e7dfb, #34d2eb);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #4a4a4a;
+    padding: 15px;
+    position: sticky;
+    top: 60px;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #6e7dfb;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6e7dfb;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.home-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
+
+.principles-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.principle-card {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.principle-card:hover {
+    transform: translateY(-10px);
+    background: #f0f0f0;
+}
+
+.principle-image {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Ensure the image doesn't overflow */
+    object-fit: contain; /* Scale image to fit within the card */
+    margin-bottom: 15px;
+}
+
+/* Team member styles */
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+#team-section {
+    background-color: #000;
+    color: white;
+    padding: 50px 0;
+    width: 100%;
+}
+
+#team {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.team-card {
+    background: #333;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    background: #444;
+}
+
+.team-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px;
+}
+
+.team-card h3 {
+    margin-top: 10px;
+}
+
+/* Publication styles */
+.publication-card {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    text-align: center;
+    max-width: 800px; /* Increase card width */
+    width: 100%;
+    margin: 20px auto; /* Center cards within their container */
+}
+
+.publication-card:hover {
+    transform: translateY(-10px);
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+.year-section {
+    margin-top: 20px;
+}
+
+.year-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 20px;
+    justify-content: center; /* Center the grid items */
+}
+
+.year-section h3 {
+    margin: 0 0 20px 0;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    nav a {
+        font-size: 1em;
+        margin: 0 10px;
+    }
+    .principles-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .principle-card {
+        max-width: 90%;
+    }
+}
