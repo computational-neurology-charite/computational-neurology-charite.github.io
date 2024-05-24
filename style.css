@@ -7,13 +7,22 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #6e7dfb, #34d2eb);
+    background: #6eacc0;
     color: white;
-    padding: 20px;
+    padding: 0;
     text-align: center;
     position: sticky;
     top: 0;
     z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 header h1 {
@@ -21,14 +30,19 @@ header h1 {
     font-size: 2.5em;
 }
 
+.header-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 nav {
     display: flex;
     justify-content: center;
     background-color: #4a4a4a;
     padding: 15px;
-    position: sticky;
-    top: 60px;
-    z-index: 1000;
+    z-index: 900; /* Lower than header */
 }
 
 nav a {
@@ -39,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 2px solid #34d2eb;
+    border-bottom: 2px solid #6eacc0;
 }
 
 section {
@@ -51,7 +65,7 @@ section {
 .section-title {
     font-size: 2em;
     margin-bottom: 20px;
-    border-bottom: 2px solid #34d2eb;
+    border-bottom: 2px solid #6eacc0;
     display: inline-block;
     padding-bottom: 10px;
 }
@@ -98,8 +112,7 @@ section {
 
 /* Institution logos banner */
 .banner {
-    background: #34d2eb;
-    /*background: linear-gradient(135deg, #34d2eb, #9badaf); */
+    background: #6eacc0;
     padding: 40px 0;
     text-align: center;
 }
@@ -219,5 +232,14 @@ footer {
     .logo {
         height: 70px; /* Adjusted height for smaller screens */
         margin: 10px 0;
+    }
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-logo {
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
     }
 }

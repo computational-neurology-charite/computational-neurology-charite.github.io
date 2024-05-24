@@ -8,13 +8,16 @@
 </head>
 <body>
     <header>
-        <h1>Computational Neurology</h1>
+        <div class="header-content">
+            <h1>Computational Neurology</h1>
+            <img src="images/logo_group.webp" alt="Logo" class="header-logo">
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#team">Team</a>
+            <a href="#publications">Publications</a>
+        </nav>
     </header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#team">Team</a>
-        <a href="#publications">Publications</a>
-    </nav>
     <section id="home">
         <h2 class="section-title">Home</h2>
         <p>Welcome to the Computational Neurology research group. Our mission is to leverage computational techniques to advance the understanding and treatment of neurological disorders. We specialize in using advanced machine learning algorithms on ECG and EEG data to provide insights into various neurological conditions.</p>
@@ -31,7 +34,7 @@
             </div>
             <div class="principle-card">
                 <img src="images/modern.webp" alt="Interdisciplinary Research" class="principle-image">
-                <h3>Data Oriented</h3>
+                <h3>Data oriented</h3>
                 <p>Utilizing the latest advancements in technology and medicine, we strive to provide cutting-edge solutions for neurological disorders.</p>
             </div>
         </div>
@@ -69,6 +72,7 @@
             const teamContainer = document.getElementById("team-container");
 
             const teamMembers = [
+                'christian.html', // Add the Principal Investigator first
                 'agustina.html',
                 'alex.html',
                 'amrit.html',
@@ -85,24 +89,11 @@
                 // Add more team member files here
             ];
 
-            // Add the Principal Investigator first
-            fetch(`team/christian.html`)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
-                    }
-                    return response.text();
-                })
-                .then(data => {
-                    teamContainer.innerHTML += `<div class="team-card">${data}</div>`;
-                })
-                .catch(error => {
-                    console.error('There was a problem with the fetch operation:', error);
-                });
+            // Function to fetch and display a team member
+            function fetchAndDisplayTeamMember(index) {
+                if (index >= teamMembers.length) return;
 
-            // Add the rest of the team members
-            teamMembers.forEach(member => {
-                fetch(`team/${member}`)
+                fetch(`team/${teamMembers[index]}`)
                     .then(response => {
                         if (!response.ok) {
                             throw new Error('Network response was not ok');
@@ -111,11 +102,15 @@
                     })
                     .then(data => {
                         teamContainer.innerHTML += `<div class="team-card">${data}</div>`;
+                        fetchAndDisplayTeamMember(index + 1); // Fetch next team member
                     })
                     .catch(error => {
                         console.error('There was a problem with the fetch operation:', error);
                     });
-            });
+            }
+
+            // Start fetching team members from the first one
+            fetchAndDisplayTeamMember(0);
 
             // Load publications by year
             const publicationsContainer = document.getElementById("publications-container");
