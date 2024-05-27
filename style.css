@@ -214,7 +214,7 @@ footer {
     width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* Adjust styles for smartphones */
     header h1 {
         font-size: 2em;
     }
@@ -241,5 +241,22 @@ footer {
         width: 50px;
         height: 50px;
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 1536px) {
+    header h1 {
+        font-size: 1.5em; /* Adjusted font size for smaller screens */
+    }
+    .header-content {
+        padding: 10px; /* Reduced padding */
+    }
+    .header-logo {
+        width: 50px; /* Reduced logo size */
+        height: 50px;
+    }
+    .header-content {
+        flex-direction: column;
+        align-items: center;
     }
 }
