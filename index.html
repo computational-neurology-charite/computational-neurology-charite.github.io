@@ -14,8 +14,8 @@
         </div>
         <nav>
             <a href="#home">Home</a>
-            <a href="#team">Team</a>
             <a href="#projects">Projects</a>
+            <a href="#team">Team</a>
             <a href="#publications">Publications</a>
         </nav>
     </header>
@@ -41,6 +41,54 @@
         </div>
     </section>
     
+        <!-- Projects Section -->
+        <div id="projects-section">
+            <section id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" style="background-image: url('images/project_afib.webp');">
+                            <div class="carousel-caption">
+                                <h3>Data Warehousing</h3>
+                                <p>Using data routinely collected, we try to predict and enhance patient outcomes. In a first pilot, we predict whether patients on our stroke units have atrial fibrillation or not, from a routinely placed 1 Lead ECG.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('images/project_video_eeg.webp');">
+                            <div class="carousel-caption">
+                                <h3>Video Seizure Detection</h3>
+                                <p>We develop a platform, where parents can send short videos of their toddlers, automatically detecting whether it is a seizure or not.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('images/project_critical.webp');">
+                            <div class="carousel-caption">
+                                <h3>Criticality</h3>
+                                <p>We study the behaviour of critical systems to develop a better understanding of how the brain works - and its implications for conditions like epilepsy.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('images/project_umeeg_alt.webp');">
+                            <div class="carousel-caption">
+                                <h3>UMEEG - Universal Map of EEGs</h3>
+                                <p>Utilizing siamese neural networks, we developed a way of encoding 10s of EEGs into a semantically meaningful 128D latent space, enabling the quantized analysis of long term EEG behaviour.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url('images/project_video_stroke.webp');">
+                            <div class="carousel-caption">
+                                <h3>Video Monitoring</h3>
+                                <p>We develop a camera system that monitors patients after surgery, with the goal of recognising stroke as early as possible - greatly increasing the outcome for patients.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                </div>
+            </section>
+        </div>
     <!-- Institution logos banner -->
     <div id="institution-logos" class="banner">
         <img src="images/logo_BIH_white.png" alt="Institution 1 Logo" class="logo">
@@ -57,30 +105,7 @@
         </section>
     </div>
 
-    <!-- Projects Section -->
-    <div id="projects-section">
-        <section id="projects">
-            <h2 class="section-title">Projects</h2>
-            <div class="projects-container">
-                <div class="project-card">
-                    <h3>Project 1</h3>
-                    <p>Description of Project 1.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Project 2</h3>
-                    <p>Description of Project 2.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Project 3</h3>
-                    <p>Description of Project 3.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Project 4</h3>
-                    <p>Description of Project 4.</p>
-                </div>
-            </div>
-        </section>
-    </div>
+
 
     <div id="publications-section">
         <section id="publications">
@@ -188,6 +213,33 @@
 
                 publicationsContainer.appendChild(yearSection);
             });
+        });
+
+        // Carousel functionality
+        document.addEventListener("DOMContentLoaded", function() {
+            const carousel = document.querySelector('.carousel-inner');
+            const items = document.querySelectorAll('.carousel-item');
+            const prev = document.querySelector('.carousel-control-prev');
+            const next = document.querySelector('.carousel-control-next');
+            let currentIndex = 0;
+
+            function updateCarousel() {
+                const width = items[0].clientWidth;
+                carousel.style.transform = `translateX(-${currentIndex * width}px)`;
+            }
+
+            function showPrev() {
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : items.length - 1;
+                updateCarousel();
+            }
+
+            function showNext() {
+                currentIndex = (currentIndex < items.length - 1) ? currentIndex + 1 : 0;
+                updateCarousel();
+            }
+
+            prev.addEventListener('click', showPrev);
+            next.addEventListener('click', showNext);
         });
     </script>
 </body>
