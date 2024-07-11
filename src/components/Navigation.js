@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll'; // You'll need to install react-scroll: npm install react-scroll
+import { Link } from 'react-scroll';
 
 function Navigation() {
   return (

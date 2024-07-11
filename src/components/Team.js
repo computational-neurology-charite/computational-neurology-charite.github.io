@@ -9,20 +9,78 @@ function Team() {
     const fetchTeamMembers = async () => {
       // Simulating API call
       const members = [
-        { name: 'John Doe', 
+        { name: 'Prof Christian Meisel', 
           role: 'Principal Investigator', 
           image: 'https://via.placeholder.com/150',
-          desc: 'John Doe is a Principal Investigator at the Computational Neurology Research Group. He is an expert in machine learning and data science.'
+          desc: 'Some description about Christian Meisel'
         },
-        { name: 'John Doe', role: 'Principal Investigator', image: 'https://via.placeholder.com/150' },
-        { name: 'John Doe', role: 'Principal Investigator', image: '/team/john.jpg' },
-        { name: 'John Doe', role: 'Principal Investigator', image: '/team/john.jpg' },
-        { name: 'John Doe', role: 'Principal Investigator', image: '/team/john.jpg' },
-        { name: 'John Doe', role: 'Principal Investigator', image: '/team/john.jpg' },
-        { name: 'John Doe', role: 'Principal Investigator', image: '/team/john.jpg' },
-        { name: 'John Doe', role: 'Principal Investigator', image: '/team/john.jpg' },
-        { name: 'John Doe', role: 'Principal Investigator', image: '/team/john.jpg' },
-        { name: 'John Doe', role: 'Principal Investigator', image: '/team/john.jpg' },
+        { name: 'Agustina Aragon Daud', 
+          role: 'Intern', 
+          image: 'https://via.placeholder.com/150',
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        },
+        { name: 'Alexander Nelde', 
+          role: 'PhD Student', 
+          image: 'https://via.placeholder.com/150',
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        },
+        { name: 'Amrit Kashyap', 
+          role: 'Postdoc', 
+          image: 'https://via.placeholder.com/150',
+          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        },
+        { name: 'Dominik D. Kranz', 
+          role: 'PhD Student', 
+          image: 'https://via.placeholder.com/150',
+          desc: "My research interests include pretty much everything that's cool, new and shiny, but my specialty is applying and adapting Neural Network architectures for biosignal processing, with a focus on ECG and EEG analysis. I especially enjoy bringing these models to the clinic, where they can help to improve patient care. "
+        },
+        { name: 'Gadi Miron', 
+          role: 'Medical Doctor', 
+          image: 'https://via.placeholder.com/150',
+          desc: ""
+          //desc: "I am interested in cortical dynamics and their relation to cognitive function, especially in the context of epilepsy. Beyond my goal to improve our general understanding of cortical dynamics I aim to identify meaningful biomarkers for epilepsy management. My methods include neuronal, statistical and machine learning models, non-linear time series analysis within the framework of brain criticality, and the evaluation of behavioural testing."
+        },
+        { name: 'Laura Krumm', 
+          role: 'PhD Student', 
+          image: 'https://via.placeholder.com/150',
+          desc: ""
+        },
+        { name: 'Lida Antonakopoulou', 
+          role: 'Medical Doctor', 
+          image: 'https://via.placeholder.com/150',
+          desc: ""
+        },
+        { name: 'Lily Strittmatter', 
+          role: 'Bachelor Student', 
+          image: 'https://via.placeholder.com/150',
+          desc: ""
+        },
+        { name: 'Maximilian Schöls', 
+          role: 'Medical Doctor', 
+          image: 'https://via.placeholder.com/150',
+          desc: ""
+        },
+        { name: 'Mustafa Halimeh', 
+          role: 'PhD Student', 
+          image: 'https://via.placeholder.com/150',
+          desc: ""
+        },
+        { name: 'Paul Müller', 
+          role: 'PhD Student', 
+          image: 'https://via.placeholder.com/150',
+          desc: ""
+        },
+        { name: 'Robert Terziev', 
+          role: 'Medical Doctor', 
+          image: 'https://via.placeholder.com/150',
+          desc: ""
+        },
+        { name: 'Simon Vock', 
+          role: 'Medical Doctor', 
+          image: 'https://via.placeholder.com/150',
+          desc: ""
+        },
+
 
         // Add other team members
       ];
@@ -33,19 +91,23 @@ function Team() {
   }, []);
 
   return (
+    // <div className="team-section-container">
     <section id="team">
-      <h2 className="section-title">Team</h2>
-      <div className="team-container">
-        {teamMembers.map((member, index) => (
-          <div key={index} className="team-card">
-            <img src={member.image} alt={member.name} />
-            <h3>{member.name}</h3>
-            <p>{member.role}</p>
-            <p>{member.desc}</p>
-          </div>
-        ))}
+      <div className="team-container-container">
+      <h2 className="section-title team-title">Team</h2>
+        <div className="team-container">
+          {teamMembers.map((member, index) => (
+            <div key={index} className="team-card">
+              <img src={member.image} alt={member.name} />
+              <h3>{member.name}</h3>
+              <p>{member.role}</p>
+              <p>{member.desc}</p>
+            </div>
+          ))}
+      </div>
       </div>
     </section>
+      // </div>
   );
 }
 

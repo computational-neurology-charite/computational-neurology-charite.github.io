@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f0f2f5;
     color: #333;
+    width: 100%;
 }
 
 header {
@@ -58,7 +59,7 @@ nav a:hover {
 
 section {
     padding: 50px 20px;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: auto;
 }
 
@@ -124,18 +125,18 @@ section {
 
 /* Team member styles */
 
-#team-section {
+/* #team-section {
     background-color: #000;
     color: white;
     padding: 50px 0;
     width: 100%;
-}
+} */
 
-#team {
+/* #team {
     padding: 0 20px;
     max-width: 1200px;
     margin: auto;
-}
+} */
 
 .team-card {
     background: #333;

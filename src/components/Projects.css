@@ -34,8 +34,13 @@
   /* grid-column: 1 / -1;
   display: grid;
   grid-template-columns: 1fr 2fr; */
-  color: gray;
+  /* color: gray; */
   gap: 20px;
+}
+
+.project-card.expanded p {
+  margin-top: 10px;
+  color: gray;
 }
 
 .project-card.expanded img {

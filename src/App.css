@@ -1,5 +1,31 @@
+body, #root, .App {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: 1200px; /* or whatever max-width you prefer */
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.App > section {
+  width: 100%;
+  max-width: none;
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction:column
 }
 
 .App-logo {
