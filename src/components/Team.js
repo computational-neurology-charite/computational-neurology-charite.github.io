@@ -31,7 +31,7 @@ function Team() {
         },
         { name: 'Dominik D. Kranz', 
           role: 'PhD Student', 
-          image: 'https://via.placeholder.com/150',
+          image: '/images/team/dominik.jpg',
           desc: "I studied Biophysics at Humboldt-Universität zu Berlin, and love interdisciplinary research. My interests include pretty much everything that's cool, new and shiny, but my specialty is applying and adapting Neural Network architectures for biosignal processing, with a focus on ECG and EEG analysis. I especially enjoy bringing these models to the clinic, where they can help to improve patient care. "
         },
         { name: 'Gadi Miron', 
