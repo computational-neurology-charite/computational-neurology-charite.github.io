@@ -70,7 +70,7 @@ function Publications() {
               >
                 <h4>{pub.title}</h4>
                 <p><strong></strong> {pub.authors}</p>
-                <p><strong></strong> {pub.journal || 'Preprint'}</p>
+                <p><strong>{pub.journal || 'Preprint'}</strong></p>
                 {expandedPub === pub.id && (
                   <>
                     {pub.abstract && (
