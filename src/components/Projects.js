@@ -28,7 +28,7 @@ const projectsData = [
     title: "Critical Brain Dynamics",
     shortDescription: "Mathematic modeling of critical brain dynamics.",
     fullDescription: "A prospective multicenter randomised controlled study on the diagnostic yield of ambulant long term video EEG monitoring in patients with suspected epilepsy.",
-    image: "/images/project_video_eeg.webp"
+    image: "/images/criticality.jpg"
   },
 
   {
