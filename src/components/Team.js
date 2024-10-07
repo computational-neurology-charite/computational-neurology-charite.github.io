@@ -11,23 +11,23 @@ function Team() {
       const members = [
         { name: 'Prof Christian Meisel', 
           role: 'Principal Investigator', 
-          image: 'https://via.placeholder.com/150',
-          desc: 'Some description about Christian Meisel'
+          image: 'images/logo_group.webp',
+          desc: ''
         },
-        { name: 'Agustina Aragon Daud', 
-          role: 'Pre-Doctoral Intern', 
-          image: '/images/team/agustina.jpeg',
-          desc: "Agustina is a Pre-Doctoral Research Intern at the Bernstein Center for Computational Neuroscience Berlin. She graduated with honors from Psychology with a focus in Neuroscience from Universidad Favaloro, in Buenos Aires, Argentina. Her current research involves using machine learning for predictive time series analysis in epilepsy, utilizing both iEEG and ECG data."
-        },
+        // { name: 'Agustina Aragon Daud', 
+        //   role: 'Pre-Doctoral Intern', 
+        //   image: '/images/team/agustina.jpeg',
+        //   desc: "Agustina is a Pre-Doctoral Research Intern at the Bernstein Center for Computational Neuroscience Berlin. She graduated with honors from Psychology with a focus in Neuroscience from Universidad Favaloro, in Buenos Aires, Argentina. Her current research involves using machine learning for predictive time series analysis in epilepsy, utilizing both iEEG and ECG data."
+        // },
         { name: 'Alexander Nelde', 
           role: 'PhD Student', 
           image: '/images/team/alex.jpg',
-          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+          desc: ""
         },
         { name: 'Amrit Kashyap', 
           role: 'Postdoc', 
           image: '/images/team/amrit.jpg',
-          desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+          desc: ""
         },
         { name: 'Dominik D. Kranz', 
           role: 'PhD Student', 
@@ -42,22 +42,22 @@ function Team() {
         },
         { name: 'Laura Krumm', 
           role: 'PhD Student', 
-          image: 'https://via.placeholder.com/150',
+          image: 'images/logo_group.webp',
           desc: ""
         },
         { name: 'Lida Antonakopoulou', 
           role: 'Medical Doctor', 
-          image: 'https://via.placeholder.com/150',
+          image: 'images/logo_group.webp',
           desc: ""
         },
-        { name: 'Lily Strittmatter', 
-          role: 'Bachelor Student', 
-          image: 'https://via.placeholder.com/150',
-          desc: ""
-        },
+        // { name: 'Lily Strittmatter', 
+        //   role: 'Bachelor Student', 
+        //   image: 'https://via.placeholder.com/150',
+        //   desc: ""
+        // },
         { name: 'Maximilian Schöls', 
           role: 'Medical Doctor', 
-          image: 'https://via.placeholder.com/150',
+          image: 'images/logo_group.webp',
           desc: ""
         },
         { name: 'Mustafa Halimeh', 
@@ -76,8 +76,8 @@ function Team() {
           desc: ""
         },
         { name: 'Simon Vock', 
-          role: 'Medical Doctor', 
-          image: 'https://via.placeholder.com/150',
+          role: 'PhD Student', 
+          image: 'images/logo_group.webp',
           desc: ""
         },
 

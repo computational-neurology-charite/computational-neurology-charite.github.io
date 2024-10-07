@@ -4,6 +4,7 @@ import Header from './components/Header';
 
 import Projects from './components/Projects';
 import Team from './components/Team';
+import Alumni from './components/Alumni';
 import Publications from './components/Publications';
 import Footer from './components/Footer';
 
@@ -16,6 +17,7 @@ function App() {
         <main>
           <Projects />
           <Team />
+          <Alumni />
           <Publications />
         </main>
         <Footer />
