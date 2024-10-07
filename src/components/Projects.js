@@ -27,7 +27,7 @@ const projectsData = [
     id: 4,
     title: "Critical Brain Dynamics",
     shortDescription: "Mathematic modeling of critical brain dynamics.",
-    fullDescription: "A prospective multicenter randomised controlled study on the diagnostic yield of ambulant long term video EEG monitoring in patients with suspected epilepsy.",
+    fullDescription: "Central to intact cognitive function is the brain's ability to process and integrate information across spatial and temporal domains. Physics and information theory have provided a framework describing an optimal state of information processing. This critical state, poised at the phase transition between chaotic and ceasing neuronal activity, is characterized by an equilibrium between excitation and inhibition in the neuronal network. When a network of neurons operates near a critical phase transition point, a range of information processing functions, including information transmission, integration, storage, dynamic range, and sensitivity to inputs, are optimized simultaneously. While criticality provides a precise framework linking network structure to dynamics, its central claim, that critical dynamics predicts optimal network and thus cognitive function in humans, has not been proven yet. To try to fill this gap by investigating multi-model cortical measurements, e.g., MRI and iEEG, together with cognitive performance evaluation.",
     image: "/images/criticality.jpg"
   },
 
@@ -38,13 +38,13 @@ const projectsData = [
     fullDescription: "A prospective multicenter randomised controlled study on the diagnostic yield of ambulant long term video EEG monitoring in patients with suspected epilepsy.",
     image: "/images/project_video_eeg.webp"
   },
-  {
-    id: 6,
-    title: "UM-EEG",
-    shortDescription: "A low dimensional, universal and highly semantic Map of EEGs using deep learning.",
-    fullDescription: "A prospective multicenter randomised controlled study on the diagnostic yield of ambulant long term video EEG monitoring in patients with suspected epilepsy.",
-    image: "/images/project_video_eeg.webp"
-  },
+  // {
+  //   id: 6,
+  //   title: "UM-EEG",
+  //   shortDescription: "A low dimensional, universal and highly semantic Map of EEGs using deep learning.",
+  //   fullDescription: "A prospective multicenter randomised controlled study on the diagnostic yield of ambulant long term video EEG monitoring in patients with suspected epilepsy.",
+  //   image: "/images/project_video_eeg.webp"
+  // },
 ];
 
 function ProjectCard({ project, isExpanded, onClick }) {

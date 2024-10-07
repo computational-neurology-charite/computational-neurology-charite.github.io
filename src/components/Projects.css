@@ -40,7 +40,7 @@
 
 .project-card.expanded p {
   margin-top: 10px;
-  color: gray;
+  color: rgb(87, 87, 87);
 }
 
 .project-card.expanded img {
