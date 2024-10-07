@@ -42,7 +42,7 @@ function Team() {
         },
         { name: 'Laura Krumm', 
           role: 'PhD Student', 
-          image: 'images/logo_group.webp',
+          image: 'images/team/LauraK.png',
           desc: ""
         },
         { name: 'Lida Antonakopoulou', 
