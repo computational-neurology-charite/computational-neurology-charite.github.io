@@ -21,12 +21,12 @@ function Team() {
         },
         { name: 'Alexander Nelde', 
           role: 'PhD Student', 
-          image: 'https://via.placeholder.com/150',
+          image: '/images/team/alex.jpg',
           desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
         },
         { name: 'Amrit Kashyap', 
           role: 'Postdoc', 
-          image: 'https://via.placeholder.com/150',
+          image: '/images/team/amrit.jpg',
           desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
         },
         { name: 'Dominik D. Kranz', 
@@ -36,7 +36,7 @@ function Team() {
         },
         { name: 'Gadi Miron', 
           role: 'Medical Doctor', 
-          image: 'https://via.placeholder.com/150',
+          image: '/images/team/gadi.jpg',
           desc: ""
           
         },
@@ -62,7 +62,7 @@ function Team() {
         },
         { name: 'Mustafa Halimeh', 
           role: 'PhD Student', 
-          image: 'https://via.placeholder.com/150',
+          image: '/images/team/Mustafa.jpg',
           desc: ""
         },
         { name: 'Paul Müller', 
@@ -72,7 +72,7 @@ function Team() {
         },
         { name: 'Robert Terziev', 
           role: 'Medical Doctor', 
-          image: 'https://via.placeholder.com/150',
+          image: '/images/team/robert.jpg',
           desc: ""
         },
         { name: 'Simon Vock', 
