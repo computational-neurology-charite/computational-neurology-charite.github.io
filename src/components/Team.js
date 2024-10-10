@@ -40,6 +40,11 @@ function Team() {
           desc: ""
           
         },
+        { name: 'Jonas Stelzer', 
+          role: 'Medical Student', 
+          image: 'images/logo_group.webp',
+          desc: ""
+        },
         { name: 'Laura Krumm', 
           role: 'PhD Student', 
           image: 'images/team/LauraK.png',
@@ -63,7 +68,7 @@ function Team() {
         { name: 'Mustafa Halimeh', 
           role: 'PhD Student', 
           image: '/images/team/Mustafa.jpg',
-          desc: ""
+          desc: "Mustafa is a computer scientist working on data-driven pipelines to allow better long-term monitoring and treatment of neurological disorders. His current research involves applying state-of-the deep learning models and analytic tools on data recorded from wearables and videos to detect and predict seizures in epilepsy."
         },
         { name: 'Paul Müller', 
           role: 'PhD Student', 
@@ -77,8 +82,8 @@ function Team() {
         },
         { name: 'Simon Vock', 
           role: 'PhD Student', 
-          image: 'images/logo_group.webp',
-          desc: ""
+          image: 'images/team/SimonV.jpg',
+          desc: "I am fascinated by the parallels between artificial neural networks and biological brains. My research focuses on critical phase transitions in machine learning, exploring how networks of simple units can give rise to complex, intelligent behavior. By applying insights from deep learning and physics, I study neural systems with the aim of advancing our understanding of both artificial and biological intelligence. Through this work, I hope to contribute to the development of more efficient AI systems and innovative treatments for neurological disorders."
         },
 
 
