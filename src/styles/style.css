@@ -220,7 +220,7 @@ footer {
 
 #projects {
     padding: 0 20px;
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -237,7 +237,7 @@ footer {
     padding: 20px;
     border-radius: 8px;
     transition: transform 0.3s ease;
-    max-width: 45%;
+    max-width: 600px;
     box-sizing: border-box;
     margin: 10px;
     flex: 1 1 calc(45% - 40px); /* Adjusting to fit within container */
