@@ -12,19 +12,29 @@ header {
     color: white;
     padding: 0;
     text-align: center;
-    position: sticky;
-    top: 0;
     z-index: 1000;
-}
-
-.header-content {
+  }
+  
+  .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     max-width: 1200px;
     margin: auto;
-}
+  }
+  
+  .fixed-nav {
+    background-color: rgb(3, 2, 2); /* Ensure it matches the page's style */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top of other content */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  }
+  
+
+
 
 header h1 {
     margin: 0;
@@ -61,6 +71,7 @@ section {
     padding: 50px 20px;
     /* max-width: 1200px; */
     margin: auto;
+    text-align: center;
 }
 
 .section-title {

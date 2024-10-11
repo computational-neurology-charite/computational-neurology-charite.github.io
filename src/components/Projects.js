@@ -13,8 +13,12 @@ const projectsData = [
     id: 2,
     title: "Motus Med",
     shortDescription: "Automatic seizure detection from short videos.",
-    fullDescription: "We develop a platform, where parents can send short videos of their toddlers, automatically detecting whether it is a seizure or not.",
-    image: "/images/project_video_eeg.webp"
+    fullDescription: <div>
+    We develop a platform, where parents can send short videos of their toddlers, automatically detecting whether it is a seizure or not.
+    <br />
+    <a href="https://motusmed.de">https://motusmed.de</a>
+    </div>,
+    image: "/images/motusmed.png"
   },
   {
     id: 3,
@@ -31,13 +35,13 @@ const projectsData = [
     image: "/images/criticality.jpg"
   },
 
-  {
-    id: 5,
-    title: "UM-EEG",
-    shortDescription: "A low dimensional, universal and highly semantic Map of EEGs using deep learning.",
-    fullDescription: "A prospective multicenter randomised controlled study on the diagnostic yield of ambulant long term video EEG monitoring in patients with suspected epilepsy.",
-    image: "/images/project_video_eeg.webp"
-  },
+  // {
+  //   id: 5,
+  //   title: "UM-EEG",
+  //   shortDescription: "A low dimensional, universal and highly semantic Map of EEGs using deep learning.",
+  //   fullDescription: "A prospective multicenter randomised controlled study on the diagnostic yield of ambulant long term video EEG monitoring in patients with suspected epilepsy.",
+  //   image: "/images/project_video_eeg.webp"
+  // },
   // {
   //   id: 6,
   //   title: "UM-EEG",
