@@ -6,8 +6,8 @@ const projectsData = [
     id: 1,
     title: "Data Warehouse",
     shortDescription: "Predicting patient outcomes using routinely collected data.",
-    fullDescription: "Using data routinely collected, we try to predict and enhance patient outcomes. In a first pilot, we predict whether patients on our stroke units have atrial fibrillation or not, from a routinely placed 1 Lead ECG.",
-    image: "/images/project_afib.webp"
+    fullDescription: " Hospitals routinely collect a vast amount of data on their patients, ranging from laboratory test results to continuous monitoring systems like ECG and EEG. This wealth of information is stored in centralized data warehouses, creating a rich resource for clinical insights. However, the sheer volume and complexity of this data can overwhelm traditional analysis methods. By leveraging cutting-edge machine learning techniques, our team aims to transform these raw datasets into actionable intelligence, improving the accuracy, efficiency, and scalability of diagnostic processes. Our work focuses on automating the analysis of biosignals and other clinical data to enhance real-time decision-making, reduce the burden on healthcare professionals, and streamline hospital workflows. By seamlessly integrating AI models into clinical environments, we seek to drive innovation in patient care, ultimately improving outcomes and paving the way for a more data-driven healthcare future. ",
+    image: "/images/project_dwc.png"
   },
   {
     id: 2,
