@@ -34,6 +34,11 @@ function Team() {
           image: '/images/team/dominik.jpg',
           desc: "I studied Biophysics at Humboldt-Universität zu Berlin, and love interdisciplinary research. My interests include pretty much everything that's cool, new and shiny, but my specialty is applying and adapting Neural Network architectures for biosignal processing, with a focus on ECG and EEG analysis. I especially enjoy bringing these models to the clinic, where they can help to improve patient care. "
         },
+        { name: 'Ela Marie Akay', 
+          role: 'Medical Doctor', 
+          image: 'images/logo_group.webp',
+          desc: ""
+        },
         { name: 'Gadi Miron', 
           role: 'Medical Doctor', 
           image: '/images/team/gadi.jpg',
@@ -44,7 +49,7 @@ function Team() {
         },
         { name: 'Jonas Stelzer', 
           role: 'Medical Student', 
-          image: 'images/logo_group.webp',
+          image: 'images/team/JonasS.jpg',
           desc: ""
         },
         { name: 'Laura Krumm', 
@@ -54,7 +59,7 @@ function Team() {
         },
         { name: 'Lida Antonakopoulou', 
           role: 'Medical Doctor', 
-          image: 'images/logo_group.webp',
+          image: 'images/team/LidaA.jpg',
           desc: ""
         },
         // { name: 'Lily Strittmatter', 
