@@ -13,7 +13,8 @@ function Alumni() {
         { name: 'Agustina Aragon Daud', 
           role: 'Pre-Doctoral Intern', 
           image: '/images/team/agustina.jpeg',
-          desc: "Agustina is a Pre-Doctoral Research Intern at the Bernstein Center for Computational Neuroscience Berlin. She graduated with honors from Psychology with a focus in Neuroscience from Universidad Favaloro, in Buenos Aires, Argentina. Her current research involves using machine learning for predictive time series analysis in epilepsy, utilizing both iEEG and ECG data."
+          desc: ""
+          // desc: "Agustina is a Pre-Doctoral Research Intern at the Bernstein Center for Computational Neuroscience Berlin. She graduated with honors from Psychology with a focus in Neuroscience from Universidad Favaloro, in Buenos Aires, Argentina. Her current research involves using machine learning for predictive time series analysis in epilepsy, utilizing both iEEG and ECG data."
         },
         { name: 'Lily Strittmatter', 
           role: 'Bachelor Student', 
