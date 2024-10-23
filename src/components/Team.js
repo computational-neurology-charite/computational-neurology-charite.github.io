@@ -69,7 +69,7 @@ function Team() {
         // },
         { name: 'Maximilian Schöls', 
           role: 'Medical Doctor', 
-          image: 'images/logo_group.webp',
+          image: 'images/team/Maximilian_Schoels.jpg',
           desc: ""
         },
         { name: 'Mustafa Halimeh', 
