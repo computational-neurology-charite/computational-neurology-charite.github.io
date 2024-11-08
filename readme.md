@@ -9,3 +9,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 `git commit -m "COMMIT MESSAGE"`
 `git push`
 `npm run deploy`
+
+
+TODO: 
+Only hover cards which can change
+Fix centering in mobile version
