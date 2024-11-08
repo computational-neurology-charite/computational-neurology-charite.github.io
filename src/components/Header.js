@@ -1,6 +1,7 @@
 // src/components/Header.js
 import React from 'react';
 import { Link } from 'react-scroll';
+import './Header.css';
 
 function Header() {
   return (
@@ -12,10 +13,10 @@ function Header() {
         </div>
       </header>
       <nav className="fixed-nav">
-        <Link to="projects" smooth={true} duration={500}>Projects</Link>
-        <Link to="team" smooth={true} duration={500}>Team</Link>
-        <Link to="publications" smooth={true} duration={500}>Publications</Link>
-        <Link to="footer" smooth={true} duration={500}>Contact</Link>
+        <Link to="projects" smooth={true} duration={500} className="nav-link">Projects</Link>
+        <Link to="team" smooth={true} duration={500} className="nav-link">Team</Link>
+        <Link to="publications" smooth={true} duration={500} className="nav-link">Publications</Link>
+        <Link to="footer" smooth={true} duration={500} className="nav-link">Contact</Link>
       </nav>
     </>
   );

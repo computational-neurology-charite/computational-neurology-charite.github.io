@@ -8,7 +8,8 @@ body {
 }
 
 header {
-    background: #3f978d;
+    /*background: #3f978d; */
+    background: #003f84;
     color: white;
     padding: 0;
     text-align: center;
@@ -313,6 +314,8 @@ footer {
 .carousel-control-next {
     right: 10px;
 }
+
+
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     background-size: 100%, 100%;
