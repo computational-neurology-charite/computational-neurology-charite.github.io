@@ -80,6 +80,7 @@ section {
     border-bottom: 2px solid #3f978d;
     display: inline-block;
     padding-bottom: 10px;
+    align-self: center;
 }
 
 .home-image {
@@ -149,31 +150,9 @@ section {
     margin: auto;
 } */
 
-.team-card {
-    background: #333;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    padding: 20px;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-    text-align: center;
-}
 
-.team-card:hover {
-    transform: translateY(-10px);
-    background: #444;
-}
 
-.team-card img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 0 auto 15px;
-}
 
-.team-card h3 {
-    margin-top: 10px;
-}
 
 /* Publication styles */
 .publication-card {
