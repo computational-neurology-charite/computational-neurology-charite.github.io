@@ -1,5 +1,5 @@
 #team {
-  background-color: rgb(249	249	249)	;
+  background-color: var(--team-background-color);
   width: 100%;
   flex-direction: column;
   justify-content: center;
@@ -12,8 +12,19 @@
   
 } */
 
+#team .section-title{
+  color: var(--team-text-color)
+}
+#team p{
+  color: var(--team-text-color);
+}
+#team h3{
+  color: var(--team-text-color);
+}
+
 .team-section-container{
   display: flex;
+  
   flex-direction: column;
   /* align-items: center; */
   justify-content: center;
@@ -40,7 +51,7 @@
   }
   
   .team-card {
-    background: rgb(255	255	255	);
+    background: var(--team-card-color);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 8px;
