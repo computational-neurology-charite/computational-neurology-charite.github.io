@@ -54,11 +54,6 @@ const membersData = [
     image: 'images/team/LidaA.png',
     desc: ""
   },
-  // { name: 'Lily Strittmatter', 
-  //   role: 'Bachelor Student', 
-  //   image: 'https://via.placeholder.com/150',
-  //   desc: ""
-  // },
   { name: 'Maximilian Schöls', 
     role: 'Medical Doctor', 
     image: 'images/team/Maximilian_Schoels.jpg',
