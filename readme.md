@@ -15,3 +15,5 @@ TODO:
 Only hover cards which can change
 Fix centering in mobile version
 Generally project cards don't center properly when they are not filling the screen
+In Safari the Lab Icon does not show in the tab bar
+
