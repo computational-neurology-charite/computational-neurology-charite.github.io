@@ -51,7 +51,7 @@ const membersData = [
   },
   { name: 'Lida Antonakopoulou', 
     role: 'Medical Doctor', 
-    image: 'images/team/LidaA.png',
+    image: 'images/team/lidaA.png',
     desc: ""
   },
   { name: 'Maximilian Schöls', 

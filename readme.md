@@ -14,3 +14,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 TODO: 
 Only hover cards which can change
 Fix centering in mobile version
+Generally project cards don't center properly when they are not filling the screen
