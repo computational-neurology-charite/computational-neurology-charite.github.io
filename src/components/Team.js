@@ -3,7 +3,7 @@ import './Team.css';
 const membersData = [
   { name: 'Prof Christian Meisel', 
     role: 'Principal Investigator', 
-    image: 'images/logo_group.webp',
+    image: 'images/team/christian.jpg',
     desc: ''
   },
   // { name: 'Agustina Aragon Daud', 
