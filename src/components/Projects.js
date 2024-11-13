@@ -14,9 +14,9 @@ const projectsData = [
     title: "Motus Med",
     shortDescription: "Automatic seizure detection from short videos.",
     fullDescription: <div>
-    We develop a platform, where parents can send short videos of their toddlers, automatically detecting whether it is a seizure or not.
-    <br />
-    <a href="https://motusmed.de">https://motusmed.de</a>
+    <a href="https://motusmed.de">Motus med</a> is a BIH supported project aimed at translating research done at the computational neurology lab to the clinical bedside. Motus med is a video analysis-based digital health tool intended to assist in the diagnosis and monitoring of persons with abnormal movements, seizures, or epilepsy. Videos of suspected videos are uploaded to our platform, undergo automated analysis to detect movement patterns characteristic of seizures, and can be securely shared with a specialist for additional visual review. Through motus med, we apply several vision based AI models that we have developed in the lab.  Motus med integrates with a variety of smartphones and home cameras in order to provide a device agnostic, flexible, and scalable digital solution. The analysis results are provided to users to assist in decision-making during the diagnostic stage and for ongoing monitoring and management of disease activity in persons with epilepsy.
+    {/* <br />
+    <a href="https://motusmed.de">Motus med</a> */}
     </div>,
     image: "/images/motusmed.png"
   },
