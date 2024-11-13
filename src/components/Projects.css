@@ -5,8 +5,8 @@
   max-width: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
+  justify-content: center; /* Centers grid items */
+  align-items: center;
   margin: auto;
   box-sizing: border-box; /* Includes padding in the width calculation */
 }
@@ -94,8 +94,8 @@
 
 @media (max-width: 900px) {
   .project-card {
-    max-width: 90%;
-    flex: 1 1 90%;
+    max-width: 100%;
+    flex: 1 1 100%;
 }
   .project-card.expanded {
     grid-template-columns: 1fr;
