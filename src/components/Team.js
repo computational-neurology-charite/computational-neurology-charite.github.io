@@ -28,8 +28,8 @@ const membersData = [
   },
   { name: 'Ela Marie Akay', 
     role: 'Medical Doctor', 
-    image: 'images/logo_group.webp',
-    desc: ""
+    image: 'images/team/ela_picture.jpg',
+    desc: "As a neurology resident, I am interested in neurovascular medicine and using Artificial Intelligence to improve patient outcomes in neurocritical care and stroke medicine. In my research, I use routinely collected data for neurocritical and stroke unit patients to generate insights into different neurovascular pathologies. I am also fascinated by the broader implications of AI applications in everyday clinical practice and effects on neurological patients and the healthcare system at large."
   },
   { name: 'Gadi Miron', 
     role: 'Medical Doctor', 
