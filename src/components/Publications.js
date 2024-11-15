@@ -69,7 +69,7 @@ function Publications() {
                 onClick={() => handleExpand(pub.id)}
               >
                 <h4>{pub.title}</h4>
-                <p><strong></strong> {pub.authors}</p>
+                <p style={{color:"grey", marginBottom:"20px", marginTop:"20px"}}>{pub.authors}</p>
                 <p><strong>{pub.journal || 'Preprint'}</strong></p>
                 {expandedPub === pub.id && (
                   <>

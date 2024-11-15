@@ -15,7 +15,10 @@
     --team-text-color: black;
     --team-section-color: #f9f9f9;
 }
-
+.more-text {
+    color: grey;
+    background-color: transparent;
+   } 
 
 body {
     font-family: 'Arial', sans-serif;
