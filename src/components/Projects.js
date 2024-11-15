@@ -38,6 +38,13 @@ const projectsData = [
     image: "/images/criticality.jpg"
   },
 
+{
+    id: 5,
+    title: "Medical Edge AI",
+    shortDescription: "MEDGE",
+    fullDescription: "We develop medical edge AI",
+    image: "/images/criticality.jpg"
+  },
   // {
   //   id: 5,
   //   title: "UM-EEG",
