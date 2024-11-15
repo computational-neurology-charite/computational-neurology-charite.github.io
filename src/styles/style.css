@@ -1,6 +1,6 @@
 /*! Colour palette */
 :root {
-    /* --primary-color: #3f978d; #003F84;  */
+    --primary-color: #3f978d; /*#003F84;  */
     --secondary-color: #3f978d;  /*#64ABDE;   Charite Neurology color = rgb(28	152	116	); */ 
     --background-color: #f0f2f5;
     --card-color: white;
