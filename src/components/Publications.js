@@ -71,6 +71,7 @@ function Publications() {
                 <h4>{pub.title}</h4>
                 <p style={{color:"grey", marginBottom:"20px", marginTop:"20px"}}>{pub.authors}</p>
                 <p><strong>{pub.journal || 'Preprint'}</strong></p>
+                <body className='more-text'>{expandedPub === pub.id ? '' : 'More...'}</body>
                 {expandedPub === pub.id && (
                   <>
                     {pub.abstract && (

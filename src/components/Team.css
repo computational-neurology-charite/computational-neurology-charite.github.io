@@ -110,15 +110,7 @@
     margin: 0;
   }
   
-  .team-card.expanded{
-  /* grid-column: 1 / -1;
-  display: grid;
-  grid-template-columns: 1fr 2fr; */
-  /* color: gray; */
- /* grid-column: span 1; */
- 
-    
-  }
+
   
   /* .team-card-inner.expanded{
     margin-top: 10px;
