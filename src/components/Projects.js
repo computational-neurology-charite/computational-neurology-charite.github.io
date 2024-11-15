@@ -59,7 +59,8 @@ function ProjectCard({ project, isExpanded, onClick }) {
     <div className={`project-card ${isExpanded ? 'expanded' : ''}`} onClick={onClick}>
       {!isExpanded?<img src={project.image} alt={project.title} />:null}
       <h3>{project.title}</h3>
-      <p>{isExpanded ? project.fullDescription : project.shortDescription}</p>
+      <p>{isExpanded ? project.fullDescription : project.shortDescription }</p>
+      {!isExpanded?<p> ... click for more ...</p>:null}
     </div>
   );
 }

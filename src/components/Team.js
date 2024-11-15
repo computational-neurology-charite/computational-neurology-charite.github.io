@@ -90,7 +90,8 @@ function TeamCard({ member, isExpanded, onClick }) {
       <img src={member.image} alt={member.name} />
       <h3>{member.name}</h3>
       <p>{member.role}</p>
-      <p>{isExpanded ? member.desc : null}</p>
+      <p>{isExpanded ? member.desc : (member.desc === '' ? null : "...click for more...")}</p>
+    
     </div>
   );
 }
