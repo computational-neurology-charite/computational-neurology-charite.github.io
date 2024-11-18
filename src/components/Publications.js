@@ -24,7 +24,10 @@ function Publications() {
           url: entry.entryTags.url,
           abstract: sanitizeLatex(entry.entryTags.abstract),
           entryType: entry.entryType,
-          
+		  publisher: entry.entryTags.publisher,
+		  volume: entry.entryTags.volume,
+		  pages: entry.entryTags.pages,
+ 
           // Add more fields as needed
         }));
         
