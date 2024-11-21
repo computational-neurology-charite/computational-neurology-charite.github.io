@@ -9,7 +9,7 @@ const news = [
     {
         id: 1,
         title: "• Christian Meisel selected for Schilling-professorship",
-        shortDescription: <div> Christian Meisel has been selected for the chaired Schilling-professorship in Computational Neurology. <a href="https://www.bihealth.org/de/aktuell/computationale-neurologie-foerderzusage-fuer-professur-der-schilling-stiftung-an-christian-meisel"> Link to press release. </a>  </div>,
+        shortDescription: "blabla", 
     },
     {
         id: 2,
