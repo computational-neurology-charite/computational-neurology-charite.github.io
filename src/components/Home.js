@@ -14,12 +14,12 @@ const news = [
     {
         id: 2,
         title: "• New preprint on critical brain dynamics",
-        shortDescription: <div> <a href="https://www.medrxiv.org/content/10.1101/2024.08.19.24312223v1">Link to paper.</a> </div>,
+        shortDescription: "blabla",
     },
     {
         id: 3,
         title: "• New preprint on a comprehensive latent-space EEG map",
-        shortDescription: <div> <a href="https://www.medrxiv.org/content/10.1101/2024.10.25.24316133v1">Link to paper.</a> </div>,
+        shortDescription: "blabla",
     },
 ];
 
