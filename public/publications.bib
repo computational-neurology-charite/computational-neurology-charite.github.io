@@ -1,281 +1,964 @@
-@ARTICLE{Meisel2009-qp,
-  title     = "Adaptive self-organization in a realistic neural network model",
-  author    = "Meisel, Christian and Gross, Thilo",
-  abstract  = "Information processing in complex systems is often found to be
-               maximally efficient close to critical states associated with
-               phase transitions. It is therefore conceivable that also neural
-               information processing operates close to criticality. This is
-               further supported by the observation of power-law distributions,
-               which are a hallmark of phase transitions. An important open
-               question is how neural networks could remain close to a critical
-               point while undergoing a continual change in the course of
-               development, adaptation, learning, and more. An influential
-               contribution was made by Bornholdt and Rohlf, introducing a
-               generic mechanism of robust self-organized criticality in
-               adaptive networks. Here, we address the question whether this
-               mechanism is relevant for real neural networks. We show in a
-               realistic model that spike-time-dependent synaptic plasticity
-               can self-organize neural networks robustly toward criticality.
-               Our model reproduces several empirical observations and makes
-               testable predictions on the distribution of synaptic strength,
-               relating them to the critical state of the network. These
-               results suggest that the interplay between dynamics and topology
-               may be essential for neural information processing.",
-  journal   = "Phys. Rev. E Stat. Nonlin. Soft Matter Phys.",
-  publisher = "American Physical Society (APS)",
-  volume    =  80,
-  number    = "6 Pt 1",
-  pages     = "061917",
-  month     =  dec,
-  year      =  2009,
-  copyright = "http://link.aps.org/licenses/aps-default-license",
-  language  = "en"
+
+@techreport{krumm_towards_2024,
+	title = {Towards a {Universal} {Map} of {EEG}: {A} semantic, low-dimensional manifold for {EEG} {Classification}, {Clustering} and {Prognostication}},
+	copyright = {http://creativecommons.org/licenses/by-nc-nd/4.0/},
+	shorttitle = {Towards a {Universal} {Map} of {EEG}},
+	url = {http://medrxiv.org/lookup/doi/10.1101/2024.10.25.24316133},
+	abstract = {Abstract
+          
+            Despite its complexity, whole-brain neural activity spontaneously organizes into a limited range of states, indicating that a low-dimensional representation or embedding might be sufficient to capture much of its macroscale dynamics. Clinical practice makes use of this notion by classifying EEG into discrete states, for example in the wake-sleep cycle or along the ictal-interictal continuum. Such classification into distinct classes has clinical value and simplifies EEG interpretation (by humans and, more recently, also by artificial intelligence [AI]) but misses subtle differences, mixtures and transitions between states. In other words, it does not adequately reflect the true underlying, low-dimensional continuum of states. The lack of a continuum EEG map limits more realistic characterizations of EEG states and challenges prognostication in patients with disorders of consciousness due to their diverse patterns, etiologies and underlying pathophysiologies. We here use data across the health-disease continuum (wake [W], sleep [REM, N1, N2, N3], ictal-interictal-continuum [lateralized and generalized periodic discharges (LPD, GPD), lateralized and generalized rhythmic delta activity (LRDA, GRDA)], seizures [SZ], burst suppression [BS]; 20,043 patients, 288,986 EEG segments) and a deep neural network that optimises a low-dimensional embedding space. This universal map of EEG (UM-EEG) is highly semantic, confined and captures meaningful distances as well as transitions between EEG states. Classification and clustering of unseen EEG are easily implemented using standard techniques on the map that match performance of current AI algorithms while extending it to the currently largest set of classes across the full health-disease continuum (mean AUROCs and 95\% CI one-vs-all classification: W 0.94 [0.94, 0.95], N1 0.85 [0.85, 0.86], REM 0.92 [0.91, 0.92], N2 0.91 [0.90, 0.91], N3 0.98 [0.97, 0.98], GRDA [0.97 [0.96, 0.97], LRDA 0.97 [0.96, 0.97], SZ 0.87 [0.83, 0.91], GPD 0.99 [0.98, 0.90], LPD 0.97 [0.97, 0.97)], BS 0.94 [0.93, 0.94]). Long-term EEGs are represented as trajectories in this continuous embedding space which predict outcome (recovery or death) after cardiac arrest with an AUROC of 0.86 (
+            N
+            = 575 patients). For these patients, the map identifies interpretable factors governing prognosis: the distance to healthy states, the variability of state transitions, and time spent in burst suppression. These factors allow personalized monitoring and comparison of patients to themselves over time. In conclusion, UM-EEG presents a novel, comprehensive and physiologically meaningful representation to characterize and classify brain states along the health-disease continuum. It demonstrates immediate clinical utility by enhancing current diagnostic and prognostic capabilities.},
+	language = {en},
+	urldate = {2024-11-13},
+	author = {Krumm, Laura and Kranz, Dominik D. and Halimeh, Mustafa and Nelde, Alexander and Amorim, Edilberto and Zafar, Sahar and Jing, Jin and Thomas, Robert J. and Westover, M. Brandon and Meisel, Christian},
+	month = oct,
+	year = {2024},
 }
 
-@ARTICLE{Yokoyama2011-ey,
-  title     = "Proteolytically cleaved {MLL} subunits are susceptible to
-               distinct degradation pathways",
-  author    = "Yokoyama, Akihiko and Ficara, Francesca and Murphy, Mark J and
-               Meisel, Christian and Naresh, Alpana and Kitabayashi, Issay and
-               Cleary, Michael L",
-  abstract  = "The mixed lineage leukemia (MLL) proto-oncogenic protein is a
-               histone-lysine N-methyltransferase that is produced by
-               proteolytic cleavage and self-association of the respective
-               functionally distinct subunits (MLL(N) and MLL(C)) to form a
-               holocomplex involved in epigenetic transcriptional regulation.
-               On the basis of studies in Drosophila it has been suggested that
-               the separated subunits might also have distinct functions. In
-               this study, we used a genetically engineered mouse line that
-               lacked MLL(C) to show that the MLL(N)-MLL(C) holocomplex is
-               responsible for MLL functions in various developmental
-               processes. The stability of MLL(N) is dependent on its
-               intramolecular interaction with MLL(C), which is mediated
-               through the first and fourth plant homeodomain (PHD) fingers
-               (PHD1 and PHD4) and the phenylalanine/tyrosine-rich (FYRN)
-               domain of MLL(N). Free MLL(N) is destroyed by a mechanism that
-               targets the FYRN domain, whereas free MLL(C) is exported to the
-               cytoplasm and degraded by the proteasome. PHD1 is encoded by an
-               alternatively spliced exon that is occasionally deleted in
-               T-cell leukemia, and its absence produces an MLL mutant protein
-               that is deficient for holocomplex formation. Therefore, this
-               should be a loss-of-function mutant allele, suggesting that the
-               known tumor suppression role of MLL may also apply to the T-cell
-               lineage. Our data demonstrate that the dissociated MLL subunits
-               are subjected to distinct degradation pathways and thus not
-               likely to have separate functions unless the degradation
-               mechanisms are inhibited.",
-  journal   = "J. Cell Sci.",
-  publisher = "The Company of Biologists",
-  volume    =  124,
-  number    = "Pt 13",
-  pages     = "2208--2219",
-  month     =  jul,
-  year      =  2011,
-  language  = "en"
+@article{miron_autonomic_2024,
+	title = {Autonomic biosignals, seizure detection, and forecasting},
+	issn = {0013-9580, 1528-1167},
+	url = {https://onlinelibrary.wiley.com/doi/10.1111/epi.18034},
+	doi = {10.1111/epi.18034},
+	abstract = {Abstract
+            Wearable devices have attracted significant attention in epilepsy research in recent years for their potential to enhance patient care through improved seizure monitoring and forecasting. This narrative review presents a detailed overview of the current clinical state of the art while addressing how devices that assess autonomic nervous system (ANS) function reflect seizures and central nervous system (CNS) state changes. This includes a description of the interactions between the CNS and the ANS, including physiological and epilepsy‐related changes affecting their dynamics. We first discuss technical aspects of measuring autonomic biosignals and considerations for using ANS sensors in clinical practice. We then review recent seizure detection and seizure forecasting studies, highlighting their performance and capability for seizure detection and forecasting using devices measuring ANS biomarkers. Finally, we address the field's challenges and provide an outlook for future developments.},
+	language = {en},
+	urldate = {2024-10-08},
+	journal = {Epilepsia},
+	author = {Miron, Gadi and Halimeh, Mustafa and Jeppesen, Jesper and Loddenkemper, Tobias and Meisel, Christian},
+	month = jun,
+	year = {2024},
+	pages = {epi.18034},
+	file = {Full Text:/Users/christianmeisel/Zotero/storage/NGSFC9ST/Miron et al. - 2024 - Autonomic biosignals, seizure detection, and forec.pdf:application/pdf},
 }
 
-@ARTICLE{Meisel2012-pc,
-  title     = "Failure of adaptive self-organized criticality during epileptic
-               seizure attacks",
-  author    = "Meisel, Christian and Storch, Alexander and Hallmeyer-Elgner,
-               Susanne and Bullmore, Ed and Gross, Thilo",
-  abstract  = "Critical dynamics are assumed to be an attractive mode for
-               normal brain functioning as information processing and
-               computational capabilities are found to be optimal in the
-               critical state. Recent experimental observations of neuronal
-               activity patterns following power-law distributions, a hallmark
-               of systems at a critical state, have led to the hypothesis that
-               human brain dynamics could be poised at a phase transition
-               between ordered and disordered activity. A so far unresolved
-               question concerns the medical significance of critical brain
-               activity and how it relates to pathological conditions. Using
-               data from invasive electroencephalogram recordings from humans
-               we show that during epileptic seizure attacks neuronal activity
-               patterns deviate from the normally observed power-law
-               distribution characterizing critical dynamics. The comparison of
-               these observations to results from a computational model
-               exhibiting self-organized criticality (SOC) based on adaptive
-               networks allows further insights into the underlying dynamics.
-               Together these results suggest that brain dynamics deviates from
-               criticality during seizures caused by the failure of adaptive
-               SOC.",
-  journal   = "PLoS Comput. Biol.",
-  publisher = "Public Library of Science (PLoS)",
-  volume    =  8,
-  number    =  1,
-  pages     = "e1002312",
-  month     =  jan,
-  year      =  2012,
-  language  = "en"
+@article{miron_prediction_2023,
+	title = {Prediction of epilepsy surgery outcome using foramen ovale {EEG} – a machine learning approach},
+	issn = {09201211},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S0920121123000360},
+	doi = {10.1016/j.eplepsyres.2023.107111},
+	abstract = {Introduction: Patients with drug-resistant focal epilepsy may benefit from ablative or resective surgery. In presurgical work-up, intracranial EEG markers have been shown to be useful in identification of the seizure onset zone and prediction of post-surgical seizure freedom. However, in most cases, implantation of depth or subdural electrodes is performed, exposing patients to increased risks of complications. Methods: We analysed EEG data recorded from a minimally invasive approach utilizing foramen ovale (FO) and epidural peg electrodes using a supervised machine learning approach to predict post-surgical seizure freedom. Power-spectral EEG features were incorporated in a logistic regression model predicting one-year post-surgical seizure freedom. The prediction model was validated using repeated 5-fold cross-validation and compared to outcome prediction based on clinical and scalp EEG variables. Results: Forty-seven patients (26 patients with post-surgical 1-year seizure freedom) were included in the study, with 31 having FO and 27 patients having peg onset seizures. The area under the receiver-operating curve for post-surgical seizure freedom (Engel 1A) prediction in patients with FO onset seizures was 0.74 ± 0.23 using electrophysiology features, compared to 0.66 ± 0.22 for predictions based on clinical and scalp EEG variables (p {\textless} 0.001). The most important features for prediction were spectral power in the gamma and high gamma ranges. EEG data from peg electrodes was not informative in predicting post-surgical outcomes. Conclusion: In this hypothesis-generating study, a data-driven approach based on EEG features derived from FO electrodes recordings outperformed the predictive ability based solely on clinical and scalp EEG variables. Pending validation in future studies, this method may provide valuable post-surgical prognostic information while minimizing risks of more invasive diagnostic approaches.},
+	language = {en},
+	urldate = {2023-02-24},
+	journal = {Epilepsy Research},
+	author = {Miron, Gadi and Müller, Paul Manuel and Holtkamp, Martin and Meisel, Christian},
+	month = feb,
+	year = {2023},
+	keywords = {Epilepsy, Logistic regression analysis, Surgery, Foramen\_Ovale},
+	pages = {107111},
+	file = {Miron et al. - 2023 - Prediction of epilepsy surgery outcome using foram.pdf:/Users/christianmeisel/Zotero/storage/HFSJQ67U/Miron et al. - 2023 - Prediction of epilepsy surgery outcome using foram.pdf:application/pdf},
 }
 
-@ARTICLE{Meisel2012-yp,
-  title     = "Scaling effects and spatio-temporal multilevel dynamics in
-               epileptic seizures",
-  author    = "Meisel, Christian and Kuehn, Christian",
-  abstract  = "Epileptic seizures are one of the most well-known dysfunctions
-               of the nervous system. During a seizure, a highly synchronized
-               behavior of neural activity is observed that can cause symptoms
-               ranging from mild sensual malfunctions to the complete loss of
-               body control. In this paper, we aim to contribute towards a
-               better understanding of the dynamical systems phenomena that
-               cause seizures. Based on data analysis and modelling, seizure
-               dynamics can be identified to possess multiple spatial scales
-               and on each spatial scale also multiple time scales. At each
-               scale, we reach several novel insights. On the smallest spatial
-               scale we consider single model neurons and investigate
-               early-warning signs of spiking. This introduces the theory of
-               critical transitions to excitable systems. For clusters of
-               neurons (or neuronal regions) we use patient data and find
-               oscillatory behavior and new scaling laws near the seizure
-               onset. These scalings lead to substantiate the conjecture
-               obtained from mean-field models that a Hopf bifurcation could be
-               involved near seizure onset. On the largest spatial scale we
-               introduce a measure based on phase-locking intervals and
-               wavelets into seizure modelling. It is used to resolve
-               synchronization between different regions in the brain and
-               identifies time-shifted scaling laws at different wavelet
-               scales. We also compare our wavelet-based multiscale approach
-               with maximum linear cross-correlation and mean-phase coherence
-               measures.",
-  journal   = "PLoS One",
-  publisher = "Public Library of Science (PLoS)",
-  volume    =  7,
-  number    =  2,
-  pages     = "e30371",
-  month     =  feb,
-  year      =  2012,
-  language  = "en"
+@article{miron_cortical_2024,
+	title = {Cortical {Thickness} {Patterns} of {Cognitive} {Impairment} {Phenotypes} in {Drug}‐{Resistant} {Temporal} {Lobe} {Epilepsy}},
+	volume = {95},
+	issn = {0364-5134, 1531-8249},
+	url = {https://onlinelibrary.wiley.com/doi/10.1002/ana.26893},
+	doi = {10.1002/ana.26893},
+	abstract = {Objective
+              In temporal lobe epilepsy (TLE), a taxonomy classifying patients into 3 cognitive phenotypes has been adopted: minimally, focally, or multidomain cognitively impaired (CI). We examined gray matter (GM) thickness patterns of cognitive phenotypes in drug‐resistant TLE and assessed potential use for predicting postsurgical cognitive outcomes.
+            
+            
+              Methods
+              
+                TLE patients undergoing presurgical evaluation were categorized into cognitive phenotypes. Network edge weights and distances were calculated using type III analysis of variance
+                F
+                ‐statistics from comparisons of GM regions within each TLE cognitive phenotype and age‐ and sex‐matched healthy participants. In resected patients, logistic regression models (LRMs) based on network analysis results were used for prediction of postsurgical cognitive outcome.
+              
+            
+            
+              Results
+              A total of 124 patients (63 females, mean age ± standard deviation [SD] = 36.0 ± 12.0 years) and 117 healthy controls (63 females, mean age ± SD = 36.1 ± 12.0 years) were analyzed. In the multidomain CI group (n = 66, 53.2\%), 28 GM regions were significantly thinner compared to healthy controls. Focally impaired patients (n = 37, 29.8\%) showed 13 regions, whereas minimally impaired patients (n = 21, 16.9\%) had 2 significantly thinner GM regions. Regions affected in both multidomain and focally impaired patients included the anterior cingulate cortex, medial prefrontal cortex, medial temporal, and lateral temporal regions. In 69 (35 females, mean age ± SD = 33.6 ± 18.0 years) patients who underwent surgery, LRMs based on network‐identified GM regions predicted postsurgical verbal memory worsening with a receiver operating curve area under the curve of 0.70 ± 0.15.
+            
+            
+              Interpretation
+              A differential pattern of GM thickness can be found across different cognitive phenotypes in TLE. Including magnetic resonance imaging with clinical measures associated with cognitive profiles has potential in predicting postsurgical cognitive outcomes in drug‐resistant},
+	language = {en},
+	number = {5},
+	urldate = {2024-05-24},
+	journal = {Annals of Neurology},
+	author = {Miron, Gadi and Müller, Paul Manuel and Hohmann, Louisa and Oltmanns, Frank and Holtkamp, Martin and Meisel, Christian and Chien, Claudia},
+	month = may,
+	year = {2024},
+	keywords = {Cognition, MRI},
+	pages = {984--997},
+	file = {Full Text:/Users/christianmeisel/Zotero/storage/GZCYSECJ/Miron et al. - 2024 - Cortical Thickness Patterns of Cognitive Impairmen.pdf:application/pdf;Miron et al. - 2023 - Cortical Thickness Patterns of Cognitive Impairmen.pdf:/Users/christianmeisel/Zotero/storage/DJE3GEBM/Miron et al. - 2023 - Cortical Thickness Patterns of Cognitive Impairmen.pdf:application/pdf},
 }
 
-@ARTICLE{Yokoyama2013-pt,
-  title     = "{MLL} becomes functional through intra-molecular interaction not
-               by proteolytic processing",
-  author    = "Yokoyama, Akihiko and Ficara, Francesca and Murphy, Mark J and
-               Meisel, Christian and Hatanaka, Chikako and Kitabayashi, Issay
-               and Cleary, Michael L",
-  abstract  = "The mixed lineage leukemia (MLL) protein is an epigenetic
-               transcriptional regulator that controls proliferative expansion
-               of immature hematopoietic progenitors, whose aberrant activation
-               triggers leukemogenesis. A mature MLL protein is produced by
-               formation of an intra-molecular complex and proteolytic
-               cleavage. However the biological significance of these two
-               post-transcriptional events remains unclear. To address their in
-               vivo roles, mouse mutant alleles were created that exclusively
-               express either a variant protein incapable of intra-molecular
-               interaction (designated de) or an uncleavable mutant protein
-               (designated uc). The de homozygous mice died during midgestation
-               and manifested devastating failure in embryonic development and
-               reduced numbers of hematopoietic progenitors, whereas uc
-               homozygous mice displayed no apparent defects. Expression of MLL
-               target genes was severely impaired in de homozygous fibroblasts
-               but unaffected in uc homozygous fibroblasts. These results
-               unequivocally demonstrate that intra-molecular complex formation
-               is a crucial maturation step whereas proteolytic cleavage is
-               dispensable for MLL-dependent gene activation and proliferation
-               in vivo.",
-  journal   = "PLoS One",
-  publisher = "Public Library of Science (PLoS)",
-  volume    =  8,
-  number    =  9,
-  pages     = "e73649",
-  month     =  sep,
-  year      =  2013,
-  language  = "en"
+@techreport{muller_critical_2024,
+	type = {preprint},
+	title = {Critical dynamics predict cognitive performance and are disrupted by epileptic spikes, antiseizure medication and slow-wave activity},
+	url = {https://doi.org/10.1101/2024.08.19.24312223},
+	abstract = {The brain criticality hypothesis postulates that brain dynamics are set at a phase transition where information processing is optimized. Long-range temporal correlations (TCs) characterizing the dissipation of information within a signal have been shown to be a hallmark of brain criticality. However, the experimental link between cognitive performance, criticality and thus TCs has remained elusive due to limitations in recording length, and spatial and temporal resolution. In this study, we investigate multi-day invasive EEG recordings of 104 persons with epilepsy together with an extensive cognitive test battery. We show that short TCs predict cognitive impairment. Further, we show that heterogeneous factors, including interictal epileptiform discharges (IEDs), antiseizure medications (ASMs) and intermittent periods with slow-wave activity (SWSs), all act directly to perturb critical dynamics and thus cognition. Our work suggests critical dynamics to be the setpoint to measure optimal network function, thereby providing a unifying framework for the heterogeneous mechanisms impacting cognition in conditions like epilepsy.},
+	author = {Müller, Paul Manuel and Miron, Gadi and Holtkamp, Martin and Meisel, Christian},
+	month = jan,
+	year = {2024},
+	pages = {2024.08.19.24312223},
+	file = {Full Text:/Users/christianmeisel/Zotero/storage/IU2ASUMX/Müller et al. - 2024 - Critical dynamics predict cognitive performance an.pdf:application/pdf},
 }
 
-@ARTICLE{Meisel2013-zu,
-  title     = "Fading signatures of critical brain dynamics during sustained
-               wakefulness in humans",
-  author    = "Meisel, Christian and Olbrich, Eckehard and Shriki, Oren and
-               Achermann, Peter",
-  abstract  = "Sleep encompasses approximately a third of our lifetime, yet its
-               purpose and biological function are not well understood. Without
-               sleep optimal brain functioning such as responsiveness to
-               stimuli, information processing, or learning may be impaired.
-               Such observations suggest that sleep plays a crucial role in
-               organizing or reorganizing neuronal networks of the brain toward
-               states where information processing is optimized. Increasing
-               evidence suggests that cortical neuronal networks operate near a
-               critical state characterized by balanced activity patterns,
-               which supports optimal information processing. However, it
-               remains unknown whether critical dynamics is affected in the
-               course of wake and sleep, which would also impact information
-               processing. Here, we show that signatures of criticality are
-               progressively disturbed during wake and restored by sleep. We
-               demonstrate that the precise power-laws governing the cascading
-               activity of neuronal avalanches and the distribution of
-               phase-lock intervals in human electroencephalographic recordings
-               are increasingly disarranged during sustained wakefulness. These
-               changes are accompanied by a decrease in variability of
-               synchronization. Interpreted in the context of a critical
-               branching process, these seemingly different findings indicate a
-               decline of balanced activity and progressive distance from
-               criticality toward states characterized by an imbalance toward
-               excitation where larger events prevail dynamics. Conversely,
-               sleep restores the critical state resulting in recovered
-               power-law characteristics in activity and variability of
-               synchronization. These findings support the intriguing
-               hypothesis that sleep may be important to reorganize cortical
-               network dynamics to a critical state thereby assuring optimal
-               computational capabilities for the following time awake.",
-  journal   = "J. Neurosci.",
-  publisher = "Society for Neuroscience",
-  volume    =  33,
-  number    =  44,
-  pages     = "17363--17372",
-  month     =  oct,
-  year      =  2013,
-  language  = "en"
+@article{kashyap_critical_2024,
+	title = {Critical dynamics and interictal epileptiform discharge: a comparative analysis with respect to tracking seizure risk cycles},
+	volume = {4},
+	issn = {2674-0109},
+	shorttitle = {Critical dynamics and interictal epileptiform discharge},
+	url = {https://www.frontiersin.org/articles/10.3389/fnetp.2024.1420217/full},
+	doi = {10.3389/fnetp.2024.1420217},
+	abstract = {Epilepsy is characterized by recurrent, unprovoked seizures. Accurate prediction of seizure occurrence has long been a clinical goal since this would allow to optimize patient treatment, prevent injuries due to seizures, and alleviate the patient burden of unpredictability. Advances in implantable electroencephalographic (EEG) devices, allowing for long-term interictal EEG recordings, have facilitated major progress in this field. Recently, it has been discovered that interictal brain activity demonstrates circadian and multi-dien cycles that are strongly aligned, or phase locked, with seizure risk. Thus, cyclical brain activity patterns have been used to forecast seizures. However, in the effort to develop a clinically useful EEG based seizure forecasting system, challenges remain. Firstly, multiple EEG features demonstrate cyclical patterns, but it remains unclear which feature is best suited for predicting seizures. Secondly, the technology for long-term EEG recording is currently limited in both spatial and temporal sampling resolution. In this study, we compare five established EEG metrics:synchrony, spatial correlation, temporal correlation, signal variance which have been motivated from critical dynamics theory, and interictal epileptiform discharge (IED) which are a traditional marker of seizure propensity. We assess their effectiveness in detecting 24-h and seizure cycles as well as their robustness under spatial and temporal subsampling. Analyzing intracranial EEG data from 23 patients, we report that all examined features exhibit 24-h cycles. Spatial correlation, signal variance, and synchrony showed the highest phase locking with seizures, while IED rates were the lowest. Notably, spatial and temporal correlation were also found to be highly correlated to each other, as were signal variance and IED—suggesting some features may reflect similar aspects of cortical dynamics, whereas others provide complementary information. All features proved robust under subsampling, indicating that the dynamic properties of interictal activity evolve slowly and are not confined to specific brain regions. Our results may aid future translational research by assisting in design and testing of EEG based seizure forecasting systems.},
+	urldate = {2024-07-23},
+	journal = {Frontiers in Network Physiology},
+	author = {Kashyap, Amrit and Müller, Paul and Miron, Gadi and Meisel, Christian},
+	month = jul,
+	year = {2024},
+	keywords = {Criticality, LRTC, Epilepsy, iEEG, LRSC},
+	pages = {1420217},
+	file = {Kashyap et al. - 2024 - Critical dynamics and interictal epileptiform disc.pdf:/Users/christianmeisel/Zotero/storage/TKLHXIYT/Kashyap et al. - 2024 - Critical dynamics and interictal epileptiform disc.pdf:application/pdf},
 }
 
-@ARTICLE{Yaffe2015-co,
-  title     = "Physiology of functional and effective networks in epilepsy",
-  author    = "Yaffe, Robert B and Borger, Philip and Megevand, Pierre and
-               Groppe, David M and Kramer, Mark A and Chu, Catherine J and
-               Santaniello, Sabato and Meisel, Christian and Mehta, Ashesh D
-               and Sarma, Sridevi V",
-  abstract  = "Epilepsy is a network phenomenon characterized by atypical
-               activity during seizure both at the level of single neurons and
-               neural populations. The etiology of epilepsy is not completely
-               understood but a common theme among proposed mechanisms is
-               abnormal synchronization between neuronal populations. Recent
-               advances in novel imaging and recording technologies have
-               enabled the inference of comprehensive maps of both the
-               anatomical and physiological inter-relationships between brain
-               regions. Clinical protocols established for diagnosis and
-               treatment of epilepsy utilize both advanced neuroimaging
-               techniques and neurophysiological data. These growing clinical
-               datasets can be further exploited to better understand the
-               complex connectivity patterns in the epileptic brain. In this
-               article, we review results and insights gained from the growing
-               body of research focused on epilepsy from a network perspective.
-               In particular, we put an emphasis on two different notions of
-               network connectivity: functional and effective; and studies
-               investigating these notions in epilepsy are highlighted. We also
-               discuss limitations and opportunities in data collection and
-               analyses that will further our understanding of epileptic
-               networks and the mechanisms of seizures.",
-  journal   = "Clin. Neurophysiol.",
-  publisher = "Elsevier BV",
-  volume    =  126,
-  number    =  2,
-  pages     = "227--236",
-  month     =  feb,
-  year      =  2015,
-  keywords  = "Brain; Effective connectivity; Epilepsy; Functional
-               connectivity; Networks",
-  language  = "en"
+@article{meisel_scaling_2012,
+	title = {Scaling {Effects} and {Spatio}-{Temporal} {Multilevel} {Dynamics} in {Epileptic} {Seizures}},
+	volume = {7},
+	issn = {1932-6203},
+	url = {https://dx.plos.org/10.1371/journal.pone.0030371},
+	doi = {10.1371/journal.pone.0030371},
+	abstract = {Epileptic seizures are one of the most well-known dysfunctions of the nervous system. During a seizure, a highly synchronized behavior of neural activity is observed that can cause symptoms ranging from mild sensual malfunctions to the complete loss of body control. In this paper, we aim to contribute towards a better understanding of the dynamical systems phenomena that cause seizures. Based on data analysis and modelling, seizure dynamics can be identified to possess multiple spatial scales and on each spatial scale also multiple time scales. At each scale, we reach several novel insights. On the smallest spatial scale we consider single model neurons and investigate early-warning signs of spiking. This introduces the theory of critical transitions to excitable systems. For clusters of neurons (or neuronal regions) we use patient data and find oscillatory behavior and new scaling laws near the seizure onset. These scalings lead to substantiate the conjecture obtained from mean-field models that a Hopf bifurcation could be involved near seizure onset. On the largest spatial scale we introduce a measure based on phase-locking intervals and wavelets into seizure modelling. It is used to resolve synchronization between different regions in the brain and identifies time-shifted scaling laws at different wavelet scales. We also compare our wavelet-based multiscale approach with maximum linear cross-correlation and mean-phase coherence measures.},
+	language = {en},
+	number = {2},
+	urldate = {2024-11-21},
+	journal = {PLoS ONE},
+	author = {Meisel, Christian and Kuehn, Christian},
+	editor = {Perc, Matjaz},
+	month = feb,
+	year = {2012},
+	pages = {e30371},
+	file = {Meisel und Kuehn - 2012 - Scaling Effects and Spatio-Temporal Multilevel Dyn.pdf:/Users/christianmeisel/Zotero/storage/H2A2H76P/Meisel und Kuehn - 2012 - Scaling Effects and Spatio-Temporal Multilevel Dyn.pdf:application/pdf},
 }
 
-@ARTICLE{gross2014,
-  author      = "Thilo Gross and Anne Do and Felix Droste and Christian Meisel",
-  title       = "Mechanisms of self-organized criticality in adaptive networks",
-  abstract    = "Neural criticality, the hypothesis that the human brain may operate in a critical state, has gained much support over the past decade [1–6]. Previously, a major concern was that reaching criticality would always require the precise tuning of at least one parameter. However starting with the pioneering work of Bornholdt and Rohlf [7], it has become apparent that the self-organization of adaptive networks constitutes a plausible mechanism that could generate and maintain criticality in the brain. In the present chapter, we seek to explain the underlying concepts of adaptive self-organized criticality and build up basic intuition by studying a simple toy model.",
-  journal     = "Criticality in Neural Systems, eds. Dietmar Plenz, Ernst Niebur and Hans Schuster",
-  publisher   = "Annual Reviews of Nonlinear Dynamics and Complexity (Wiley-VCH)",
-  address     = "Weinheim",
-  year        = 2014,
+@article{meisel_adaptive_2009,
+	title = {Adaptive self-organization in a realistic neural network model},
+	volume = {80},
+	copyright = {http://link.aps.org/licenses/aps-default-license},
+	issn = {1539-3755, 1550-2376},
+	url = {https://link.aps.org/doi/10.1103/PhysRevE.80.061917},
+	doi = {10.1103/PhysRevE.80.061917},
+	language = {en},
+	number = {6},
+	urldate = {2024-11-21},
+	journal = {Physical Review E},
+	author = {Meisel, Christian and Gross, Thilo},
+	month = dec,
+	year = {2009},
+	pages = {061917},
+	file = {Meisel und Gross - 2009 - Adaptive self-organization in a realistic neural n.pdf:/Users/christianmeisel/Zotero/storage/J6G6G5ZA/Meisel und Gross - 2009 - Adaptive self-organization in a realistic neural n.pdf:application/pdf},
 }
 
+@article{meisel_failure_2012,
+	title = {Failure of {Adaptive} {Self}-{Organized} {Criticality} during {Epileptic} {Seizure} {Attacks}},
+	volume = {8},
+	issn = {1553-7358},
+	url = {https://dx.plos.org/10.1371/journal.pcbi.1002312},
+	doi = {10.1371/journal.pcbi.1002312},
+	abstract = {Critical dynamics are assumed to be an attractive mode for normal brain functioning as information processing and computational capabilities are found to be optimal in the critical state. Recent experimental observations of neuronal activity patterns following power-law distributions, a hallmark of systems at a critical state, have led to the hypothesis that human brain dynamics could be poised at a phase transition between ordered and disordered activity. A so far unresolved question concerns the medical significance of critical brain activity and how it relates to pathological conditions. Using data from invasive electroencephalogram recordings from humans we show that during epileptic seizure attacks neuronal activity patterns deviate from the normally observed power-law distribution characterizing critical dynamics. The comparison of these observations to results from a computational model exhibiting self-organized criticality (SOC) based on adaptive networks allows further insights into the underlying dynamics. Together these results suggest that brain dynamics deviates from criticality during seizures caused by the failure of adaptive SOC.},
+	language = {en},
+	number = {1},
+	urldate = {2024-11-21},
+	journal = {PLoS Computational Biology},
+	author = {Meisel, Christian and Storch, Alexander and Hallmeyer-Elgner, Susanne and Bullmore, Ed and Gross, Thilo},
+	editor = {Behrens, Tim},
+	month = jan,
+	year = {2012},
+	pages = {e1002312},
+	file = {Meisel et al. - 2012 - Failure of Adaptive Self-Organized Criticality dur.pdf:/Users/christianmeisel/Zotero/storage/P4IU7PZI/Meisel et al. - 2012 - Failure of Adaptive Self-Organized Criticality dur.pdf:application/pdf},
+}
 
+@article{meisel_fading_2013,
+	title = {Fading {Signatures} of {Critical} {Brain} {Dynamics} during {Sustained} {Wakefulness} in {Humans}},
+	volume = {33},
+	copyright = {https://creativecommons.org/licenses/by-nc-sa/4.0/},
+	issn = {0270-6474, 1529-2401},
+	url = {https://www.jneurosci.org/lookup/doi/10.1523/JNEUROSCI.1516-13.2013},
+	doi = {10.1523/JNEUROSCI.1516-13.2013},
+	abstract = {Sleep encompasses approximately a third of our lifetime, yet its purpose and biological function are not well understood. Without sleep optimal brain functioning such as responsiveness to stimuli, information processing, or learning may be impaired. Such observations suggest that sleep plays a crucial role in organizing or reorganizing neuronal networks of the brain toward states where information processing is optimized.
+            Increasing evidence suggests that cortical neuronal networks operate near a critical state characterized by balanced activity patterns, which supports optimal information processing. However, it remains unknown whether critical dynamics is affected in the course of wake and sleep, which would also impact information processing. Here, we show that signatures of criticality are progressively disturbed during wake and restored by sleep. We demonstrate that the precise power-laws governing the cascading activity of neuronal avalanches and the distribution of phase-lock intervals in human electroencephalographic recordings are increasingly disarranged during sustained wakefulness. These changes are accompanied by a decrease in variability of synchronization. Interpreted in the context of a critical branching process, these seemingly different findings indicate a decline of balanced activity and progressive distance from criticality toward states characterized by an imbalance toward excitation where larger events prevail dynamics. Conversely, sleep restores the critical state resulting in recovered power-law characteristics in activity and variability of synchronization. These findings support the intriguing hypothesis that sleep may be important to reorganize cortical network dynamics to a critical state thereby assuring optimal computational capabilities for the following time awake.},
+	language = {en},
+	number = {44},
+	urldate = {2024-11-21},
+	journal = {The Journal of Neuroscience},
+	author = {Meisel, Christian and Olbrich, Eckehard and Shriki, Oren and Achermann, Peter},
+	month = oct,
+	year = {2013},
+	pages = {17363--17372},
+	file = {Meisel et al. - 2013 - Fading Signatures of Critical Brain Dynamics durin.pdf:/Users/christianmeisel/Zotero/storage/KQSPILK8/Meisel et al. - 2013 - Fading Signatures of Critical Brain Dynamics durin.pdf:application/pdf},
+}
+
+@article{meisel_critical_2015,
+	title = {Critical {Slowing} {Down} {Governs} the {Transition} to {Neuron} {Spiking}},
+	volume = {11},
+	issn = {1553-7358},
+	url = {https://dx.plos.org/10.1371/journal.pcbi.1004097},
+	doi = {10.1371/journal.pcbi.1004097},
+	language = {en},
+	number = {2},
+	urldate = {2024-11-21},
+	journal = {PLOS Computational Biology},
+	author = {Meisel, Christian and Klaus, Andreas and Kuehn, Christian and Plenz, Dietmar},
+	editor = {Gutkin, Boris S.},
+	month = feb,
+	year = {2015},
+	pages = {e1004097},
+	file = {Meisel et al. - 2015 - Critical Slowing Down Governs the Transition to Ne.pdf:/Users/christianmeisel/Zotero/storage/W26QWV5T/Meisel et al. - 2015 - Critical Slowing Down Governs the Transition to Ne.pdf:application/pdf},
+}
+
+@article{meisel_intrinsic_2015,
+	title = {Intrinsic excitability measures track antiepileptic drug action and uncover increasing/decreasing excitability over the wake/sleep cycle},
+	volume = {112},
+	issn = {0027-8424, 1091-6490},
+	url = {https://pnas.org/doi/full/10.1073/pnas.1513716112},
+	doi = {10.1073/pnas.1513716112},
+	abstract = {Significance
+            Dynamic changes of cortical excitability are relevant in both healthy and pathological network dynamics. In epilepsy, pathological changes in excitability commonly underlie the initiation and spread of seizures. Accordingly, the ability to monitor excitability and control its degree is important for adequate clinical care and treatment because classic EEG markers found in epilepsy such as interictal spikes do not reflect seizure propensity and thus excitability. Here, we identify excitability markers and test them on long-term electrocorticogram and EEG recordings. We show that they correlate with more direct excitability measures using external stimulation and allow for real-time excitability monitoring. Our results provide evidence that excitability of cortical networks is reduced by antiepileptic drugs and increases as a function of time awake.
+          , 
+            Pathological changes in excitability of cortical tissue commonly underlie the initiation and spread of seizure activity in patients suffering from epilepsy. Accordingly, monitoring excitability and controlling its degree using antiepileptic drugs (AEDs) is of prime importance for clinical care and treatment. To date, adequate measures of excitability and action of AEDs have been difficult to identify. Recent insights into ongoing cortical activity have identified global levels of phase synchronization as measures that characterize normal levels of excitability and quantify any deviation therefrom. Here, we explore the usefulness of these intrinsic measures to quantify cortical excitability in humans. First, we observe a correlation of such markers with stimulation-evoked responses suggesting them to be viable excitability measures based on ongoing activity. Second, we report a significant covariation with the level of AED load and a wake-dependent modulation. Our results indicate that excitability in epileptic networks is effectively reduced by AEDs and suggest the proposed markers as useful candidates to quantify excitability in routine clinical conditions overcoming the limitations of electrical or magnetic stimulation. The wake-dependent time course of these metrics suggests a homeostatic role of sleep, to rebalance cortical excitability.},
+	language = {en},
+	number = {47},
+	urldate = {2024-11-21},
+	journal = {Proceedings of the National Academy of Sciences},
+	author = {Meisel, Christian and Schulze-Bonhage, Andreas and Freestone, Dean and Cook, Mark James and Achermann, Peter and Plenz, Dietmar},
+	month = nov,
+	year = {2015},
+	pages = {14694--14699},
+	file = {Meisel et al. - 2015 - Intrinsic excitability measures track antiepilepti.pdf:/Users/christianmeisel/Zotero/storage/SPDNTYY2/Meisel et al. - 2015 - Intrinsic excitability measures track antiepilepti.pdf:application/pdf},
+}
+
+@article{meisel_quantifying_2016,
+	title = {Quantifying antiepileptic drug effects using intrinsic excitability measures},
+	volume = {57},
+	copyright = {http://onlinelibrary.wiley.com/termsAndConditions\#vor},
+	issn = {0013-9580, 1528-1167},
+	url = {https://onlinelibrary.wiley.com/doi/10.1111/epi.13517},
+	doi = {10.1111/epi.13517},
+	abstract = {Pathologic increases in excitability levels of cortical tissue commonly underlie the initiation and spread of seizure activity in patients with epilepsy. By reducing the excitability levels in neural tissue, antiepileptic drug (AED) pharmacotherapy aims to reduce seizure severity and frequency. However, AEDs may also bring about adverse effects, which have been reported to increase with higher AED load. Measures that monitor the dose-dependent effects of AEDs on cortical tissue and quantify its excitability level are therefore of prime importance for efﬁcient clinical care and treatment but have been difﬁcult to identify. Here, we systematically analyze continuous multiday electrocorticography (ECoG) data from 10 patients under different levels of AED load and derive the recently proposed intrinsic excitability measures (IEMs) from different brain regions and across different frequency bands. We ﬁnd that IEMs are signiﬁcantly negatively correlated with AED load (prescribed daily dose/deﬁned daily dose). Furthermore, we demonstrate that IEMs derived from different brain regions can robustly capture global changes in the degree of excitability. These results provide a step toward the ultimate goal of developing a reliable quantitative measure of central physiologic effects of AEDs in patients with epilepsy.},
+	language = {en},
+	number = {11},
+	urldate = {2024-11-21},
+	journal = {Epilepsia},
+	author = {Meisel, Christian and Plenz, Dietmar and Schulze‐Bonhage, Andreas and Reichmann, Heinz},
+	month = nov,
+	year = {2016},
+	file = {Meisel et al. - 2016 - Quantifying antiepileptic drug effects using intri.pdf:/Users/christianmeisel/Zotero/storage/LGDEIY89/Meisel et al. - 2016 - Quantifying antiepileptic drug effects using intri.pdf:application/pdf},
+}
+
+@article{meisel_decline_2017,
+	title = {Decline of long-range temporal correlations in the human brain during sustained wakefulness},
+	volume = {7},
+	issn = {2045-2322},
+	url = {https://www.nature.com/articles/s41598-017-12140-w},
+	doi = {10.1038/s41598-017-12140-w},
+	abstract = {Abstract
+            Sleep is crucial for daytime functioning, cognitive performance and general well-being. These aspects of daily life are known to be impaired after extended wake, yet, the underlying neuronal correlates have been difficult to identify. Accumulating evidence suggests that normal functioning of the brain is characterized by long-range temporal correlations (LRTCs) in cortex, which are supportive for decision-making and working memory tasks. Here we assess LRTCs in resting state human EEG data during a 40-hour sleep deprivation experiment by evaluating the decay in autocorrelation and the scaling exponent of the detrended fluctuation analysis from EEG amplitude fluctuations. We find with both measures that LRTCs decline as sleep deprivation progresses. This decline becomes evident when taking changes in signal power into appropriate consideration. In contrast, the presence of strong signal power increases in some frequency bands over the course of sleep deprivation may falsely indicate LRTC changes that do not reflect the underlying long-range temporal correlation structure. Our results demonstrate the importance of sleep to maintain LRTCs in the human brain. In complex networks, LRTCs naturally emerge in the vicinity of a critical state. The observation of declining LRTCs during wake thus provides additional support for our hypothesis that sleep reorganizes cortical networks towards critical dynamics for optimal functioning.},
+	language = {en},
+	number = {1},
+	urldate = {2024-11-21},
+	journal = {Scientific Reports},
+	author = {Meisel, Christian and Bailey, Kimberlyn and Achermann, Peter and Plenz, Dietmar},
+	month = sep,
+	year = {2017},
+	pages = {11825},
+	file = {Meisel et al. - 2017 - Decline of long-range temporal correlations in the.pdf:/Users/christianmeisel/Zotero/storage/XNAJ2WZE/Meisel et al. - 2017 - Decline of long-range temporal correlations in the.pdf:application/pdf},
+}
+
+@article{meisel_interplay_2017,
+	title = {The {Interplay} between {Long}- and {Short}-{Range} {Temporal} {Correlations} {Shapes} {Cortex} {Dynamics} across {Vigilance} {States}},
+	volume = {37},
+	copyright = {https://creativecommons.org/licenses/by-nc-sa/4.0/},
+	issn = {0270-6474, 1529-2401},
+	url = {https://www.jneurosci.org/lookup/doi/10.1523/JNEUROSCI.0448-17.2017},
+	doi = {10.1523/JNEUROSCI.0448-17.2017},
+	abstract = {Increasing evidence suggests that cortical dynamics during wake exhibits long-range temporal correlations suitable to integrate inputs over extended periods of time to increase the signal-to-noise ratio in decision making and working memory tasks. Accordingly, sleep has been suggested as a state characterized by a breakdown of long-range correlations. However, detailed measurements of neuronal timescales that support this view have so far been lacking. Here, we show that the cortical timescales measured at the individual neuron level in freely behaving male rats change as a function of vigilance state and time awake. Although quiet wake and rapid eye movement (REM) sleep are characterized by similar, long timescales, these long timescales are abrogated in non-REM sleep. We observe that cortex dynamics exhibits rapid transitions between long-timescale states and sleep-like states governed by short timescales even during wake. This becomes particularly evident during sleep deprivation, when the interplay between these states can lead to an increasing disruption of long timescales that are restored after sleep. Experiments and modeling identify the intrusion of neuronal offline periods as a mechanism that disrupts the long timescales arising from reverberating cortical network activity. Our results provide novel mechanistic and functional links among behavioral manifestations of sleep, wake, and sleep deprivation and specific measurable changes in the network dynamics relevant for characterizing the brain's changing information-processing capabilities. They suggest a network-level function of sleep to reorganize cortical networks toward states governed by long timescales to ensure efficient information integration for the time awake.
+            
+              SIGNIFICANCE STATEMENT
+              Lack of sleep deteriorates several key cognitive functions, yet the neuronal underpinnings of these deficits have remained elusive. Cognitive capabilities are generally believed to benefit from a neural circuit's ability to reliably integrate information. Persistent network activity characterized by long timescales may provide the basis for this integration in cortex. Here, we show that long-range temporal correlations indicated by slowly decaying autocorrelation functions in neuronal activity are dependent on vigilance states. Although wake and rapid eye movement (REM) sleep exhibit long timescales, these long-range correlations break down during non-REM sleep. Our findings thus suggest two distinct states in terms of timescale dynamics. During extended wake, the rapid switching to sleep-like states with short timescales can lead to an overall decline in cortical timescales.},
+	language = {en},
+	number = {42},
+	urldate = {2024-11-21},
+	journal = {The Journal of Neuroscience},
+	author = {Meisel, Christian and Klaus, Andreas and Vyazovskiy, Vladyslav V. and Plenz, Dietmar},
+	month = oct,
+	year = {2017},
+	pages = {10114--10124},
+	file = {Meisel et al. - 2017 - The Interplay between Long- and Short-Range Tempor.pdf:/Users/christianmeisel/Zotero/storage/H6N6S73C/Meisel et al. - 2017 - The Interplay between Long- and Short-Range Tempor.pdf:application/pdf},
+}
+
+@article{meisel_identifying_2019,
+	title = {Identifying signal-dependent information about the preictal state: {A} comparison across {ECoG}, {EEG} and {EKG} using deep learning},
+	volume = {45},
+	issn = {23523964},
+	shorttitle = {Identifying signal-dependent information about the preictal state},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S2352396419304360},
+	doi = {10.1016/j.ebiom.2019.07.001},
+	abstract = {Background: The inability to reliably assess seizure risk is a major burden for epilepsy patients and prevents developing better treatments. Recent advances have paved the way for increasingly accurate seizure preictal state detection algorithms, primarily using electrocorticography (ECoG). To develop seizure forecasting for broad clinical and ambulatory use, however, less complex and invasive modalities are needed. Algorithms using scalp electroencephalography (EEG) and electrocardiography (EKG) have also achieved better than chance performance. But it remains unknown how much preictal information is in ECoG versus modalities amenable to everyday use – such as EKG and single channel EEG - and how to optimally extract that preictal information for seizure prediction.
+Methods: We apply deep learning - a powerful method to extract information from complex data - on a large epilepsy data set containing multi-day, simultaneous recordings of EKG, ECoG, and EEG, using a variety of feature sets. We use the relative performance of our algorithms to compare the preictal information contained in each modality.
+Results: We ﬁnd that single-channel EKG contains a comparable amount of preictal information as scalp EEG with up to 21 channels and that preictal information is best extracted not with standard heart rate measures, but from the power spectral density. We report that preictal information is not preferentially contained in EEG or ECoG channels within the seizure onset zone.
+Conclusion: Collectively, these insights may help to devise future prospective, minimally invasive long-term epilepsy monitoring trials with single-channel EKG as a particularly promising modality. This is an open access article under the CC BY-NC-ND license. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).},
+	language = {en},
+	urldate = {2024-11-21},
+	journal = {EBioMedicine},
+	author = {Meisel, Christian and Bailey, Kimberlyn A.},
+	month = jul,
+	year = {2019},
+	pages = {422--431},
+	file = {Meisel und Bailey - 2019 - Identifying signal-dependent information about the.pdf:/Users/christianmeisel/Zotero/storage/GED3ER6V/Meisel und Bailey - 2019 - Identifying signal-dependent information about the.pdf:application/pdf},
+}
+
+@article{meisel_seizure_2020,
+	title = {Seizure prediction and intervention},
+	volume = {172},
+	issn = {00283908},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S0028390819304691},
+	doi = {10.1016/j.neuropharm.2019.107898},
+	abstract = {Epilepsy treatment is challenging due to a lack of essential diagnostic tools, including methods for reliable seizure detection in the ambulatory setting, to assess seizure risk over time and to monitor treatment efficacy. This lack of objective diagnostics constitutes a significant barrier to better treatments, raises methodological concerns about the antiseizure medication evaluation process and, to patients, is a main issue contributing to the disease burden. Recent years have seen rapid progress towards better diagnostics that meet these needs of epilepsy patients and clinicians. Availability of comprehensive data and the rise of more powerful computational analysis methods have driven progress in this area. Here, we provide an overview on data- and theory-driven approaches aimed at identifying methods to reliably detect and forecast seizures as well as to monitor brain excitability and treatment efficacy in epilepsy. We provide a particular account on neural criticality, the hypothesis that cortical networks may be poised in a critical state at the boundary between different types of dynamics, and discuss its role in informing diagnostics to track cortex excitability and seizure risk in recent experiments. With the further expansion of digitalization in medicine, tele-medicine and long-term, ambulatory monitoring, these computationally based methods may gain more relevance in epilepsy in the future.},
+	language = {en},
+	urldate = {2024-11-21},
+	journal = {Neuropharmacology},
+	author = {Meisel, Christian and Loddenkemper, Tobias},
+	month = aug,
+	year = {2020},
+	pages = {107898},
+	file = {Meisel und Loddenkemper - 2020 - Seizure prediction and intervention.pdf:/Users/christianmeisel/Zotero/storage/LSB4EU7B/Meisel und Loddenkemper - 2020 - Seizure prediction and intervention.pdf:application/pdf},
+}
+
+@article{meisel_machine_2020,
+	title = {Machine learning from wristband sensor data for wearable, noninvasive seizure forecasting},
+	volume = {61},
+	issn = {0013-9580, 1528-1167},
+	url = {https://onlinelibrary.wiley.com/doi/10.1111/epi.16719},
+	doi = {10.1111/epi.16719},
+	abstract = {Objective: Seizure forecasting may provide patients with timely warnings to adapt their daily activities and help clinicians deliver more objective, personalized treatments. Although recent work has convincingly demonstrated that seizure risk assessment is in principle possible, these early approaches relied largely on complex, often invasive setups including intracranial electrocorticography, implanted devices, and multichannel electroencephalography, and required patient-specific adaptation or learning to perform optimally, all of which limit translation to broad clinical application. To facilitate broader adaptation of seizure forecasting in clinical practice, noninvasive, easily applicable techniques that reliably assess seizure risk without much prior tuning are crucial. Wristbands that continuously record physiological parameters, including electrodermal activity, body temperature, blood volume pulse, and actigraphy, may afford monitoring of autonomous nervous system function and movement relevant for such a task, hence minimizing potential complications associated with invasive monitoring and avoiding stigma associated with bulky external monitoring devices on the head.},
+	language = {en},
+	number = {12},
+	urldate = {2024-11-21},
+	journal = {Epilepsia},
+	author = {Meisel, Christian and El Atrache, Rima and Jackson, Michele and Schubach, Sarah and Ufongene, Claire and Loddenkemper, Tobias},
+	month = dec,
+	year = {2020},
+	pages = {2653--2666},
+	file = {Meisel et al. - 2020 - Machine learning from wristband sensor data for we.pdf:/Users/christianmeisel/Zotero/storage/ZPNBPSX6/Meisel et al. - 2020 - Machine learning from wristband sensor data for we.pdf:application/pdf},
+}
+
+@article{meisel_ambulantes_2023,
+	title = {Ambulantes {Langzeit}-{Video}-{EEG} als neuer diagnostischer {Ansatz} in {Deutschland}: {Ergebnisse} einer {Machbarkeitsstudie}},
+	volume = {94},
+	issn = {0028-2804, 1433-0407},
+	shorttitle = {Ambulantes {Langzeit}-{Video}-{EEG} als neuer diagnostischer {Ansatz} in {Deutschland}},
+	url = {https://link.springer.com/10.1007/s00115-022-01412-0},
+	doi = {10.1007/s00115-022-01412-0},
+	abstract = {Zusammenfassung
+            Das Langzeit-Video-EEG als Goldstandarddiagnostik bei Epilepsie und anderen Anfallsleiden ist in Deutschland derzeit nur in wenigen spezialisierten Zentren zur stationären Überwachung verfügbar. Diese begrenzten Überwachungskapazitäten und der damit verbundene hohe Zeit- und Arbeitsaufwand führen bundesweit zu einer erheblichen Wartezeit für diese wichtige Diagnostik. Neue, tragbare Sensortechnologien und automatisierte Datenanalysemethoden schaffen Möglichkeiten für Video-EEG-Langzeituntersuchungen nach dem Goldstandard im ambulanten Bereich, die dazu beitragen können, diese Barriere zu überwinden. Hier berichten wir über die Ergebnisse einer Machbarkeitsstudie an einem Zentrum, in der das ambulante Langzeit-Video-EEG (ALVEEG) als diagnostischer Weg in Deutschland eingeführt wurde. In dem neuen Diagnostikpfad soll der Einsatz innovativer, tragbarer Video-EEG-Monitoringsysteme zusammen mit einer durch künstliche Intelligenz unterstützten Datenanalyse den von Anfallsleiden betroffenen Patienten einen schnelleren, effizienteren und sektorübergreifenden Zugang zu einer Goldstandarddiagnostik in der häuslichen Umgebung ermöglichen. Die Diagnostik wurde von Patienten und Klinikern gut angenommen und könnte eine ergänzende Option zur stationären Überwachung darstellen, um die derzeitigen Engpässe in Diagnostik und Versorgung zu beseitigen.
+          , 
+            Abstract
+            In Germany, long-term video EEG as the gold standard for the diagnostics of epilepsy and other seizure disorders, is currently only available for inpatient monitoring in a limited number of specialized centers. These limited monitoring capacities and the large amount of associated time and work resources lead to a significant waiting time for this important diagnostic procedure nationwide. New portable sensor technology and automated data analysis methods are creating opportunities for gold standard long-term video EEG assessments in outpatient settings, which may help to resolve this barrier. Here, we report the results of a single-center feasibility study by implementing outpatient long-term video EEG (ALVEEG) as a diagnostic pathway in Germany. In the new diagnostic pathway, the use of innovative, portable video EEG monitoring systems along with artificial intelligence-assisted data analysis are intended to provide those patients affected by seizure disorders with a more rapid, efficient, and cross-sectoral access to gold standard diagnostics in the home environment. The diagnostics were well accepted by patients and clinicians and may represent a complementary option to inpatient monitoring to eliminate current bottlenecks in diagnostics and care.},
+	language = {de},
+	number = {6},
+	urldate = {2024-11-21},
+	journal = {Der Nervenarzt},
+	author = {Meisel, Christian and Holtkamp, Martin and Vock, Simon},
+	month = jun,
+	year = {2023},
+	pages = {519--524},
+	file = {Meisel et al. - 2023 - Ambulantes Langzeit-Video-EEG als neuer diagnostis.pdf:/Users/christianmeisel/Zotero/storage/SBD69JNB/Meisel et al. - 2023 - Ambulantes Langzeit-Video-EEG als neuer diagnostis.pdf:application/pdf},
+}
+
+@article{meisel_linking_2016,
+	title = {Linking cortical network synchrony and excitability},
+	volume = {9},
+	issn = {1942-0889},
+	url = {http://www.tandfonline.com/doi/full/10.1080/19420889.2015.1128598},
+	doi = {10.1080/19420889.2015.1128598},
+	abstract = {Theoretical approaches based on dynamical systems theory can provide useful frameworks to guide experiments and analysis techniques when investigating cortical network activity. The notion of phase transitions between qualitatively different kinds of network dynamics has been such a framework inspiring novel approaches to neurophysiological data analysis over the recent years. One particular intriguing hypothesis has been that cortical networks reside in the vicinity of a phase transition. Although the ﬁnal verdict on this hypothesis is still out, trying to understand cortex dynamics from this viewpoint has recently led to interesting insights on cortical network function with relevance for clinical practice.},
+	language = {en},
+	number = {1},
+	urldate = {2024-11-21},
+	journal = {Communicative \& Integrative Biology},
+	author = {Meisel, Christian},
+	month = jan,
+	year = {2016},
+	pages = {e1128598},
+	file = {Meisel - 2016 - Linking cortical network synchrony and excitabilit.pdf:/Users/christianmeisel/Zotero/storage/QHTB9GCD/Meisel - 2016 - Linking cortical network synchrony and excitabilit.pdf:application/pdf},
+}
+
+@article{meisel_antiepileptic_2020,
+	title = {Antiepileptic drugs induce subcritical dynamics in human cortical networks},
+	volume = {117},
+	issn = {0027-8424, 1091-6490},
+	url = {https://pnas.org/doi/full/10.1073/pnas.1911461117},
+	doi = {10.1073/pnas.1911461117},
+	abstract = {Significance
+            Activity propagation in cortex must be carefully balanced to prevent premature die-out and runaway excitation. In this study, large-scale human electrophysiology data and systematic pharmacological control of cortical network interactions are used to provide evidence that cortical network dynamics is controlled by network interactions according to a branching process. The results provide a missing link to the branching process theory of cortical network function with implications for understanding the foundations of cortical excitability, its monitoring in conditions like epilepsy, and how the balance of excitation and inhibition shapes the capacity of temporal information integration in cortical networks.
+          , 
+            Cortical network functioning critically depends on finely tuned interactions to afford neuronal activity propagation over long distances while avoiding runaway excitation. This importance is highlighted by the pathological consequences and impaired performance resulting from aberrant network excitability in psychiatric and neurological diseases, such as epilepsy. Theory and experiment suggest that the control of activity propagation by network interactions can be adequately described by a branching process. This hypothesis is partially supported by strong evidence for balanced spatiotemporal dynamics observed in the cerebral cortex; however, evidence of a causal relationship between network interactions and cortex activity, as predicted by a branching process, is missing in humans. Here this cause–effect relationship is tested by monitoring cortex activity under systematic pharmacological reduction of cortical network interactions with antiepileptic drugs. This study reports that cortical activity cascades, presented by the propagating patterns of epileptic spikes, as well as temporal correlations decline precisely as predicted for a branching process. The results provide a missing link to the branching process theory of cortical network function with implications for understanding the foundations of cortical excitability and its monitoring in conditions like epilepsy.},
+	language = {en},
+	number = {20},
+	urldate = {2024-11-21},
+	journal = {Proceedings of the National Academy of Sciences},
+	author = {Meisel, Christian},
+	month = may,
+	year = {2020},
+	pages = {11118--11125},
+	file = {Meisel - 2020 - Antiepileptic drugs induce subcritical dynamics in.pdf:/Users/christianmeisel/Zotero/storage/IBWYZ8YV/Meisel - 2020 - Antiepileptic drugs induce subcritical dynamics in.pdf:application/pdf},
+}
+
+@article{manzouri_low-frequency_2021,
+	title = {Low-frequency electrical stimulation reduces cortical excitability in the human brain},
+	volume = {31},
+	issn = {22131582},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S2213158221002229},
+	doi = {10.1016/j.nicl.2021.102778},
+	abstract = {Effective seizure control remains challenging for about 30\% of epilepsy patients who are resistant to present-day pharmacotherapy. Novel approaches that not only reduce the severity and frequency of seizures, but also have limited side effects are therefore desirable. Accordingly, various neuromodulation approaches such as cortical electrical stimulation have been implemented to reduce seizure burden; however, the underlying mechanisms are not completely understood. Given that the initiation and spread of epileptic seizures critically depend on cortical excitability, understanding the neuromodulatory effects of cortical electrical stimulation on cortical excitability levels is paramount. Based on observations that synchronization in the electrocorticogram closely tracks brain excitability level, the effects of low-frequency (1 Hz) intracranial brain stimulation on the levels of cortical phase synchronization before, during, and after 1 Hz electrical stimulation were assessed in twelve patients. Analysis of phase synchronization levels across three broad frequency bands (1–45 Hz, 55–95 Hz, and 105–195 Hz) revealed that in patients with stimulation sites in the neocortex, phase synchronization levels were significantly reduced within the 55–95 Hz and 105–195 Hz bands during post-stimulation intervals compared to baseline; this effect persisted for at least 30 min post-stimulation. Similar effects were observed when phase synchronization levels were examined in the classic frequency bands, whereby a significant reduction was found during the poststimulation intervals in the alpha, beta, and gamma bands. The anatomical extent of these effects was then assessed. Analysis of the results from six patients with intracranial electrodes in both hemispheres indicated that reductions in phase synchronization in the 1–45 Hz and 55–95 Hz frequency ranges were more prominent in the stimulated hemisphere. Overall, these findings demonstrate that low-frequency electrical stimulation reduces phase synchronization and hence cortical excitability in the human brain. Low-frequency stimulation of the epileptic focus may therefore contribute to the prevention of impending epileptic seizures.},
+	language = {en},
+	urldate = {2024-11-21},
+	journal = {NeuroImage: Clinical},
+	author = {Manzouri, Farrokh and Meisel, Christian and Kunz, Lukas and Dümpelmann, Matthias and Stieglitz, Thomas and Schulze-Bonhage, Andreas},
+	year = {2021},
+	pages = {102778},
+	file = {Manzouri et al. - 2021 - Low-frequency electrical stimulation reduces corti.pdf:/Users/christianmeisel/Zotero/storage/VH4KDRHG/Manzouri et al. - 2021 - Low-frequency electrical stimulation reduces corti.pdf:application/pdf},
+}
+
+@article{miron_seizure_2024,
+	title = {Seizure forecasting based on {AI}-supported analysis of multidien and circadian cycles in {EEG} and non-{EEG} long-term datasets},
+	volume = {37},
+	issn = {2948-104X, 2948-1058},
+	url = {https://link.springer.com/10.1007/s10309-024-00709-1},
+	doi = {10.1007/s10309-024-00709-1},
+	abstract = {Long-term datasets in epilepsy encompassing weeks to months of continuous physiological signal recordings along with novel data analysis techniques have recently advanced the understanding of epilepsy in several aspects. Patterns of seizures, interictal discharges, and autonomous nervous system activity were observed to often exhibit long, multidien cycles that are often correlated with each other. These observations have provided the basis for new approaches to forecast seizure risk from electroencephalographic (EEG) and non-EEG data.},
+	language = {en},
+	number = {4},
+	urldate = {2024-11-21},
+	journal = {Clinical Epileptology},
+	author = {Miron, Gadi and Meisel, Christian},
+	month = nov,
+	year = {2024},
+	pages = {278--281},
+	file = {Miron und Meisel - 2024 - Seizure forecasting based on AI-supported analysis.pdf:/Users/christianmeisel/Zotero/storage/6KAMK4KN/Miron und Meisel - 2024 - Seizure forecasting based on AI-supported analysis.pdf:application/pdf},
+}
+
+@article{muller_spatial_2023,
+	title = {Spatial and temporal correlations in human cortex are inherently linked and predicted by functional hierarchy, vigilance state as well as antiepileptic drug load},
+	volume = {19},
+	issn = {1553-7358},
+	url = {https://dx.plos.org/10.1371/journal.pcbi.1010919},
+	doi = {10.1371/journal.pcbi.1010919},
+	abstract = {The ability of neural circuits to integrate information over time and across different cortical areas is believed an essential ingredient for information processing in the brain. Temporal and spatial correlations in cortex dynamics have independently been shown to capture these integration properties in task-dependent ways. A fundamental question remains if temporal and spatial integration properties are linked and what internal and external factors shape these correlations. Previous research on spatio-temporal correlations has been limited in duration and coverage, thus providing only an incomplete picture of their interdependence and variability. Here, we use long-term invasive EEG data to comprehensively map temporal and spatial correlations according to cortical topography, vigilance state and drug dependence over extended periods of time. We show that temporal and spatial correlations in cortical networks are intimately linked, decline under antiepileptic drug action, and break down during slow-wave sleep. Further, we report temporal correlations in human electrophysiology signals to increase with the functional hierarchy in cortex. Systematic investigation of a neural network model suggests that these dynamical features may arise when dynamics are poised near a critical point. Our results provide mechanistic and functional links between specific measurable changes in the network dynamics relevant for characterizing the brain’s changing information processing capabilities.},
+	language = {en},
+	number = {3},
+	urldate = {2024-11-21},
+	journal = {PLOS Computational Biology},
+	author = {Müller, Paul Manuel and Meisel, Christian},
+	editor = {Taylor, Peter Neal},
+	month = mar,
+	year = {2023},
+	pages = {e1010919},
+	file = {Müller und Meisel - 2023 - Spatial and temporal correlations in human cortex .pdf:/Users/christianmeisel/Zotero/storage/5WK4VR3R/Müller und Meisel - 2023 - Spatial and temporal correlations in human cortex .pdf:application/pdf},
+}
+
+@article{nelde_data_2023,
+	title = {Data lake-driven analytics identify nocturnal non-dipping of heart rate as predictor of unfavorable stroke outcome at discharge},
+	volume = {270},
+	issn = {0340-5354, 1432-1459},
+	url = {https://link.springer.com/10.1007/s00415-023-11718-x},
+	doi = {10.1007/s00415-023-11718-x},
+	abstract = {Background  Post-stroke heart rate (HR) and heart rate variability (HRV) changes have been proposed as outcome predictors after stroke. We used data lake-enabled continuous electrocardiograms to assess post-stroke HR and HRV, and to determine the utility of HR and HRV to improve machine learning-based predictions of stroke outcome.
+Methods  In this observational cohort study, we included stroke patients admitted to two stroke units in Berlin, Germany, between October 2020 and December 2021 with final diagnosis of acute ischemic stroke or acute intracranial hemorrhage and collected continuous ECG data through data warehousing. We created circadian profiles of several continuously recorded ECG parameters including HR and HRV parameters. The pre-defined primary outcome was short-term unfavorable functional outcome after stroke indicated through modified Rankin Scale (mRS) score of {\textgreater} 2.
+Results  We included 625 stroke patients, 287 stroke patients remained after matching for age and National Institute of Health Stroke Scale (NIHSS; mean age 74.5 years, 45.6\% female, 88.9\% ischemic, median NIHSS 5). Both higher HR and nocturnal non-dipping of HR were associated with unfavorable functional outcome (p {\textless} 0.01). The examined HRV parameters were not associated with the outcome of interest. Nocturnal non-dipping of HR ranked highly in feature importance of various machine learning models.
+Conclusions  Our data suggest that a lack of circadian HR modulation, specifically nocturnal non-dipping, is associated with short-term unfavorable functional outcome after stroke, and that including HR into machine learning-based prediction models may lead to improved stroke outcome prediction.},
+	language = {en},
+	number = {8},
+	urldate = {2024-11-21},
+	journal = {Journal of Neurology},
+	author = {Nelde, Alexander and Klammer, Markus G. and Nolte, Christian H. and Stengl, Helena and Krämer, Michael and Von Rennenberg, Regina and Meisel, Andreas and Scheibe, Franziska and Endres, Matthias and Scheitz, Jan F. and Meisel, Christian},
+	month = aug,
+	year = {2023},
+	pages = {3810--3820},
+	file = {Nelde et al. - 2023 - Data lake-driven analytics identify nocturnal non-.pdf:/Users/christianmeisel/Zotero/storage/VX74I5EA/Nelde et al. - 2023 - Data lake-driven analytics identify nocturnal non-.pdf:application/pdf},
+}
+
+@article{nelde_machine_2024,
+	title = {Machine learning using multimodal and autonomic nervous system parameters predicts clinically apparent stroke-associated pneumonia in a development and testing study},
+	volume = {271},
+	issn = {0340-5354, 1432-1459},
+	url = {https://link.springer.com/10.1007/s00415-023-12031-3},
+	doi = {10.1007/s00415-023-12031-3},
+	abstract = {Background  Stroke-associated pneumonia (SAP) is a preventable determinant for poor outcome after stroke. Machine learning (ML) using large-scale clinical data warehouses may be able to predict SAP and identify patients for targeted interventions. The aim of this study was to develop a prediction model for identifying clinically apparent SAP using automated ML.
+Methods  The ML model used clinical and laboratory parameters along with heart rate (HR), heart rate variability (HRV), and blood pressure (BP) values obtained during the first 48 h after stroke unit admission. A logistic regression classifier was developed and internally validated with a nested-cross-validation (nCV) approach. For every shuffle, the model was first trained and validated with a fixed threshold for 0.9 sensitivity, then finally tested on the out-of-sample data and benchmarked against a widely validated clinical score (A2DS2).
+Results  We identified 2390 eligible patients admitted to two-stroke units at Charité between October 2020 and June 2023, of whom 1755 had all parameters available. SAP was diagnosed in 96/1755 (5.5\%). Circadian profiles in HR, HRV, and BP metrics during the first 48 h after admission exhibited distinct differences between patients with SAP diagnosis vs. those without. CRP, mRS at admission, leukocyte count, high-frequency power in HRV, stroke severity at admission, sex, and diastolic BP were identified as the most informative ML features. We obtained an AUC of 0.91 (CI 0.88–0.95) for the ML model on the out-of-sample data in comparison to an AUC of 0.84 (CI 0.76–0.91) for the previously established A2DS2 score (p {\textless} 0.001). The ML model provided a sensitivity of 0.87 (CI 0.75–0.97) with a corresponding specificity of 0.82 (CI 0.78–0.85) which outperformed the A2DS2 score for multiple cutoffs.
+Conclusions  Automated, data warehouse-based prediction of clinically apparent SAP in the stroke unit setting is feasible, benefits from the inclusion of vital signs, and could be useful for identifying high-risk patients or prophylactic pneumonia management in clinical routine.},
+	language = {en},
+	number = {2},
+	urldate = {2024-11-21},
+	journal = {Journal of Neurology},
+	author = {Nelde, Alexander and Krumm, Laura and Arafat, Subhi and Hotter, Benjamin and Nolte, Christian H. and Scheitz, Jan F. and Klammer, Markus G. and Krämer, Michael and Scheib, Franziska and Endres, Matthias and Meisel, Andreas and Meisel, Christian},
+	month = feb,
+	year = {2024},
+	pages = {899--908},
+	file = {Nelde et al. - 2024 - Machine learning using multimodal and autonomic ne.pdf:/Users/christianmeisel/Zotero/storage/YCQIFIS6/Nelde et al. - 2024 - Machine learning using multimodal and autonomic ne.pdf:application/pdf},
+}
+
+@article{yu_maintained_2017,
+	title = {Maintained avalanche dynamics during task-induced changes of neuronal activity in nonhuman primates},
+	volume = {6},
+	copyright = {http://creativecommons.org/publicdomain/zero/1.0/},
+	issn = {2050-084X},
+	url = {https://elifesciences.org/articles/27119},
+	doi = {10.7554/eLife.27119},
+	abstract = {Sensory events, cognitive processing and motor actions correlate with transient changes in neuronal activity. In cortex, these transients form widespread spatiotemporal patterns with largely unknown statistical regularities. Here, we show that activity associated with behavioral events carry the signature of scale-invariant spatiotemporal clusters, neuronal avalanches. Using high-density microelectrode arrays in nonhuman primates, we recorded extracellular unit activity and the local field potential (LFP) in premotor and prefrontal cortex during motor and cognitive tasks. Unit activity and negative LFP deflections (nLFP) consistently changed in rate at single electrodes during tasks. Accordingly, nLFP clusters on the array deviated from scale-invariance compared to ongoing activity. Scale-invariance was recovered using ‘adaptive binning’, that is identifying clusters at temporal resolution given by task-induced changes in nLFP rate. Measures of LFP synchronization confirmed and computer simulations detailed our findings. We suggest optimization principles identified for avalanches during ongoing activity to apply to cortical information processing during behavior.},
+	language = {en},
+	urldate = {2024-11-21},
+	journal = {eLife},
+	author = {Yu, Shan and Ribeiro, Tiago L and Meisel, Christian and Chou, Samantha and Mitz, Andrew and Saunders, Richard and Plenz, Dietmar},
+	month = nov,
+	year = {2017},
+	pages = {e27119},
+	file = {Yu et al. - 2017 - Maintained avalanche dynamics during task-induced .pdf:/Users/christianmeisel/Zotero/storage/L7IJ8R9P/Yu et al. - 2017 - Maintained avalanche dynamics during task-induced .pdf:application/pdf},
+}
+
+@article{andina_datawarehouse-enabled_2023,
+	title = {Datawarehouse-enabled quality control of atrial fibrillation detection in the stroke unit setting},
+	volume = {9},
+	issn = {24058440},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S2405844023056402},
+	doi = {10.1016/j.heliyon.2023.e18432},
+	abstract = {Objective: (1) To assess the accuracy of a standard operating procedure (SOP) regarding the uti­ lization of atrial fibrillation (AF) alarms in everyday clinical practice, and (2) to evaluate the performance of automated continuous surveillance for atrial fibrillation (AF) in hospitalized acute stroke patients.},
+	language = {en},
+	number = {8},
+	urldate = {2024-11-21},
+	journal = {Heliyon},
+	author = {Andina, Mario E. and Nelde, Alexander and Nolte, Christian H. and Scheitz, Jan F. and Olma, Manuel C. and Krämer, Michael and Meisel, Eckhard and Bingel, Anne and Meisel, Andreas and Scheibe, Franziska and Endres, Matthias and Schlemm, Ludwig and Meisel, Christian},
+	month = aug,
+	year = {2023},
+	pages = {e18432},
+	file = {Andina et al. - 2023 - Datawarehouse-enabled quality control of atrial fi.pdf:/Users/christianmeisel/Zotero/storage/IC3YSSVC/Andina et al. - 2023 - Datawarehouse-enabled quality control of atrial fi.pdf:application/pdf},
+}
+
+@incollection{plenz_mechanisms_2014,
+	edition = {1},
+	title = {Mechanisms of {Self}‐{Organized} {Criticality} in {Adaptive} {Networks}},
+	isbn = {978-3-527-41104-7 978-3-527-65100-9},
+	url = {https://onlinelibrary.wiley.com/doi/10.1002/9783527651009.ch18},
+	language = {en},
+	urldate = {2024-11-21},
+	booktitle = {Criticality in {Neural} {Systems}},
+	publisher = {Wiley},
+	author = {Gross, Thilo and Do, Anne‐Ly and Droste, Felix and Meisel, Christian},
+	editor = {Plenz, Dietmar and Niebur, Ernst},
+	month = apr,
+	year = {2014},
+	doi = {10.1002/9783527651009.ch18},
+	pages = {393--402},
+	file = {Gross et al. - 2014 - Mechanisms of Self‐Organized Criticality in Adapti.pdf:/Users/christianmeisel/Zotero/storage/DBMNGQBU/Gross et al. - 2014 - Mechanisms of Self‐Organized Criticality in Adapti.pdf:application/pdf},
+}
+
+@article{halimeh_wearable_2022,
+	title = {Wearable device assessments of antiseizure medication effects on diurnal patterns of electrodermal activity, heart rate, and heart rate variability},
+	volume = {129},
+	issn = {15255050},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S1525505022000841},
+	doi = {10.1016/j.yebeh.2022.108635},
+	abstract = {Patient-generated health data provide a great opportunity for more detailed ambulatory monitoring and more personalized treatments in many diseases. In epilepsy, robust diagnostics applicable to the ambulatory setting are needed as diagnosis and treatment decisions in current clinical practice are primarily reliant on patient self-reports, which are often inaccurate. Recent work using wearable devices has focused on methods to detect and forecast epileptic seizures. Whether wearable device signals may also contain information about the effect of antiseizure medications (ASMs), which may ultimately help to better monitor their efﬁcacy, has not been evaluated yet. Here we systematically investigated the effect of ASMs on different data modalities (electrodermal activity, EDA, heart rate, HR, and heart rate variability, HRV) simultaneously recorded by a wearable device in 48 patients with epilepsy over several days in the epilepsy long-term monitoring unit at a tertiary hospital. All signals exhibited characteristic diurnal variations. HRV, but not HR or EDA-based metrics, were reduced by ASMs. By assessing multiple signals related to the autonomic nervous system simultaneously, our results provide novel insights into the effects of ASMs on the sympathetic and parasympathetic interplay in the setting of epilepsy and indicate the potential of easy-to-wear wearable devices for monitoring ASM action. Future work using longer data may investigate these metrics on multidien cycles and their utility for detecting seizures, assessing seizure risk, or informing treatment interventions.},
+	language = {en},
+	urldate = {2024-11-21},
+	journal = {Epilepsy \& Behavior},
+	author = {Halimeh, Mustafa and Yang, Yonghua and Sheehan, Theodore and Vieluf, Solveig and Jackson, Michele and Loddenkemper, Tobias and Meisel, Christian},
+	month = apr,
+	year = {2022},
+	pages = {108635},
+	file = {Halimeh et al. - 2022 - Wearable device assessments of antiseizure medicat.pdf:/Users/christianmeisel/Zotero/storage/A4L7IH2D/Halimeh et al. - 2022 - Wearable device assessments of antiseizure medicat.pdf:application/pdf},
+}
+
+@article{halimeh_explainable_2023,
+	title = {Explainable {AI} for wearable seizure logging: {Impact} of data quality, patient age, and antiseizure medication on performance},
+	volume = {110},
+	issn = {10591311},
+	shorttitle = {Explainable {AI} for wearable seizure logging},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S1059131123001553},
+	doi = {10.1016/j.seizure.2023.06.002},
+	abstract = {Objective: Objective seizure count estimates are crucial for ambulatory epilepsy management. Wearables have shown promise for the detection of tonic-clonic seizures but may suffer from false alarms and undetected sei­ zures. Seizure signatures recorded by wearables often occur over prolonged periods, including increased levels of electrodermal activity and heart rate long after seizure EEG onset, however, previous detection methods only partially exploited these signatures. Understanding the utility of these prolonged signatures for seizure count estimation and what factors generally determine seizure logging performance, including the role of data quality vs. algorithm performance, is thus crucial for improving wearables-based epilepsy monitoring and determining which patients benefit most from this technology.},
+	language = {en},
+	urldate = {2024-11-21},
+	journal = {Seizure: European Journal of Epilepsy},
+	author = {Halimeh, Mustafa and Jackson, Michele and Vieluf, Solveig and Loddenkemper, Tobias and Meisel, Christian},
+	month = aug,
+	year = {2023},
+	pages = {99--108},
+	file = {Halimeh et al. - 2023 - Explainable AI for wearable seizure logging Impac.pdf:/Users/christianmeisel/Zotero/storage/DDDXG56K/Halimeh et al. - 2023 - Explainable AI for wearable seizure logging Impac.pdf:application/pdf},
+}
+
+@article{maturana_critical_2020,
+	title = {Critical slowing down as a biomarker for seizure susceptibility},
+	volume = {11},
+	issn = {2041-1723},
+	url = {https://www.nature.com/articles/s41467-020-15908-3},
+	doi = {10.1038/s41467-020-15908-3},
+	abstract = {Abstract
+            The human brain has the capacity to rapidly change state, and in epilepsy these state changes can be catastrophic, resulting in loss of consciousness, injury and even death. Theoretical interpretations considering the brain as a dynamical system suggest that prior to a seizure, recorded brain signals may exhibit critical slowing down, a warning signal preceding many critical transitions in dynamical systems. Using long-term intracranial electroencephalography (iEEG) recordings from fourteen patients with focal epilepsy, we monitored key signatures of critical slowing down prior to seizures. The metrics used to detect critical slowing down fluctuated over temporally long scales (hours to days), longer than would be detectable in standard clinical evaluation settings. Seizure risk was associated with a combination of these signals together with epileptiform discharges. These results provide strong validation of theoretical models and demonstrate that critical slowing down is a reliable indicator that could be used in seizure forecasting algorithms.},
+	language = {en},
+	number = {1},
+	urldate = {2024-11-21},
+	journal = {Nature Communications},
+	author = {Maturana, Matias I. and Meisel, Christian and Dell, Katrina and Karoly, Philippa J. and D’Souza, Wendyl and Grayden, David B. and Burkitt, Anthony N. and Jiruska, Premysl and Kudlacek, Jan and Hlinka, Jaroslav and Cook, Mark J. and Kuhlmann, Levin and Freestone, Dean R.},
+	month = may,
+	year = {2020},
+	pages = {2172},
+	file = {Maturana et al. - 2020 - Critical slowing down as a biomarker for seizure s.pdf:/Users/christianmeisel/Zotero/storage/HFU62TYS/Maturana et al. - 2020 - Critical slowing down as a biomarker for seizure s.pdf:application/pdf},
+}
+
+@article{yokoyama_proteolytically_2011,
+	title = {Proteolytically cleaved {MLL} subunits are susceptible to distinct degradation pathways},
+	volume = {124},
+	issn = {1477-9137, 0021-9533},
+	url = {https://journals.biologists.com/jcs/article/124/13/2208/31834/Proteolytically-cleaved-MLL-subunits-are},
+	doi = {10.1242/jcs.080523},
+	abstract = {The mixed lineage leukemia (MLL) proto-oncogenic protein is a histone-lysine N-methyltransferase that is produced by proteolytic cleavage and self-association of the respective functionally distinct subunits (MLLN and MLLC) to form a holocomplex involved in epigenetic transcriptional regulation. On the basis of studies in Drosophila it has been suggested that the separated subunits might also have distinct functions. In this study, we used a genetically engineered mouse line that lacked MLLC to show that the MLLN–MLLC holocomplex is responsible for MLL functions in various developmental processes. The stability of MLLN is dependent on its intramolecular interaction with MLLC, which is mediated through the first and fourth plant homeodomain (PHD) fingers (PHD1 and PHD4) and the phenylalanine/tyrosine-rich (FYRN) domain of MLLN. Free MLLN is destroyed by a mechanism that targets the FYRN domain, whereas free MLLC is exported to the cytoplasm and degraded by the proteasome. PHD1 is encoded by an alternatively spliced exon that is occasionally deleted in T-cell leukemia, and its absence produces an MLL mutant protein that is deficient for holocomplex formation. Therefore, this should be a loss-of-function mutant allele, suggesting that the known tumor suppression role of MLL may also apply to the T-cell lineage. Our data demonstrate that the dissociated MLL subunits are subjected to distinct degradation pathways and thus not likely to have separate functions unless the degradation mechanisms are inhibited.},
+	language = {en},
+	number = {13},
+	urldate = {2024-11-21},
+	journal = {Journal of Cell Science},
+	author = {Yokoyama, Akihiko and Ficara, Francesca and Murphy, Mark J. and Meisel, Christian and Naresh, Alpana and Kitabayashi, Issay and Cleary, Michael L.},
+	month = jul,
+	year = {2011},
+	pages = {2208--2219},
+	file = {Yokoyama et al. - 2011 - Proteolytically cleaved MLL subunits are susceptib.pdf:/Users/christianmeisel/Zotero/storage/KIDFMCXT/Yokoyama et al. - 2011 - Proteolytically cleaved MLL subunits are susceptib.pdf:application/pdf},
+}
+
+@article{yokoyama_mll_2013,
+	title = {{MLL} {Becomes} {Functional} through {Intra}-{Molecular} {Interaction} {Not} by {Proteolytic} {Processing}},
+	volume = {8},
+	issn = {1932-6203},
+	url = {https://dx.plos.org/10.1371/journal.pone.0073649},
+	doi = {10.1371/journal.pone.0073649},
+	abstract = {The mixed lineage leukemia (MLL) protein is an epigenetic transcriptional regulator that controls proliferative expansion of immature hematopoietic progenitors, whose aberrant activation triggers leukemogenesis. A mature MLL protein is produced by formation of an intra-molecular complex and proteolytic cleavage. However the biological significance of these two post-transcriptional events remains unclear. To address their in vivo roles, mouse mutant alleles were created that exclusively express either a variant protein incapable of intra-molecular interaction (designated de) or an uncleavable mutant protein (designated uc). The de homozygous mice died during midgestation and manifested devastating failure in embryonic development and reduced numbers of hematopoietic progenitors, whereas uc homozygous mice displayed no apparent defects. Expression of MLL target genes was severely impaired in de homozygous fibroblasts but unaffected in uc homozygous fibroblasts. These results unequivocally demonstrate that intra-molecular complex formation is a crucial maturation step whereas proteolytic cleavage is dispensable for MLL-dependent gene activation and proliferation in vivo.},
+	language = {en},
+	number = {9},
+	urldate = {2024-11-21},
+	journal = {PLoS ONE},
+	author = {Yokoyama, Akihiko and Ficara, Francesca and Murphy, Mark J. and Meisel, Christian and Hatanaka, Chikako and Kitabayashi, Issay and Cleary, Michael L.},
+	editor = {Akagi, Tadayuki},
+	month = sep,
+	year = {2013},
+	pages = {e73649},
+	file = {Yokoyama et al. - 2013 - MLL Becomes Functional through Intra-Molecular Int.pdf:/Users/christianmeisel/Zotero/storage/ELD8FKEF/Yokoyama et al. - 2013 - MLL Becomes Functional through Intra-Molecular Int.pdf:application/pdf},
+}
+
+@article{yaffe_physiology_2015,
+	title = {Physiology of functional and effective networks in epilepsy},
+	volume = {126},
+	issn = {13882457},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S1388245714004945},
+	doi = {10.1016/j.clinph.2014.09.009},
+	abstract = {Epilepsy is a network phenomenon characterized by atypical activity during seizure both at the level of single neurons and neural populations. The etiology of epilepsy is not completely understood but a common theme among proposed mechanisms is abnormal synchronization between neuronal populations. Recent advances in novel imaging and recording technologies have enabled the inference of comprehensive maps of both the anatomical and physiological inter-relationships between brain regions. Clinical protocols established for diagnosis and treatment of epilepsy utilize both advanced neuroimaging techniques and neurophysiological data. These growing clinical datasets can be further exploited to better understand the complex connectivity patterns in the epileptic brain. In this article, we review results and insights gained from the growing body of research focused on epilepsy from a network perspective. In particular, we put an emphasis on two different notions of network connectivity: functional and effective; and studies investigating these notions in epilepsy are highlighted. We also discuss limitations and opportunities in data collection and analyses that will further our understanding of epileptic networks and the mechanisms of seizures.},
+	language = {en},
+	number = {2},
+	urldate = {2024-11-21},
+	journal = {Clinical Neurophysiology},
+	author = {Yaffe, Robert B. and Borger, Philip and Megevand, Pierre and Groppe, David M. and Kramer, Mark A. and Chu, Catherine J. and Santaniello, Sabato and Meisel, Christian and Mehta, Ashesh D. and Sarma, Sridevi V.},
+	month = feb,
+	year = {2015},
+	pages = {227--236},
+	file = {Yaffe et al. - 2015 - Physiology of functional and effective networks in.pdf:/Users/christianmeisel/Zotero/storage/JUUESW8W/Yaffe et al. - 2015 - Physiology of functional and effective networks in.pdf:application/pdf},
+}
+
+@article{meisel_sleep_2015,
+	title = {Sleep, criticality and optimal information processing in cortical networks},
+	doi = {10.3389/978-2-88919-522-0},
+	author = {Meisel, Christian},
+	year = {2015},
+}
+
+@article{lundstrom_estimating_2017,
+	title = {Estimating cortical excitability during chronic subthreshold cortical stimulation to treat focal epilepsy},
+	volume = {82},
+	journal = {Annals of Neurology},
+	author = {Lundstrom, Brian and Meisel, Christian and Van Gompel, Jamie and Stead, Matt and Worrell, Gregory},
+	year = {2017},
+	pages = {S65--S66},
+}
+
+@article{lundstrom_comparing_2018,
+	title = {Comparing spiking and slow wave activity from invasive electroencephalography in patients with and without seizures},
+	volume = {129},
+	issn = {13882457},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S1388245718301068},
+	doi = {10.1016/j.clinph.2018.02.006},
+	abstract = {Objectives—To develop quantitative measures for estimating seizure probability, we examine intracranial EEG data from patient groups with three qualitative seizure probabilities: patients with drug resistant focal epilepsy (high), these patients during cortical stimulation (intermediate), and patients who have no history of seizures (low).
+Methods—Patients with focal epilepsy were implanted with subdural electrodes during presurgical evaluation. Patients without seizures were implanted during treatment with motor cortex stimulation for atypical facial pain.
+Results—The rate and amplitude of spikes correlate with qualitative seizure probability across patient groups and with proximity to the seizure onset zone in focal epilepsy patients. Spikes occur earlier during the negative oscillation of underlying slow activity (0.5–2 Hz) when seizure probability is increased. Similarly, coupling between slow and fast activity is increased.
+Conclusions—There is likely a continuum of sharply contoured activity between nonepileptiform and epileptiform. Characteristics of spiking and how spikes relate to slow activity can be combined to predict seizure onset zones.},
+	language = {en},
+	number = {5},
+	urldate = {2024-11-21},
+	journal = {Clinical Neurophysiology},
+	author = {Lundstrom, Brian Nils and Meisel, Christian and Van Gompel, Jamie and Stead, Matt and Worrell, Greg},
+	month = may,
+	year = {2018},
+	pages = {909--919},
+	file = {Lundstrom et al. - 2018 - Comparing spiking and slow wave activity from inva.pdf:/Users/christianmeisel/Zotero/storage/ZUU5EWUR/Lundstrom et al. - 2018 - Comparing spiking and slow wave activity from inva.pdf:application/pdf},
+}
+
+@incollection{manzouri_effects_2018,
+	title = {Effects of electrical stimulation on cortical phase synchronization as a measure of excitability},
+	isbn = {1431-1968},
+	booktitle = {Contributions to {Statistics}},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Manzouri, Farrokh and Dümpelmann, Matthias and Meisel, Christian and Schulze-Bonhage, Andreas},
+	year = {2018},
+}
+
+@incollection{tomen_neurons_2019,
+	address = {Cham},
+	title = {From {Neurons} to {Networks}: {Critical} {Slowing} {Down} {Governs} {Information} {Processing} {Across} {Vigilance} {States}},
+	volume = {11},
+	isbn = {978-3-030-20964-3 978-3-030-20965-0},
+	shorttitle = {From {Neurons} to {Networks}},
+	url = {http://link.springer.com/10.1007/978-3-030-20965-0_4},
+	language = {en},
+	urldate = {2024-11-21},
+	booktitle = {The {Functional} {Role} of {Critical} {Dynamics} in {Neural} {Systems}},
+	publisher = {Springer International Publishing},
+	author = {Meisel, Christian},
+	editor = {Tomen, Nergis and Herrmann, J. Michael and Ernst, Udo},
+	year = {2019},
+	doi = {10.1007/978-3-030-20965-0_4},
+	note = {Series Title: Springer Series on Bio- and Neurosystems},
+	pages = {69--80},
+}
+
+@article{ufongene_electrocardiographic_2020,
+	title = {Electrocardiographic changes associated with epilepsy beyond heart rate and their utilization in future seizure detection and forecasting methods},
+	volume = {131},
+	issn = {13882457},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S1388245720300341},
+	doi = {10.1016/j.clinph.2020.01.007},
+	abstract = {The ability to assess seizure risk may help provide timely warnings and more personalized treatment plans for people with epilepsy (PWE). ECG changes are commonly observed in epilepsy which make ECG a promising candidate to monitor seizure risk. Most ECG research in this domain has focused on heart rate-related changes. However, several studies have identiﬁed a range of other peri-ictal ECG parameter changes that may potentially prove useful for seizure detection and forecasting. Here, we offer a systematic review of ECG changes in epilepsy outside of heart rate. We performed the systematic literature review according to PRISMA guidelines using key words related to ECG, SUDEP and epilepsy. We identiﬁed and screened 502 abstracts, read 110 full papers, and included 24 papers in the ﬁnal review. Our results suggest that PWE may be more prone to cardiac conduction abnormalities than healthy controls. During interictal periods, PWE were more likely to have abnormal QTc intervals, ST segment abnormalities, elevated T Waves, early repolarization (ER), increased P Wave dispersion and PR intervals when compared to controls. Apart from these baseline abnormalities, changes during the pre-ictal and ictal states have been reported, with arrhythmias, QTc prolongation and ST segment changes being the most common. A better understanding of these state-dependent changes may afford less-cumbersome and less-stigmatizing epilepsy monitoring tools in the future.},
+	language = {en},
+	number = {4},
+	urldate = {2024-11-21},
+	journal = {Clinical Neurophysiology},
+	author = {Ufongene, Claire and El Atrache, Rima and Loddenkemper, Tobias and Meisel, Christian},
+	month = apr,
+	year = {2020},
+	pages = {866--879},
+	file = {Ufongene et al. - 2020 - Electrocardiographic changes associated with epile.pdf:/Users/christianmeisel/Zotero/storage/G2TGIVJE/Ufongene et al. - 2020 - Electrocardiographic changes associated with epile.pdf:application/pdf},
+}
+
+@article{zaveri_controversies_2020,
+	title = {Controversies on the network theory of epilepsy: {Debates} held during the {ICTALS} 2019 conference},
+	volume = {78},
+	issn = {10591311},
+	shorttitle = {Controversies on the network theory of epilepsy},
+	url = {https://linkinghub.elsevier.com/retrieve/pii/S1059131120300856},
+	doi = {10.1016/j.seizure.2020.03.010},
+	abstract = {Debates on six controversial topics on the network theory of epilepsy were held during two debate sessions, as part of the International Conference for Technology and Analysis of Seizures, 2019 (ICTALS 2019) convened at the University of Exeter, UK, September 2–5 2019. The debate topics were (1) From pathologic to physiologic: is the epileptic network part of an existing large-scale brain network? (2) Are micro scale recordings pertinent for deﬁning the epileptic network? (3) From seconds to years: do we need all temporal scales to deﬁne an epileptic network? (4) Is it necessary to fully deﬁne the epileptic network to control it? (5) Is controlling seizures suﬃcient to control the epileptic network? (6) Does the epileptic network want to be controlled? This article, written by the organizing committee for the debate sessions and the debaters, summarizes the arguments presented during the debates on these six topics.},
+	language = {en},
+	urldate = {2024-11-21},
+	journal = {Seizure},
+	author = {Zaveri, Hitten P. and Schelter, Björn and Schevon, Catherine A. and Jiruska, Premysl and Jefferys, John G.R. and Worrell, Gregory and Schulze-Bonhage, Andreas and Joshi, Rasesh B. and Jirsa, Viktor and Goodfellow, Marc and Meisel, Christian and Lehnertz, Klaus},
+	month = may,
+	year = {2020},
+	pages = {78--85},
+	file = {Zaveri et al. - 2020 - Controversies on the network theory of epilepsy D.pdf:/Users/christianmeisel/Zotero/storage/SRD9P6BL/Zaveri et al. - 2020 - Controversies on the network theory of epilepsy D.pdf:application/pdf},
+}
+
+@article{vieluf_autonomic_2020,
+	title = {Autonomic nervous system changes detected with peripheral sensors in the setting of epileptic seizures},
+	volume = {10},
+	issn = {2045-2322},
+	url = {https://www.nature.com/articles/s41598-020-68434-z},
+	doi = {10.1038/s41598-020-68434-z},
+	abstract = {Abstract
+            A better understanding of the early detection of seizures is highly desirable as identification of an impending seizure may afford improved treatments, such as antiepileptic drug chronotherapy, or timely warning to patients. While epileptic seizures are known to often manifest also with autonomic nervous system (ANS) changes, it is not clear whether ANS markers, if recorded from a wearable device, are also informative about an impending seizure with statistically significant sensitivity and specificity. Using statistical testing with seizure surrogate data and a unique dataset of continuously recorded multi-day wristband data including electrodermal activity (EDA), temperature (TEMP) and heart rate (HR) from 66 people with epilepsy (9.9 ± 5.8 years; 27 females; 161 seizures) we investigated differences between inter- and preictal periods in terms of mean, variance, and entropy of these signals. We found that signal mean and variance do not differentiate between inter- and preictal periods in a statistically meaningful way. EDA signal entropy was found to be increased prior to seizures in a small subset of patients. Findings may provide novel insights into the pathophysiology of epileptic seizures with respect to ANS function, and, while further validation and investigation of potential causes of the observed changes are needed, indicate that epilepsy-related state changes may be detectable using peripheral wearable devices. Detection of such changes with wearable devices may be more feasible for everyday monitoring than utilizing an electroencephalogram.},
+	language = {en},
+	number = {1},
+	urldate = {2024-11-21},
+	journal = {Scientific Reports},
+	author = {Vieluf, Solveig and Reinsberger, Claus and El Atrache, Rima and Jackson, Michele and Schubach, Sarah and Ufongene, Claire and Loddenkemper, Tobias and Meisel, Christian},
+	month = jul,
+	year = {2020},
+	pages = {11560},
+	file = {Vieluf et al. - 2020 - Autonomic nervous system changes detected with per.pdf:/Users/christianmeisel/Zotero/storage/RRQ2GG3Y/Vieluf et al. - 2020 - Autonomic nervous system changes detected with per.pdf:application/pdf},
+}
+
+@article{yang_video-based_2021,
+	title = {Video-{Based} {Detection} of {Generalized} {Tonic}-{Clonic} {Seizures} {Using} {Deep} {Learning}},
+	volume = {25},
+	copyright = {https://creativecommons.org/licenses/by/4.0/legalcode},
+	issn = {2168-2194, 2168-2208},
+	url = {https://ieeexplore.ieee.org/document/9314697/},
+	doi = {10.1109/JBHI.2021.3049649},
+	language = {en},
+	number = {8},
+	urldate = {2024-11-21},
+	journal = {IEEE Journal of Biomedical and Health Informatics},
+	author = {Yang, Yonghua and Sarkis, Rani A. and Atrache, Rima El and Loddenkemper, Tobias and Meisel, Christian},
+	month = aug,
+	year = {2021},
+	pages = {2997--3008},
+	file = {Yang et al. - 2021 - Video-Based Detection of Generalized Tonic-Clonic .pdf:/Users/christianmeisel/Zotero/storage/Q5CWG7CL/Yang et al. - 2021 - Video-Based Detection of Generalized Tonic-Clonic .pdf:application/pdf},
+}
+
+@article{chiang_evaluation_2021,
+	title = {Evaluation and recommendations for effective data visualization for seizure forecasting algorithms},
+	volume = {4},
+	copyright = {http://creativecommons.org/licenses/by-nc/4.0/},
+	issn = {2574-2531},
+	url = {https://academic.oup.com/jamiaopen/article/doi/10.1093/jamiaopen/ooab009/6154713},
+	doi = {10.1093/jamiaopen/ooab009},
+	abstract = {Objective: Seizure forecasting algorithms have become increasingly accurate and may reduce the morbidity and mortality caused by seizure unpredictability. Translating these beneﬁts into meaningful health outcomes for people with epilepsy requires effective data visualization of algorithm outputs. To date, no studies have investigated patient and physician perspectives on effective translation of algorithm outputs into data visualizations through health information technology. Materials and Methods: We developed front-end data visualizations as part of a Seizure Forecast Visualization Toolkit. We surveyed 627 people living with epilepsy and caregivers, and 28 epilepsy healthcare providers. Respondents scored each visualization in terms of international standardized software quality criteria for functionality, appropriateness, and usability.
+Results: People with epilepsy and caregivers ranked hourly radar charts highest for protecting against errors in interpreting forecasts, reducing anxiety from seizure unpredictability, and understanding seizure patterns. Accuracy in interpreting visuals, such as a risk gauge, was dependent on seizure frequency. Visuals showing hourly/daily forecasts were more useful for patients who experienced seizure cycling than those who did not. Hourly line graphs and monthly heat maps were rated highest among clinicians for ease of understanding, anticipated integration into clinical practice, and the likelihood of clinical usage. Epilepsy providers indicated that daily heat maps, daily line graphs, and hourly line graphs were most useful for interpreting seizure diary patterns, assessing therapy impact, and counseling on seizure safety. Discussion: The choice of data visualization impacts the effective translation of seizure forecast algorithms into meaningful health outcomes.
+Conclusion: This effort underlines the importance of incorporating standardized, quantitative methods for assessing the effectiveness of data visualization to translate seizure forecast algorithms into clinical practice.},
+	language = {en},
+	number = {1},
+	urldate = {2024-11-21},
+	journal = {JAMIA Open},
+	author = {Chiang, Sharon and Moss, Robert and Black, Angela P and Jackson, Michele and Moss, Chuck and Bidwell, Jonathan and Meisel, Christian and Loddenkemper, Tobias},
+	month = mar,
+	year = {2021},
+	pages = {ooab009},
+	file = {Chiang et al. - 2021 - Evaluation and recommendations for effective data .pdf:/Users/christianmeisel/Zotero/storage/4AJ4TBK2/Chiang et al. - 2021 - Evaluation and recommendations for effective data .pdf:application/pdf},
+}
+
+@article{tang_seizure_2021,
+	title = {Seizure detection using wearable sensors and machine learning: {Setting} a benchmark},
+	volume = {62},
+	issn = {0013-9580, 1528-1167},
+	shorttitle = {Seizure detection using wearable sensors and machine learning},
+	url = {https://onlinelibrary.wiley.com/doi/10.1111/epi.16967},
+	doi = {10.1111/epi.16967},
+	abstract = {Objective: Tracking seizures is crucial for epilepsy monitoring and treatment evaluation. Current epilepsy care relies on caretaker seizure diaries, but clinical seizure monitoring may miss seizures. Wearable devices may be better tolerated and more suitable for long-­term ambulatory monitoring. This study evaluates the seizure detection performance of custom-­developed machine learning (ML) algorithms across a broad spectrum of epileptic seizures utilizing wrist-­and ankle-w­ orn multisignal biosensors.},
+	language = {en},
+	number = {8},
+	urldate = {2024-11-21},
+	journal = {Epilepsia},
+	author = {Tang, Jianbin and El Atrache, Rima and Yu, Shuang and Asif, Umar and Jackson, Michele and Roy, Subhrajit and Mirmomeni, Mahtab and Cantley, Sarah and Sheehan, Theodore and Schubach, Sarah and Ufongene, Claire and Vieluf, Solveig and Meisel, Christian and Harrer, Stefan and Loddenkemper, Tobias},
+	month = aug,
+	year = {2021},
+	pages = {1807--1819},
+	file = {Tang et al. - 2021 - Seizure detection using wearable sensors and machi.pdf:/Users/christianmeisel/Zotero/storage/ACSW7CN5/Tang et al. - 2021 - Seizure detection using wearable sensors and machi.pdf:application/pdf},
+}
+
+@article{huo_supervised_2024,
+	title = {A supervised, externally validated machine learning model for artifact and drainage detection in high-resolution intracranial pressure monitoring data},
+	issn = {0022-3085, 1933-0693},
+	url = {https://thejns.org/view/journals/j-neurosurg/aop/article-10.3171-2023.12.JNS231670/article-10.3171-2023.12.JNS231670.xml},
+	doi = {10.3171/2023.12.JNS231670},
+	abstract = {OBJECTIVE
+              In neurocritical care, data from multiple biosensors are continuously measured, but only sporadically acknowledged by the attending physicians. In contrast, machine learning (ML) tools can analyze large amounts of data continuously, taking advantage of underlying information. However, the performance of such ML-based solutions is limited by different factors, for example, by patient motion, manipulation, or, as in the case of external ventricular drains (EVDs), the drainage of CSF to control intracranial pressure (ICP). The authors aimed to develop an ML-based algorithm that automatically classifies normal signals, artifacts, and drainages in high-resolution ICP monitoring data from EVDs, making the data suitable for real-time artifact removal and for future ML applications.
+            
+            
+              METHODS
+              In their 2-center retrospective cohort study, the authors used labeled ICP data from 40 patients in the first neurocritical care unit (University Hospital Zurich) for model development. The authors created 94 descriptive features that were used to train the model. They compared histogram-based gradient boosting with extremely randomized trees after building pipelines with principal component analysis, hyperparameter optimization via grid search, and sequential feature selection. Performance was measured with nested 5-fold cross-validation and multiclass area under the receiver operating characteristic curve (AUROC). Data from 20 patients in a second, independent neurocritical care unit (Charité - Universitätsmedizin Berlin) were used for external validation with bootstrapping technique and AUROC.
+            
+            
+              RESULTS
+              In cross-validation, the best-performing model achieved a mean AUROC of 0.945 (95\% CI 0.92–0.969) on the development dataset. On the external validation dataset, the model performed with a mean AUROC of 0.928 (95\% CI 0.908–0.946) in 100 bootstrapping validation cycles to classify normal signals, artifacts, and drainages.
+            
+            
+              CONCLUSIONS
+              Here, the authors developed a well-performing supervised model with external validation that can detect normal signals, artifacts, and drainages in ICP signals from patients in neurocritical care units. For future analyses, this is a powerful tool to discard artifacts or to detect drainage events in ICP monitoring signals.},
+	urldate = {2024-11-21},
+	journal = {Journal of Neurosurgery},
+	author = {Huo, Shufan and Nelde, Alexander and Meisel, Christian and Scheibe, Franziska and Meisel, Andreas and Endres, Matthias and Vajkoczy, Peter and Wolf, Stefan and Willms, Jan F. and Boss, Jens M. and Keller, Emanuela},
+	month = mar,
+	year = {2024},
+	pages = {1--9},
+}
+
+@article{meisel_ambulantes_2024,
+	title = {Ambulantes {Langzeit}-{Video}-{EEG} für {Menschen} mit {Anfallserkrankungen}},
+	volume = {4},
+	issn = {2750-5499},
+	journal = {Interdisziplinäre Versorgungsforschung},
+	author = {Meisel, Christian},
+	year = {2024},
+	pages = {16--17},
+}
+
+@article{sheehan_veni_2024,
+	title = {Veni, {Vidi}, {Vici}—{When} {Is} {Home} {Video} {Seizure} {Monitoring} {Helpful}?},
+	issn = {1535-7597, 1535-7511},
+	url = {https://journals.sagepub.com/doi/10.1177/15357597241253426},
+	doi = {10.1177/15357597241253426},
+	abstract = {Seizure detection is vital for managing epilepsy as seizures can lead to injury and even death, in addition to impacting quality of life. Prompt detection of seizures and intervention can help prevent injury and improve outcomes for individuals with epilepsy. Wearable sensors show promising results for automated detection of certain seizures, but they have limitations such as patient tolerance, impracticality for newborns, and the need for recharging. Non-contact video and audio-based technologies have become available, but a comprehensive literature review on these methods is lacking. This scoping literature review provides an overview of video and audio-based seizure detection, highlighting their potential benefits and challenges. It encompasses a thorough search and evaluation of relevant articles, summarizing methods and performances of these systems. The primary aim of this review is to examine and analyze existing research to identify patterns and gaps and establish a foundation for future advancements. We screened 7 databases using a set of standardized search criteria to minimize any potential missed articles. Four thousand four hundred eighty-seven deduplicated abstracts were screened and narrowed down to 34 studies that varied in design, algorithm methods, types of seizures detected, and performance metrics. Seizure detection sensitivity ranged from 100\% to 0\%, with optical flow analysis showing the highest sensitivity. The specificity of all included articles ranged from 97.7\% to 60\%. While limited studies reported accuracy, the highest reported was 100\% using Radon Transform based technique on Dual Tree Complex Wavelet coefficients. Video and audio-based tools offer novel, noncontact approaches for detecting and monitoring seizures. Available studies are limited in sample sizes, dataset diversity, and standardized evaluation protocols, impacting the generalizability of results. Future research focusing on larger-scale investigations with diverse datasets, standardized evaluation protocols, and consistent reporting metrics is needed.},
+	language = {en},
+	urldate = {2024-11-21},
+	journal = {Epilepsy Currents},
+	author = {Sheehan, Theodore A. and Winter-Potter, Eliza and Dorste, Anna and Meisel, Christian and Loddenkemper, Tobias},
+	month = may,
+	year = {2024},
+	pages = {15357597241253426},
+	file = {Volltext:/Users/christianmeisel/Zotero/storage/XWUZKN2N/Sheehan et al. - 2024 - Veni, Vidi, Vici—When Is Home Video Seizure Monito.pdf:application/pdf},
+}
+
+@article{munchenberg_effect_2024,
+	title = {Effect evaluation of outpatient long-term video {EEGs} for people with seizure disorders – study protocol of the {ALVEEG} project: a randomized controlled trial in {Germany}},
+	volume = {24},
+	issn = {1472-6963},
+	shorttitle = {Effect evaluation of outpatient long-term video {EEGs} for people with seizure disorders – study protocol of the {ALVEEG} project},
+	url = {https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-024-11076-y},
+	doi = {10.1186/s12913-024-11076-y},
+	abstract = {Abstract
+            
+              Background
+              Epilepsy and other seizure disorders account for a high disease burden in Germany. As a timely diagnosis and accurate treatment are crucial, improving the management of these disorders is important. Outside of Germany, outpatient long-term video EEGs (ALVEEGs) have demonstrated the potential to support the diagnosis and management of epilepsy and other seizure disorders. This study aims to evaluate the implementation of ALVEEGs as a new diagnostic pathway in eastern parts of Germany to diagnose epilepsy and other seizure disorders and to assess if ALVEEGs are equally effective as the current inpatient-monitoring gold standard, which is currently only available at a limited number of specialized centers in Germany.
+            
+            
+              Methods
+              ALVEEG is a prospective, multicenter, randomized controlled equivalence trial, involving five epilepsy centers in the eastern states of Germany. Patients will be randomized into either intervention (IG) or control group (CG), using a permuted block randomization. The sample size targeted is 688 patients, continuously recruited over the trial. The IG will complete an ALVEEG in a home setting, including getting access to a smartphone app to document seizure activity. The CG will receive care as usual, i.e., inpatient long-term video-EEG monitoring. The primary outcome is the proportion of clinical questions being solved in the IG compared to the CG. Secondary outcomes include hospital stays, time until video EEG, time until diagnosis and result discussion, patients’ health status, quality of life and health competence, and number and form of epilepsy-related events and epileptiform activity. Alongside the trial, a process implementation and health economic evaluation will be conducted.
+            
+            
+              Discussion
+              The extensive evaluation of this study, including an implementation and health economic evaluation, will provide valuable information for health policy decision-makers to optimize future delivery of neurological care to patients affected by epilepsy and other seizure disorders and on the uptake of ALVEEG into standard care in Germany.
+            
+            
+              Trial registration
+              German Clinical Trials Register (DRKS00032220), date registered: December 11, 2023.},
+	language = {en},
+	number = {1},
+	urldate = {2024-11-21},
+	journal = {BMC Health Services Research},
+	author = {Münchenberg, Pauline Sarah and Schulz, Ricarda Sophia and Wainwright, Kerstin and Mayer, Imke and Holtkamp, Martin and Meisel, Christian and Kurth, Tobias and {the ALVEEG Consortium} and Vorderwülbecke, Bernd and Steinbrenner, Mirja and Endres, Matthias and Gorski, Claudia and Prasser, Fabian and Kaindl, Angela and Weschke, Bernhard and Potratz, Cornelia and Fenske, Pascal and Von Podewils, Felix and Bertsche, Astrid and Viebahn, Sarah Mai and Gaida, Bernadette and Utzig, Norbert and Schulz, Juliane and Mayer, Thomas and Hopp, Peter and Holert, Nils and Wienecke, Miriam and Leonhardt, Georg and Müller, Peggy and Knobelsdorf, Petra and Wolter, Antke and Klinker, Anne and Brandebusemeyer, Mara and Nussbaum, Uwe and Seemann, Jannis},
+	month = aug,
+	year = {2024},
+	pages = {994},
+	file = {Volltext:/Users/christianmeisel/Zotero/storage/HPQCSKXZ/Münchenberg et al. - 2024 - Effect evaluation of outpatient long-term video EE.pdf:application/pdf},
+}
+
+@article{klammer_association_2024,
+	title = {Association {Between} {Stroke} {Lesion} {Size} and {Atrial} {Fibrillation} {Detected} {After} {Stroke}: {An} {Observational} {Cohort} {Study}},
+	volume = {13},
+	issn = {2047-9980},
+	shorttitle = {Association {Between} {Stroke} {Lesion} {Size} and {Atrial} {Fibrillation} {Detected} {After} {Stroke}},
+	url = {https://www.ahajournals.org/doi/10.1161/JAHA.124.035285},
+	doi = {10.1161/JAHA.124.035285},
+	abstract = {Background
+              Atrial fibrillation detected after stroke (AFDAS) is considered to be a distinct entity influenced by cardiogenic and neurogenic factors. We hypothesized that patients with AFDAS have larger stroke lesions than patients without atrial fibrillation (AF) and with known AF (KAF).
+            
+            
+              Methods and Results
+              
+                Consecutive patients with magnetic resonance imaging–confirmed acute ischemic stroke admitted to a university hospital between October 2020 and January 2023 were prospectively registered. We categorized patients as AFDAS, no AF or KAF upon hospital discharge. We manually segmented diffusion‐weighted imaging lesions to determine lesion volume. We analyzed 1420 patients (median age, 78; 47.2\% women, median National Institutes of Health Stroke Scale score, 3; median hospital stay, 5 days). Of these, 81 had AFDAS (5.7\%), 329 had KAF (23.2\%) and 1010 had no AF (71.1\%). Lesion volume was larger in patients with AFDAS (median, 5.4 mL [interquartile range, 1.0–21.6]) compared with patients with no AF and KAF (median, 0.7 [interquartile range,0.2–4.4] and 2.0 [interquartile range,0.3–11.1] mL, respectively; both
+                P
+                {\textless}0.001). Lesion volume was independently associated with AFDAS compared with no AF (adjusted odds ratio, 1.37 [95\% CI, 1.20–1.58] per log mL) and KAF (adjusted odds ratio, 1.22 [95\% CI, 1.07–1.41] per log mL). Patients in the highest lesion volume quartile ({\textgreater}6.5 mL) were more likely to be diagnosed with AFDAS compared with the lowest quartile ({\textless}0.22 mL, 13.6\% versus 2.1\%; adjusted odds ratio, 5.88 [95\% CI, 2.30–17.40]). These associations were more pronounced when excluding 151 patients with nonembolic lesion pattern and similar when excluding 199 patients with KAF on oral anticoagulation.
+              
+            
+            
+              Conclusions
+              Larger stroke lesions were independently associated with AFDAS diagnosis during index stroke hospitalization highlighting a potential neurogenic contribution to AFDAS pathogenesis.},
+	language = {en},
+	number = {19},
+	urldate = {2024-11-21},
+	journal = {Journal of the American Heart Association},
+	author = {Klammer, Markus G. and Reimann, Laura and Richter, Oskar and Lieschke, Simone and Stengl, Helena and Hellwig, Simon and Ganeshan, Ramanan and Schöls, Maximilian and Nelde, Alexander and Meisel, Christian and Villringer, Kersten and Nolte, Christian H. and Endres, Matthias and Scheitz, Jan Friedrich},
+	month = oct,
+	year = {2024},
+	pages = {e035285},
+	file = {Volltext:/Users/christianmeisel/Zotero/storage/3MJ3VFS5/Klammer et al. - 2024 - Association Between Stroke Lesion Size and Atrial .pdf:application/pdf},
+}
