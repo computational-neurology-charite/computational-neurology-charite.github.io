@@ -7,6 +7,7 @@ import Team from './components/Team';
 import Alumni from './components/Alumni';
 import Publications from './components/Publications';
 import Footer from './components/Footer';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Header />
         {/* <Navigation /> */}
         <main>
+          <Home />
           <Projects />
           <Team />
           <Alumni />

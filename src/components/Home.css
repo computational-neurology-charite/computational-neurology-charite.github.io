@@ -1,0 +1,56 @@
+/* Arrow styling */
+.custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    z-index: 10;
+    transition: color 0.3s ease;
+    background: none; /* No background */
+    border: none; /* Remove button borders */
+    outline: none;
+}
+
+.custom-arrow:hover {
+    color: #555;
+}
+
+.custom-prev-arrow {
+    left: -40px; /* Adjust based on layout */
+}
+
+.custom-next-arrow {
+    right: -40px; /* Adjust based on layout */
+}
+
+/* Carousel wrapper for positioning */
+.carousel-wrapper {
+    position: relative;
+}
+
+/* News container */
+.news-container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.news-carousel .news-item {
+    padding: 20px;
+    text-align: center;
+    background: #f9f9f9; /* Light background for carousel slides */
+    border-radius: 8px;
+}
+
+/* News Section */
+.news-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.news-description {
+    font-size: 1em;
+    margin-top: 10px;
+}
