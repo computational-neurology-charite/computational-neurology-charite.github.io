@@ -19,6 +19,7 @@ function Publications() {
           title: sanitizeLatex(entry.entryTags.title),
           authors: entry.entryTags.author,
           journal: sanitizeLatex(entry.entryTags.journal),
+		book: sanitizeLatex(entry.entryTags.booktitle),
           year: entry.entryTags.year,
           doi: entry.entryTags.doi,
           url: entry.entryTags.url,
@@ -73,7 +74,7 @@ function Publications() {
               >
                 <h4>{pub.title}</h4>
                 <p style={{color:"grey", marginBottom:"20px", marginTop:"20px"}}>{pub.authors}</p>
-                <p><strong>{pub.journal || 'Preprint'}</strong></p>
+                <p><i>{pub.journal || 'Preprint'}</i></p>
                 <body className='more-text'>{expandedPub === pub.id ? '' : 'More...'}</body>
                 {expandedPub === pub.id && (
                   <>

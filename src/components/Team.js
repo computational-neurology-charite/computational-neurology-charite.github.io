@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Team.css';
 const membersData = [
-  { name: 'Prof Christian Meisel', 
+  { name: 'Christian Meisel', 
     role: 'Principal Investigator', 
     image: 'images/team/christian.jpg',
     desc: ''
@@ -34,7 +34,7 @@ const membersData = [
   { name: 'Gadi Miron', 
     role: 'Medical Doctor', 
     image: '/images/team/gadi.jpg',
-    desc: <div>I am a Neurologist and researcher with a special interest in epilepsy and digital health. My work focuses on understanding and addressing diagnostic challenges of people with epilepsy through computational analysis of EEG, imaging, and video data. Studies include AI-based video analysis of seizure semiology, retrospective clinical studies, EEG analysis for predicting seizures and long-term cognitive outcomes, and MRI analysis to better understand cognitive dysfunction in epilepsy. I also work to translate our research into clinical practice by developing a digital health tool, <a href="https://motusmed.de">https://motusmed.de</a>, currently being tested at Charité clinics.
+    desc: <div>I am a neurologist and researcher with a special interest in epilepsy and digital health. My work focuses on understanding and addressing diagnostic challenges of people with epilepsy through computational analysis of EEG, imaging, and video data. Studies include AI-based video analysis of seizure semiology, retrospective clinical studies, EEG analysis for predicting seizures and long-term cognitive outcomes, and MRI analysis to better understand cognitive dysfunction in epilepsy. I also work to translate our research into clinical practice by developing a digital health tool, <a href="https://motusmed.de">https://motusmed.de</a>, currently being tested at Charité clinics.
 
     </div>
     

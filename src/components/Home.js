@@ -8,18 +8,18 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 const news = [
     {
         id: 1,
-        title: "• Prof. Meisel receives Schilling professorship",
-        shortDescription: "Prof. Meisel has been awarded the Schilling professorship for his work on computational neurology.",
+        title: "• Christian Meisel selected for Schilling-professorship",
+        shortDescription: <div> Christian Meisel has been selected for the chaired Schilling-professorship in Computational Neurology. <a href="https://www.bihealth.org/de/aktuell/computationale-neurologie-foerderzusage-fuer-professur-der-schilling-stiftung-an-christian-meisel"> Link to press release. </a>  </div>,
     },
     {
         id: 2,
-        title: "• New publication in Nature",
-        shortDescription: "Our latest paper on the role of astrocytes in neural networks has been published in Nature.",
+        title: "• New preprint on critical brain dynamics",
+        shortDescription: <div> <a href="https://www.medrxiv.org/content/10.1101/2024.08.19.24312223v1">Link to paper.</a> </div>,
     },
     {
         id: 3,
-        title: "• Upcoming conference at Charité",
-        shortDescription: "We are organizing a conference on the future of computational neurology at Charité.",
+        title: "• New preprint on a comprehensive latent-space EEG map",
+        shortDescription: <div> <a href="https://www.medrxiv.org/content/10.1101/2024.10.25.24316133v1">Link to paper.</a> </div>,
     },
 ];
 

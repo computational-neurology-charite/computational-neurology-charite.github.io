@@ -11,7 +11,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Motus Med",
+    title: "motus med",
     shortDescription: "Transforming the epilepsy diagnostic pathway through accessible & intelligent movement analysis",
     fullDescription: <div>
     <a href="https://motusmed.de">Motus med</a> is a BIH supported project aimed at translating research done at the computational neurology lab to the clinical bedside. Motus med is a video analysis-based digital health tool intended to assist in the diagnosis and monitoring of persons with abnormal movements, seizures, or epilepsy. Videos of suspected videos are uploaded to our platform, undergo automated analysis to detect movement patterns characteristic of seizures, and can be securely shared with a specialist for additional visual review. Through motus med, we apply several vision based AI models that we have developed in the lab.  Motus med integrates with a variety of smartphones and home cameras in order to provide a device agnostic, flexible, and scalable digital solution. The analysis results are provided to users to assist in decision-making during the diagnostic stage and for ongoing monitoring and management of disease activity in persons with epilepsy.
@@ -23,17 +23,17 @@ const projectsData = [
   {
     id: 3,
     title: "ALVEEG",
-    shortDescription: "Ambulatory long-term video EEG monitoring",
+    shortDescription: "Ambulatory long-term video-EEG monitoring",
     fullDescription: 
     <div>
-  <a href="https://www.alveeg.de">ALVEEG</a> is a prospective, multicentre, randomized and controlled intervention study. The study's background is that people with seizure disorders in Germany often have to wait months for a long-term video EEG in hospital. This can greatly delay the correct diagnosis and thus, under certain circumstances, the necessary treatment. New sensor technologies and data analysis supported by artificial intelligence are opening up new diagnostic approaches. The aim of the project is therefore to improve the care of people with seizure disorders by providing access to long-term video EEGs in their own homes (= outpatient).
+  <a href="https://www.alveeg.de">ALVEEG</a> is a prospective, multicentre, randomized and controlled intervention study. In Germany, people with seizure disorders often have to wait months for a long-term video-EEG which is traditionally only performed in specialized hospitals. This can greatly delay the correct diagnosis and treatment. New sensor technologies and data analysis supported by artificial intelligence are opening up new diagnostic approaches. The aim of the project is to improve the care of people with seizure disorders by providing access to long-term video-EEGs in the home setting.
     </div>,
     image: "/images/project_alveeg.png"
   },
   {
     id: 4,
     title: "Critical Brain Dynamics",
-    shortDescription: "Mathematic modeling of critical brain dynamics",
+    shortDescription: "Investigating the implications of critical brain dynamics",
     fullDescription: "The brain's ability to process and integrate information across spatial and temporal domains is central to intact cognitive function. Physics and information theory have provided a framework describing an optimal state of information processing. This critical state, poised at the phase transition between chaotic and ceasing neuronal activity, is characterized by an equilibrium between excitation and inhibition in the neuronal network. When a network of neurons operates near a critical phase transition point, a range of information processing functions, including information transmission, integration, storage, dynamic range, and sensitivity to inputs, are optimized simultaneously. While criticality provides a precise framework linking network structure to dynamics, its central claim, that critical dynamics predicts optimal network and thus cognitive function in humans, has not been proven yet. To try to fill this gap by investigating multi-model cortical measurements, e.g., MRI and iEEG, together with cognitive performance evaluation.",
     image: "/images/criticality.jpg"
   },
@@ -41,9 +41,9 @@ const projectsData = [
 {
     id: 5,
     title: "Medical Edge AI",
-    shortDescription: "MEDGE",
-    fullDescription: "We develop medical edge AI",
-    image: "/images/criticality.jpg"
+    shortDescription: "M/EDGE",
+    fullDescription: "With their close integration of programmable microelectronics, sensors and actuators, modern medical devices have opened up fundamentally new diagnostic and therapeutic possibilities. These devices require integration of artificial intelligence and autonomy directly in the medical device, i.e. medical edge computing. Together with partners from academia, med tech and semiconductor industries, the M/EDGE project aims to develop an electronics platform for highly integrated medical edge artificial intelligence.",
+    image: "/images/medge-logo.png"
   },
   // {
   //   id: 5,
