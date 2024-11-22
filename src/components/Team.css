@@ -7,6 +7,7 @@
   box-sizing: border-box; /* Includes padding in the width calculation */
 }
 
+
 /* .team-title {
   color: white;
   
@@ -53,7 +54,7 @@
   .team-card {
     background: var(--team-card-color);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     transition: transform 0.3s ease;
     box-sizing: border-box;
