@@ -79,6 +79,11 @@ const membersData = [
     image: 'images/team/SimonV.jpg',
     desc: "I am fascinated by the parallels between artificial neural networks and biological brains. My research focuses on critical phase transitions in machine learning, exploring how networks of simple units can give rise to complex, intelligent behavior. By applying insights from deep learning and physics, I study neural systems with the aim of advancing our understanding of both artificial and biological intelligence. Through this work, I hope to contribute to the development of more efficient AI systems and innovative treatments for neurological disorders."
   },
+  { name: 'Claudia Gorski', 
+    role: 'Administration', 
+    image: 'images/team/claudia.jpg',
+    desc: ""
+  },
 
 
   // Add other team members

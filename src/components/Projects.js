@@ -4,13 +4,20 @@ import './Projects.css';
 const projectsData = [
   {
     id: 1,
-    title: "Data Warehouse",
+    title: "AI-supported Monitoring",
     shortDescription: "Predicting patient outcomes using routinely collected data",
     fullDescription: " Hospitals routinely collect a vast amount of data on their patients, ranging from laboratory test results to continuous monitoring systems like ECG and EEG. This wealth of information is stored in centralized data warehouses, creating a rich resource for clinical insights. However, the sheer volume and complexity of this data can overwhelm traditional analysis methods. By leveraging cutting-edge machine learning techniques, our team aims to transform these raw datasets into actionable intelligence, improving the accuracy, efficiency, and scalability of diagnostic processes. Our work focuses on automating the analysis of biosignals and other clinical data to enhance real-time decision-making, reduce the burden on healthcare professionals, and streamline hospital workflows. By seamlessly integrating AI models into clinical environments, we seek to drive innovation in patient care, ultimately improving outcomes and paving the way for a more data-driven healthcare future. ",
     image: "/images/project_dwc.PNG"
   },
-  {
+   {
     id: 2,
+    title: "Critical Brain Dynamics",
+    shortDescription: "Investigating the implications of critical brain dynamics",
+    fullDescription: "The brain's ability to process and integrate information across spatial and temporal domains is central to intact cognitive function. Physics and information theory have provided a framework describing an optimal state of information processing. This critical state, poised at the phase transition between chaotic and ceasing neuronal activity, is characterized by an equilibrium between excitation and inhibition in the neuronal network. When a network of neurons operates near a critical phase transition point, a range of information processing functions, including information transmission, integration, storage, dynamic range, and sensitivity to inputs, are optimized simultaneously. While criticality provides a precise framework linking network structure to dynamics, its central claim, that critical dynamics predicts optimal network and thus cognitive function in humans, has not been proven yet. To try to fill this gap by investigating multi-model cortical measurements, e.g., MRI and iEEG, together with cognitive performance evaluation.",
+    image: "/images/criticality.jpg"
+  },
+  {
+    id: 3,
     title: "motus med",
     shortDescription: "Transforming the epilepsy diagnostic pathway through accessible & intelligent movement analysis",
     fullDescription: <div>
@@ -21,23 +28,15 @@ const projectsData = [
     image: "/images/motusmed.png"
   },
   {
-    id: 3,
+    id: 4,
     title: "ALVEEG",
     shortDescription: "Ambulatory long-term video-EEG monitoring",
     fullDescription: 
     <div>
   <a href="https://www.alveeg.de">ALVEEG</a> is a prospective, multicentre, randomized and controlled intervention study. In Germany, people with seizure disorders often have to wait months for a long-term video-EEG which is traditionally only performed in specialized hospitals. This can greatly delay the correct diagnosis and treatment. New sensor technologies and data analysis supported by artificial intelligence are opening up new diagnostic approaches. The aim of the project is to improve the care of people with seizure disorders by providing access to long-term video-EEGs in the home setting.
     </div>,
-    image: "/images/project_alveeg.png"
+    image: "/images/project_alveeg.jpg"
   },
-  {
-    id: 4,
-    title: "Critical Brain Dynamics",
-    shortDescription: "Investigating the implications of critical brain dynamics",
-    fullDescription: "The brain's ability to process and integrate information across spatial and temporal domains is central to intact cognitive function. Physics and information theory have provided a framework describing an optimal state of information processing. This critical state, poised at the phase transition between chaotic and ceasing neuronal activity, is characterized by an equilibrium between excitation and inhibition in the neuronal network. When a network of neurons operates near a critical phase transition point, a range of information processing functions, including information transmission, integration, storage, dynamic range, and sensitivity to inputs, are optimized simultaneously. While criticality provides a precise framework linking network structure to dynamics, its central claim, that critical dynamics predicts optimal network and thus cognitive function in humans, has not been proven yet. To try to fill this gap by investigating multi-model cortical measurements, e.g., MRI and iEEG, together with cognitive performance evaluation.",
-    image: "/images/criticality.jpg"
-  },
-
 {
     id: 5,
     title: "Medical Edge AI",

@@ -18,14 +18,15 @@
 }
 
 .project-card {
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
   background: var(--card-color);
   border-radius: 8px;
   margin: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  max-width: 600px;
+  max-width: 400px;
+  max-height: 500px;
   transition: all 0.3s ease;
   cursor: pointer;
   flex: 1 1 calc(45% - 40px);

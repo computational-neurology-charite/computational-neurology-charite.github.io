@@ -9,17 +9,17 @@ const news = [
     {
         id: 1,
         title: "• Christian Meisel selected for Schilling-professorship",
-        shortDescription: "blabla", 
+        shortDescription: <div> Christian Meisel has been selected for the chaired Schilling Foundation Professorship in Computational Neurology. <a href="https://www.bihealth.org/en/notices/computationale-neurologie-foerderzusage-fuer-professur-der-schilling-stiftung-an-christian-meisel"> Link to press release. </a>  </div>, 
     },
     {
         id: 2,
         title: "• New preprint on critical brain dynamics",
-        shortDescription: "blabla",
+        shortDescription: <div> <a href="https://www.medrxiv.org/content/10.1101/2024.08.19.24312223v1">Link to paper.</a> </div>,
     },
     {
         id: 3,
         title: "• New preprint on a comprehensive latent-space EEG map",
-        shortDescription: "blabla",
+        shortDescription: <div> <a href="https://www.medrxiv.org/content/10.1101/2024.10.25.24316133v1">Link to paper.</a> </div>,
     },
 ];
 
