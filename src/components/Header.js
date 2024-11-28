@@ -2,13 +2,15 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
+
+
 function Header() {
   return (
     <>
       <header>
         <div className="header-content">
-          <h1>Computational Neurology</h1>
-          <img src="/images/logo_group.webp" alt="Logo" className="header-logo" />
+			<h1 align="center">Computational Neurology</h1>
+         
         </div>
       </header>
       <nav>
@@ -23,3 +25,5 @@ function Header() {
 }
 
 export default Header;
+
+// <img src="/images/logo_group.webp" alt="Logo" className="header-logo" />
