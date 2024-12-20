@@ -972,6 +972,10 @@ Conclusion: This effort underlines the importance of incorporating standardized,
 	issn = {27725286},
 	url = {https://linkinghub.elsevier.com/retrieve/pii/S2772528624000293},
 	doi = {10.1016/j.neuri.2024.100184},
+	abstract = {Objective: Wrist-worn wearable devices that monitor autonomous nervous system function and movement have shown promise in providing non-invasive, broadly applicable seizure forecasts that increase in accuracy with larger training size. Nevertheless, challenges related to missing validation, small number of enrolled patients, insufficient training data, and lack of patient seizure cycles data hinder its clinical implementation. Here we sought to prospectively validate a previously implemented seizure forecasting algorithm using a larger cohort of pediatric patients with epilepsy (pwe), improve it by including infor- mation on seizure cycles, and (3) assess the utility of precise power-laws to predict performance as a function of dataset size.
+Methods: We used video-EEG recordings from 166 pwe as ground-truth for seizures, recorded electrodermal activity (EDA), peripheral body temperature (TEMP), blood volume pulse (BVP), accelerometery (ACC) and applied a deep neural LSTM network model (NN) on these data along with information on 24-hour cycles to forecast seizures in a leave-one-subject-out cross validation. Evaluations were made using improvement over chance (IoC) and the Brier skill score (BSS), which measured the improvement of the NN Brier score compared to the Brier score of a rate-matched random (RMR) forecast.
+Results: Performance quantified by IoC and BSS increased with training data following precise power-law scaling laws, thereby exceeding prior reported performance levels from smaller datasets. Including information on 24-hour seizure cycles further improved performance. For the largest training set we achieved significant IoC in 68% of pwe, an IoC of 27.3% and a BSS of 0.087.
+Interpretation: Our results validate a previous forecast approach and indicate that performance improves predictably as a function of dataset size following power-law scaling.},
 	language = {en},
 	number = {1},
 	urldate = {2024-12-13},
@@ -981,4 +985,19 @@ Conclusion: This effort underlines the importance of incorporating standardized,
 	year = {2025},
 	pages = {100184},
 	file = {Halimeh et al. - 2025 - Training size predictably improves machine learnin.pdf:/Users/christianmeisel/Zotero/storage/J29K9SER/Halimeh et al. - 2025 - Training size predictably improves machine learnin.pdf:application/pdf},
+}
+
+@misc{miron_detection_2024,
+	title = {Detection of {Epileptic} {Spasms} {Using} {Foundational} {AI} and {Smartphone} {Videos}: {A} {Novel} {Diagnostic} {Approach} for a {Rare} {Neurological} {Disorder}},
+	copyright = {http://creativecommons.org/licenses/by-nc-nd/4.0/},
+	shorttitle = {Detection of {Epileptic} {Spasms} {Using} {Foundational} {AI} and {Smartphone} {Videos}},
+	url = {http://medrxiv.org/lookup/doi/10.1101/2024.10.28.24316130},
+	doi = {10.1101/2024.10.28.24316130},
+	abstract = {Infantile epileptic spasm syndrome (IESS) is a severe neurological disorder characterized by epileptic spasms (ES). Timely diagnosis and treatment are crucial but often delayed due to symptom misidentification. Smartphone videos can aid in diagnosis, but availability of specialist review is limited. We fine-tuned a foundational video model for ES detection using social media videos, thus addressing this clinical need and the challenge of data scarcity in rare disorders. Our model, trained on 141 children with 991 seizures and 127 children without seizures, achieved high performance (area under the receiver-operating-curve (AUC) 0.96, 83\% sensitivity, 95\% specificity) including validation on external datasets from smartphone videos (93 children, 70 seizures, AUC 0.98, false alarm rate (FAR) 0.75\%) and gold-standard video-EEG (22 children, 45 seizures, AUC 0.98, FAR 3.4\%). This study demonstrates the potential of smartphone videos for AI-powered analysis as the basis for accelerated IESS diagnosis and novel strategy for diagnosis of rare disorders.},
+	language = {en},
+	urldate = {2024-12-20},
+	author = {Miron, Gadi and Halimeh, Mustafa and Tietze, Simon and Holtkamp, Martin and Meisel, Christian},
+	month = nov,
+	year = {2024},
+	file = {Miron et al. - 2024 - Detection of Epileptic Spasms Using Foundational A.pdf:/Users/christianmeisel/Zotero/storage/9RMDU9QM/Miron et al. - 2024 - Detection of Epileptic Spasms Using Foundational A.pdf:application/pdf},
 }
