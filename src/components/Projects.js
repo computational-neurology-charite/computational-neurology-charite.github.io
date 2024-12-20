@@ -14,7 +14,7 @@ const projectsData = [
     title: "Computational Ambulatory Monitoring",
     shortDescription: "Predicting patient outcomes using routinely collected data",
     fullDescription: "Enabled by new, wearable sensors and computational analysis, objective methods for continuous, longitudinal monitoring and risk assessments provide opportunities for a fundamental medical transformation towards personalized, proactive and time-critical therapies in the outpatient setting.",
-	image: "/images/project_dwc.png"
+	image: "/images/Fig_Wearable_DL.jpg"
   },
    {
     id: 3,
@@ -27,7 +27,7 @@ const projectsData = [
   {
     id: 4,
     title: "Critical Dynamics in Artificial Intelligence Networks",
-    shortDescription: "Deep learning is optimal at criticality",
+    shortDescription: "Deep learning performs optimally at criticality",
     fullDescription: "Deep Neural Networks (DNNs) have revolutionized numerous fields, yet their training and design remain challenging due to vast parameter spaces and limited theoretical understanding. We here aim to bridge the gap between neuroscience and artificial intelligence to unlock the full potential of these networks. Our research demonstrates how insight from neurology, biology and physics can innovate and enhance modern DNNs and training methods. Conversely, advancements in AI offer valuable perspectives that deepen our understanding of biological neural processes. We believe that combining ideas from neuroscience and AI is essential to exploring new frontiers in both disciplines.",
     image: "/images/critical_artificial_nn.png"
   },
