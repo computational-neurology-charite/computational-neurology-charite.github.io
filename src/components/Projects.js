@@ -26,8 +26,8 @@ const projectsData = [
   
   {
     id: 4,
-    title: "Critical Dynamics in Artificial Intelligence Networks",
-    shortDescription: "Deep learning performs optimally at criticality",
+    title: "Neuro-AI",
+    shortDescription: "Critical dynamics in artificial intelligence networks",
     fullDescription: "Deep Neural Networks (DNNs) have revolutionized numerous fields, yet their training and design remain challenging due to vast parameter spaces and limited theoretical understanding. We here aim to bridge the gap between neuroscience and artificial intelligence to unlock the full potential of these networks. Our research demonstrates how insight from neurology, biology and physics can innovate and enhance modern DNNs and training methods. Conversely, advancements in AI offer valuable perspectives that deepen our understanding of biological neural processes. We believe that combining ideas from neuroscience and AI is essential to exploring new frontiers in both disciplines.",
     image: "/images/critical_artificial_nn.png"
   },

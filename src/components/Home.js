@@ -13,7 +13,7 @@ const news = [
     },
     {
         id: 2,
-        title: "• New preprint on critical brain dynamics",
+        title: "• New preprint on critical brain dynamics and cognition",
         shortDescription: <div> <a href="https://www.medrxiv.org/content/10.1101/2024.08.19.24312223v1">Link to paper.</a> </div>,
     },
     {
