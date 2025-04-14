@@ -24,7 +24,7 @@ const membersData = [
   { name: 'Dominik D. Kranz', 
     role: 'PhD Student', 
     image: '/images/team/dominik.jpg',
-    desc: "I studied Biophysics at Humboldt-Universität zu Berlin, and love interdisciplinary research. My interests include pretty much everything that's cool, new and shiny, but my specialty is applying and adapting Neural Network architectures for biosignal processing, with a focus on ECG and EEG analysis. I especially enjoy bringing these models to the clinic, where they can help to improve patient care. "
+    desc: "I studied Biophysics and love interdisciplinary research. My interests include pretty much everything that's cool, new and shiny, but my specialty is applying and adapting neural network architectures for biosignal processing, with a focus on ECG and EEG analysis. I especially enjoy bringing these models to the clinic, where they can help improve patient care. "
   },
   { name: 'Ela Marie Akay', 
     role: 'Medical Doctor', 
@@ -78,6 +78,11 @@ const membersData = [
     role: 'PhD Student', 
     image: 'images/team/SimonV.jpg',
     desc: "I am fascinated by the parallels between artificial neural networks and biological brains. My research focuses on critical phase transitions in machine learning, exploring how networks of simple units can give rise to complex, intelligent behavior. By applying insights from deep learning and physics, I study neural systems with the aim of advancing our understanding of both artificial and biological intelligence. Through this work, I hope to contribute to the development of more efficient AI systems and innovative treatments for neurological disorders."
+  },
+  { name: 'Tim Wiegand', 
+    role: 'Medical Doctor', 
+    image: 'images/team/Tim.png',
+    desc: "I am a neurology resident at Charité and a postdoctoral researcher in the computational neurology group. My doctoral thesis focused on advanced neuroimaging techniques in neurotrauma and neurodegenerative disease. Currently, my research centers on predictive modeling in neurology. More specifically, I am working on forecasting increases in intracranial pressure based on time-series data from the ICU. I am co-author of “Künstliche Intelligenz in der Medizin”, a textbook on AI in medicine."
   },
   { name: 'Claudia Gorski', 
     role: 'Administration', 
