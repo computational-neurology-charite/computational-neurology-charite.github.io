@@ -81,7 +81,7 @@ const membersData = [
   },
   { name: 'Tim Wiegand', 
     role: 'Medical Doctor', 
-    image: 'images/team/Tim.png',
+    image: 'images/team/tim.png',
     desc: "I am a neurology resident at Charité and a postdoctoral researcher in the computational neurology group. My doctoral thesis focused on advanced neuroimaging techniques in neurotrauma and neurodegenerative disease. Currently, my research centers on predictive modeling in neurology. More specifically, I am working on forecasting increases in intracranial pressure based on time-series data from the ICU. I am co-author of “Künstliche Intelligenz in der Medizin”, a textbook on AI in medicine."
   },
   { name: 'Claudia Gorski', 
