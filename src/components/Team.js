@@ -65,7 +65,7 @@ const membersData = [
     desc: "Mustafa is a computer scientist working on data-driven pipelines to allow better long-term monitoring and treatment of neurological disorders. His current research involves applying state-of-the deep learning models and analytic tools on data recorded from wearables and videos to detect and predict seizures in epilepsy."
   },
   { name: 'Paul Müller', 
-    role: 'PhD Student', 
+    role: 'Postdoc', 
     image: '/images/team/paul.jpg',
     desc: "I am interested in cortical dynamics and their relation to cognitive function, especially in the context of epilepsy. Beyond my goal to improve our general understanding of cortical dynamics I aim to identify meaningful biomarkers for epilepsy management. My methods include neuronal, statistical and machine learning models, non-linear time series analysis within the framework of brain criticality, and the evaluation of behavioural testing."
   },
