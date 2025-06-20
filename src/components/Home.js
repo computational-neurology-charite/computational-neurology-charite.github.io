@@ -13,13 +13,13 @@ const news = [
     },
     {
         id: 2,
-        title: "• New paper on critical brain dynamics and cognition in PNAS",
-        shortDescription: <div> <a href="https://www.pnas.org/doi/10.1073/pnas.2417117122">Link to paper.</a> </div>,
+        title: "• New paper on a comprehensive latent-space EEG map",
+        shortDescription: <div> <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.27260">Link to paper.</a> </div>,
     },
     {
         id: 3,
-        title: "• New preprint on a comprehensive latent-space EEG map",
-        shortDescription: <div> <a href="https://www.medrxiv.org/content/10.1101/2024.10.25.24316133v1">Link to paper.</a> </div>,
+        title: "• New paper on the detection of epileptic spasms using deep learning on smartphone videos",
+        shortDescription: <div> <a href="https://www.nature.com/articles/s41746-025-01773-1">Link to paper.</a> </div>,
     },
 ];
 
