@@ -11,7 +11,7 @@ function Publications() {
   useEffect(() => {
     const fetchAndParseBibTeX = async () => {
       try {
-        const response = await fetch('/publications.bib');
+        const response = await fetch(`/publications.bib?ts=${Date.now()}`);
         const bibtexText = await response.text();
         const parsed = bibtexParse.toJSON(bibtexText);
         const formatted = parsed.map(entry => ({
