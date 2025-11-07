@@ -104,6 +104,23 @@
 }
 .codeblock pre{ margin:0; padding:12px 14px; font-size:.92rem; }
 
+.data-row {
+  display: flex;
+  gap: 1.5rem;      /* spacing between text and image */
+  align-items: flex-start;
+}
+
+.data-row .text {
+  flex: 1;
+  /* align-items: center; */
+}
+
+.landmarks-image {
+  max-width: 200px;  /* adjust as you like */
+  height: auto;
+  align-self: center;
+}
+
 /* Button CTA */
 .competition-button{
   align-self: center;
