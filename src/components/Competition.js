@@ -41,8 +41,6 @@ Participants will receive a <strong>training dataset</strong> to build and train
 
       <div className="competition-card">
         <h3>Data description</h3>
-        <div className="data-row">
-          <div>
           <p>
           The dataset consists of <strong>5-second video segments</strong> recorded using smartphones or other cameras from multiple children, some of whom were diagnosed with <strong>infantile spasms</strong>. Each segment may contain a <strong>seizure event</strong> (at any point within the 5 seconds) or show <strong>normal, seizure-free activity</strong>.
           </p>
@@ -53,12 +51,9 @@ Within the training dataset, a single child may contribute <strong>multiple vide
 To capture body movements while ensuring <strong>data privacy</strong>, all videos were processed using the <strong>MediaPipe</strong> library [2] to extract <strong>pose landmarks</strong> instead of sharing raw video frames. MediaPipe identifies <strong>33 body landmarks</strong>, each described by three spatial coordinates (x, y, z) and two confidence measures (<strong>visibility</strong> and <strong>presence</strong>) that indicate how clearly each point is detected in the frame.
 
         </p>
-                <p>
+        <p>
           Note that in some frames, landmarks may be missing due to <strong>video quality or motion artifacts</strong>. Pose extraction was performed using <strong>MediaPipe</strong> version 0.10.21 with the <strong>pose_landmarker_heavy.task</strong> model.
         </p>
-        </div>
-        <img src="/images/challenge_example.png" alt="MediaPipe pose landmarks" className="landmarks-image"/>
-      </div>
       </div>
 
            <div className="competition-card">
