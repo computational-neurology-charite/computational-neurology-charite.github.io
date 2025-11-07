@@ -58,7 +58,7 @@ To capture body movements while ensuring <strong>data privacy</strong>, all vide
 
            <div className="competition-card">
   <h3>Training data</h3>
-    <p><strong>The training data is available at the <a href="https://gitlab.com/computational-neurologie/video-based-seizure-detection-challenge#">repository</a>. To be granted access, send an email to <a href="mailto:computational-neurologie@charite.de">computational-neurologie@charite.de</a></strong></p>
+    <p><strong>The training data is available at the <a href="https://gitlab.com/computational-neurologie/video-based-seizure-detection-challenge#">repository</a>. To be granted access, send an email to <a href="mailto:computational-neurology@charite.de">computational-neurology@charite.de</a></strong></p>
   <p>
     The training data consists of a set of .npy files containing the landmarks from each frame of the respective 5-second segments (in total 150 frames corresponding to 30 frames per second (fps)). Missed frames have ‘nan’ landmarks. Besides the .npy files, there is a .csv file (comma ‘,’ separated) containing the true labels of those video segments along with their names (two columns; first column: segment_name (string), second column: label (int 0 or 1; 1 for seizure, 0 no seizure).
   </p>
