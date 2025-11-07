@@ -131,7 +131,7 @@ train_df = pd.read_csv('train_data.csv', sep=',')
       <div className="competition-card">
         <h3>Organizers</h3>
         <p>
-         The challenge is organized by the Section on Computational Neurology at Charité - Universitätsmedizin Berlin in Germany, in collaboration with sponsor1, sponsor2 and sponsor3. 
+         The challenge is organized by the Section on Computational Neurology at Charité - Universitätsmedizin Berlin in Germany, in collaboration with <a href="https://www.aiepilepsy-neuro.com/">The International Conference on Artificial Intelligence in Epilepsy and Other Neurological Disorders (2026)</a>.
 
         For questions to the organizers, you can contact Christian Meisel or Mustafa Halimeh: <a href="mailto:computational-neurology@charite.de">computational-neurology@charite.de</a>
 
