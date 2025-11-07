@@ -1,50 +1,39 @@
-import React, { useState, useEffect } from 'react';
-import './Team.css';
+import React from "react";
+import "./Alumni.css";
 
-function Alumni() {
-  const [alumniMembers, setAlumniMembers] = useState([]);
+const alumniNames = [
+  "Amrit Kashyap",
+  "Jonas Stelzer",
+  "Paul Müller",
+  "Gadi Miron",
+  "Lida Antonakopoulou",
+  "Agustina Aragon Daud",
+  "Lily Strittmatter",
+  "Mario Andina",
+  "Georg von Arnim",
+];
 
-  useEffect(() => {
-    // In a real app, you'd fetch this data from an API
-    const fetchAlumniMembers = async () => {
-      // Simulating API call
-      const members = [
-
-        { name: 'Agustina Aragon Daud, Lily Strittmatter, Mario Andina, Georg von Arnim', 
-          role: '', 
-          image: '/images/logo_group.webp',
-          desc: ""
-          // desc: "Agustina is a Pre-Doctoral Research Intern at the Bernstein Center for Computational Neuroscience Berlin. She graduated with honors from Psychology with a focus in Neuroscience from Universidad Favaloro, in Buenos Aires, Argentina. Her current research involves using machine learning for predictive time series analysis in epilepsy, utilizing both iEEG and ECG data."
-        },
-       
-
-        // Add other alumni members
-      ];
-      setAlumniMembers(members);
-    };
-
-    fetchAlumniMembers();
-  }, []);
-
+export default function Alumni() {
   return (
-    // <div className="alumni-section-container">
-    <section id="team">
-      <div className="team-container-container">
-      <h2 className="section-title team-title">Alumni</h2>
-        <div className="team-container">
-          {alumniMembers.map((member, index) => (
-            <div key={index} className="team-card">
-              <img src={member.image} alt={member.name} />
-              <h3>{member.name}</h3>
-              <p>{member.role}</p>
-              <p>{member.desc}</p>
-            </div>
+    <section id="alumni">
+      <h2 className="section-title">Alumni</h2>
+
+      <div className="alumni-card">
+        <img
+          src="/images/logo_group.webp"
+          alt="Lab logo"
+          className="alumni-logo"
+        />
+
+        <ul className="alumni-list">
+          {alumniNames.map((n) => (
+            <li key={n}>{n}</li>
           ))}
-      </div>
+        </ul>
+
+        {/* If you want roles/years later, add a small muted line here */}
+        {/* <p className="alumni-note">2019–2024 cohorts</p> */}
       </div>
     </section>
-      // </div>
   );
 }
-
-export default Alumni;

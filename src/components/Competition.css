@@ -1,0 +1,134 @@
+/* Page container */
+#competition{
+  padding: 56px 20px;
+  background: var(--background-color, #fff);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;        /* make children align left */
+}
+p {
+  text-align: justify;
+}
+/* Title + intro */
+#competition .section-title{
+  text-align: center;
+  letter-spacing: .2px;
+  margin: 0 0 8px 0;
+}
+
+.competition-intro{
+  max-width: 980px;
+  margin: 0 auto 8px;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  color: #2b2b2b;
+  text-align: center;
+}
+/* #competition .competition-card { text-align: left; }
+#competition .competition-card,
+#competition .competition-card h3,
+#competition .competition-card p,
+#competition .competition-card ul,
+#competition .competition-card li,
+#competition .competition-card code {
+  text-align: left;
+} */
+
+/* —— Flat, elegant sections ————————————————————— */
+.competition-card{
+  /* remove the “box” look */
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+
+  /* add refined rhythm */
+  padding: 0;
+  border-top: 1px solid #e9ecef;
+  padding-top: 24px;
+}
+
+.competition-card:first-of-type{
+  border-top: 0;            /* no divider before the first block */
+  padding-top: 0;
+}
+
+.competition-card h3{
+  margin: 0 0 10px 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: .2px;
+}
+
+.competition-card p,
+.competition-card li{
+  color: #333;
+  line-height: 1.75;
+  font-size: 1.02rem;
+}
+
+/* Key dates as neat two-column list */
+.keydates{
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 8px 18px;
+  align-items: start;
+}
+.keydates .k{ font-weight: 600; color:#111; }
+.keydates .v{ color:#333; }
+
+/* Metrics mono style */
+.metrics{
+  /* display: grid; */
+  gap: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  font-size: .98rem;
+  justify-items: start;
+}
+
+/* Code blocks – subtle, not boxed */
+.codeblock{
+  margin-top: 12px;
+  border: 1px solid #eef0f2;
+  background: #fafbfc;
+  border-radius: 6px;
+  overflow: auto;
+}
+.codeblock pre{ margin:0; padding:12px 14px; font-size:.92rem; }
+
+/* Button CTA */
+.competition-button{
+  align-self: center;
+  display: inline-block;
+  margin: 10px auto 8px;
+  padding: 12px 26px;
+  background: var(--card-color, #f3f4f6);
+  border-radius: 999px;               /* pill look */
+  text-decoration: none;
+  font-size: 1.05rem;
+  color: #111;
+  border: 1px solid #dadde1;
+  transition: transform .2s ease, background .2s ease;
+}
+.competition-button:hover{
+  background: var(--card-hover-color, #e9ecef);
+  transform: translateY(-1px);
+}
+
+/* References */
+.refs{
+  max-width: 900px;
+  margin: 4px auto 0;
+  text-align: left;
+}
+.refs h4{ margin: 12px 0; }
+
+/* Responsive */
+@media (max-width: 760px){
+  .keydates{ grid-template-columns: 1fr; }
+  .competition-intro{ text-align: left; }
+}

@@ -1,0 +1,32 @@
+#competition-announcement {
+  padding: 40px;
+  background-color: #f9f9f9; /* matches Publications/News look */
+  text-align: center;
+}
+
+#competition-announcement .competition-content {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: #333;
+}
+
+.competition-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 30px;
+  background: var(--card-color);
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: 0.3s ease;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.competition-button:hover {
+  background: var(--card-hover-color);
+  transform: translateY(-3px);
+  cursor: pointer;
+}
