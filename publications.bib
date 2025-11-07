@@ -966,6 +966,27 @@ Conclusion: This effort underlines the importance of incorporating standardized,
 	file = {Volltext:/Users/christianmeisel/Zotero/storage/3MJ3VFS5/Klammer et al. - 2024 - Association Between Stroke Lesion Size and Atrial .pdf:application/pdf},
 }
 
+@article{KRANZ2025109138,
+title = {Exploring Latent Diffusion Models for ECG Generation on the Minute Scale},
+journal = {Computer Methods and Programs in Biomedicine},
+pages = {109138},
+year = {2025},
+issn = {0169-2607},
+doi = {https://doi.org/10.1016/j.cmpb.2025.109138},
+url = {https://www.sciencedirect.com/science/article/pii/S0169260725005541},
+author = {Dominik D. Kranz and Jan F. Krämer and Oruç Kahriman and Alexander Nelde and Niels Wessel and Christian Meisel},
+keywords = {Generative Artificial Intelligence, Latent Diffusion Models, Electrocardiogram (ECG)},
+abstract = {Background and Objective
+AI models for electrocardiogram (ECG) interpretation rely on large, diverse datasets, but existing clinical datasets are skewed, overrepresenting normal rhythms and lacking rare pathologies. This limits model performance and generalizability. While generative AI has shown promise in other domains, its application to biosignals has so far been restricted to short segments, reducing clinical utility. Additionally, potentially promising tools like inpainting for artefact removal have not yet been explored in the biosignal domain. To overcome these limitations, we propose ECGEN, a latent diffusion model (LDM) designed to synthesize long-duration, realistic ECGs for data augmentation, rhythm-specific generation, and signal restoration.
+Methods
+We developed ECGEN in three configurations: (1) ECGEN-Small, a 30-second conditional generator for sinus rhythm and AFib; (2) ECGEN-Medium, a 90-second model for inpainting tasks; and (3) ECGEN-Large, an unconditional model for generating 320-second ECGs. Models were trained on real clinical ECGs from stroke patients using a vector quantized-variational autoencoder (VQ-VAE) for encoding and a denoising diffusion implicit model (DDIM) as the latent space backbone. We evaluated model outputs using heart rate (HR), heart rate variability (HRV), and morphological coherence.
+Results
+ECGEN-Small achieved an AUC of 0.98 for the atrial fibrillation (AFib) vs. sinus rhythm classification. ECGEN-Medium successfully inpainted missing segments with plausible HR dynamics. ECGEN-Large generated long ECGs with consistent morphology but showed distributional shifts in HRV (e.g., inflated standard deviation of NN intervals, SdNN), indicating incomplete modeling of global temporal dependencies. Network depth was found to significantly influence output quality and training stability.
+Conclusions
+ECGEN demonstrates the feasibility of long-duration ECG generation using LDMs, offering applications in dataset augmentation and signal restoration. However, distributional mismatches and occasional artefacts highlight challenges in unsupervised biosignal synthesis. Future work should address long-range temporal modeling and refine realism through conditioning or adversarial training.}
+}
+
+
 @ARTICLE{Schoels2025,
   title     = {Artificial Intelligence for Prediction of Atrial Fibrillation in the Stroke Unit: A Retrospective Derivation Validation Cohort Study},
   author    = {Maximilian Schoels and Laura Krumm and Alexander Nelde and Manuel C. Olma and Christian H. Nolte and Jan F. Scheitz and Markus G. Klammer and Christoph Leithner and Andreas Meisel and Franziska Scheibe and Michael Krämer and  Karl Georg Haeusler and Matthias Endres and Christian Meisel},
