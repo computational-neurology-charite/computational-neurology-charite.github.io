@@ -7,7 +7,11 @@
   gap: 32px;
   align-items: flex-start;        /* make children align left */
 }
-p {
+/* p {
+  text-align: justify;
+} */
+
+#competition p {
   text-align: justify;
 }
 /* Title + intro */
