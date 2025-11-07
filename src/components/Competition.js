@@ -8,7 +8,7 @@ export default function Competition() {
 
       <div className="competition-intro">
         <p>
-          In partnership with <strong><a href= "https://www.aiepilepsy-neuro.com/" >The International Conference on Artificial Intelligence in Epilepsy and Other Neurological Disorders (2026)</a></strong>, the Section on Computational Neurology at Charité – Universitätsmedizin Berlin and partners are organizing a video-based seizure detection challenge.
+          In partnership with <a href= "https://www.aiepilepsy-neuro.com/" >The International Conference on Artificial Intelligence in Epilepsy and Other Neurological Disorders (2026)</a>, the <a href="https://www.computational-neurology.org">Section on Computational Neurology at Charité – Universitätsmedizin Berlin</a> and partners are organizing a video-based seizure detection challenge.
         </p>
       </div>
 
@@ -24,28 +24,43 @@ export default function Competition() {
       <div className="competition-card">
         <h3>Background</h3>
         <p>
-         Epilepsy is a common neurological disorder affecting around 50 million people worldwide. Infantile epileptic spasm syndrome (IESS) is an early developmental and epileptic encephalopathy condition affecting approximately 1 in 2000-2500 infants in their first year of life. IESS is characterized by epileptic spasms which are sudden motor movements involving the head, arms, and legs. Despite the stereotypical nature of epileptic spasms, diagnosis is frequently delayed by weeks to months due to misidentification of symptoms as benign physiological occurrences or failure to recognize any abnormality by physicians or parents. These delays are associated with long-term poor cognitive outcomes, inadequate seizure control, increased disability, and higher healthcare costs. The widespread availability of smartphones and advancements in artificial intelligence (AI) may open new avenues for decision support in diagnosing these seizures [1].
+         <strong>Epilepsy</strong> affects about 50 million people worldwide. One severe early form, called <strong>infantile epileptic spasm syndrome (IESS)</strong>, occurs in roughly 1 in 2,000–2,500 infants during their first year of life. IESS causes sudden, repetitive movements of the head, arms, or legs known as <strong>epileptic spasms</strong>. These seizures are often mistaken for normal baby movements, leading to delays in diagnosis and treatment. Such delays can worsen long-term development and health outcomes. With the growing use of videos, smartphones and advances in <strong>artificial intelligence (AI)</strong>, new tools may help detect and diagnose these seizures more quickly [1].
         </p>
       </div>
 
       <div className="competition-card">
         <h3>Objective</h3>
         <p>
-          This challenge aims to build a video-based seizure detection model that detects if a <strong>5-second video segment</strong> contains an epileptic spasm or not. Video content is anonymized using a pose estimation algorithm. The pose estimation data includes a number of landmarks that represent key points on the skeleton of the child's body (further details below). Every 5-second segment contains 150 frames (fps=30), and pose estimation is performed on each frame. In this challenge, we are providing a training dataset to build the seizure detection models as a binary classification tast (video segment contains a seizure yes/no). The models will then be evaluated on large out-of-sample dataset.
+          The goal of this challenge is to develop an <strong>AI model</strong> that can automatically detect <strong>epileptic spasms</strong> from short video clips. Each clip is <strong>5 seconds long</strong> and may or may not contain a seizure event.
+To protect privacy, all videos have been <strong>anonymized using pose estimation</strong>, which tracks only key body landmarks rather than showing identifiable features. Each 5-second segment includes <strong>150 frames (30 frames per second)</strong>, and pose estimation has been applied to every frame, providing the coordinates of key points on the child’s skeleton.
+Participants will receive a <strong>training dataset</strong> to build and train a <strong>binary classification model</strong> (seizure vs. no seizure). The submitted models will then be tested on a <strong>large unseen dataset</strong> to evaluate their accuracy and generalization.
+
         </p>
+
       </div>
 
       <div className="competition-card">
         <h3>Data description</h3>
         <p>
-          The data includes 5-second video segments recorded from smartphones or other cameras from different children. Some of the children were diagnosed with infantile spasms. Each 5-second video segment may contain a seizure (at any time point) or could be normal, i.e., seizure-free. Across the training dataset, the same child may contribute multiple video segment from both classes or only from one class. To extract relevant movement while also preserving data privacy, we used the mediapipe library [2] to extract the pose landmarks from the children’s video segments. The total number of landmarks is 33, and each landmark has 3 coordinates reflecting the position on the x, y, z axes, and two values (visibility and presence) referring to the degree of the presence of the landmark inside the frame scene. Note, that mediapipe may sometimes not extract the landmarks for some frames due to video quality issues. We used mediapipe version 0.10.21 with the model pose_landmarker_heavy.task.
+          The dataset consists of <strong>5-second video segments</strong> recorded using smartphones or other cameras from multiple children, some of whom were diagnosed with <strong>infantile spasms</strong>. Each segment may contain a <strong>seizure event</strong> (at any point within the 5 seconds) or show <strong>normal, seizure-free activity</strong>.
+          </p>
+          <p>
+Within the training dataset, a single child may contribute <strong>multiple video segments</strong>, either from both classes (seizure and non-seizure) or from only one.
+</p>
+          <p>
+To capture body movements while ensuring <strong>data privacy</strong>, all videos were processed using the <strong>MediaPipe</strong> library [2] to extract <strong>pose landmarks</strong> instead of sharing raw video frames. MediaPipe identifies <strong>33 body landmarks</strong>, each described by three spatial coordinates (x, y, z) and two confidence measures (<strong>visibility</strong> and <strong>presence</strong>) that indicate how clearly each point is detected in the frame.
+
+        </p>
+                <p>
+          Note that in some frames, landmarks may be missing due to <strong>video quality or motion artifacts</strong>. Pose extraction was performed using <strong>MediaPipe</strong> version 0.10.21 with the <strong>pose_landmarker_heavy.task</strong> model.
         </p>
       </div>
 
            <div className="competition-card">
   <h3>Training data</h3>
+    <p><strong>The training data is available at the <a href="https://gitlab.com/computational-neurologie/video-based-seizure-detection-challenge#">repository</a>. To be granted access, send an email to <a href="mailto:computational-neurologie@charite.de">computational-neurologie@charite.de</a></strong></p>
   <p>
-    The shared training data is a set of .npy files containing the landmarks from each frame of the respective 5-second segments (in total 150 frames corresponding to 30 frames per second (fps)). Missed frames have ‘nan’ landmarks. Besides the .npy files, there is a .csv file (comma ‘,’ separated) containing the true labels of those video segments along with their names (two columns; first column: segment_name (string), second column: label (int 0 or 1; 1 for seizure, 0 no seizure).
+    The training data consists of a set of .npy files containing the landmarks from each frame of the respective 5-second segments (in total 150 frames corresponding to 30 frames per second (fps)). Missed frames have ‘nan’ landmarks. Besides the .npy files, there is a .csv file (comma ‘,’ separated) containing the true labels of those video segments along with their names (two columns; first column: segment_name (string), second column: label (int 0 or 1; 1 for seizure, 0 no seizure).
   </p>
   <p>The .npy files have the following naming convention:</p>
     <code>child_{'{'}id{'}'}_{'{'}segment{'}'}</code>
@@ -85,8 +100,15 @@ train_df = pd.read_csv('train_data.csv', sep=',')
       <div className="competition-card">
         <h3>Output data</h3>
         <p>
-         The prediction from each submitted model must be summarized in one single .csv file containing the predicted labels as 1 for seizure and 0 for non-seizure for each 5-second video segment (.npy file) along with the file name. Thus, the output .csv file must have only two columns (first column: file name, second column: label). Please note that the predicted labels are required per each 5-second video segment and not per each child, so participants must not predict if a child has infantile spasms or not.
+          Each submitted model must produce a single .csv file containing the predicted labels for all 5-second video segments.
+The file should have two columns:
+
         </p>
+        <ul>
+          <li><strong>file_name</strong> – the name of the corresponding <code>.npy</code> file</li>
+          <li><strong>label</strong> – the predicted class (<strong>1</strong> = seizure, <strong>0</strong> = non-seizure)</li>
+        </ul>
+      <p>Please note that predictions must be made for each 5-second segment individually, not for each child. The task is to detect whether a segment contains a seizure, not to classify whether a child has infantile spasms.</p>
       </div>
 
 
@@ -116,14 +138,17 @@ train_df = pd.read_csv('train_data.csv', sep=',')
         <h3>Awards</h3>
         <p>Our sponsors are generously offering $10,000 prizes for the winning participants. This prize money will be split among only the best two algorithms as follows:</p>
         <ul className="awards">
-          <li><strong>#1:</strong> $7,000</li>
-          <li><strong>#2:</strong> $3,000</li>
+          <li><strong>First place:</strong> $7,000</li>
+          <li><strong>Second place:</strong> $3,000</li>
         </ul>
         <p>
           Both winning participant teams (first/second place) are required to send their detailed solutions with the source code for final verification. This will demand them to agree on sharing their code under a CC-BY- SA 4.0 license to receive the full awarded prize money.
 </p>
         <p>
           The challenge organizers will write a summary of the outcome of the challenge in a leading journal in our field. The top challenge contributors will be invited to contribute to this paper to describe their methodology.
+        </p>
+        <p>
+          To be eligible to receive the prize money, at least one co-author of the submitted model must be registered (in person or virtual) for the conference. Teams that are not registered can participate, but they will not be eligible to win.
     </p>
 
       </div>
@@ -131,9 +156,10 @@ train_df = pd.read_csv('train_data.csv', sep=',')
       <div className="competition-card">
         <h3>Organizers</h3>
         <p>
-         The challenge is organized by the Section on Computational Neurology at Charité - Universitätsmedizin Berlin in Germany, in collaboration with <a href="https://www.aiepilepsy-neuro.com/">The International Conference on Artificial Intelligence in Epilepsy and Other Neurological Disorders (2026)</a>.
-
-        For questions to the organizers, you can contact Christian Meisel or Mustafa Halimeh: <a href="mailto:computational-neurology@charite.de">computational-neurology@charite.de</a>
+         The challenge is organized by the <a href="https://www.computational-neurology.org">Section on Computational Neurology at Charité - Universitätsmedizin Berlin in Germany</a>, in collaboration with <a href="https://www.aiepilepsy-neuro.com/">The International Conference on Artificial Intelligence in Epilepsy and Other Neurological Disorders (2026)</a>.
+        </p>
+        <p>
+        For questions to the organizers: <a href="mailto:computational-neurology@charite.de">computational-neurology@charite.de</a>
 
         </p>
       </div>
@@ -145,7 +171,8 @@ train_df = pd.read_csv('train_data.csv', sep=',')
 
       <div className="competition-card">
         <h3>Submission guidelines</h3>
-        Participants should provide a pre-trained model packaged as a Docker image. The Docker image should be downloadable from an image registry. Participants can have a maximum of three different submissions. An abstract describing the methodology and performance of the training data is optional. Participants are invited to submit a poster in addition to the challenge submission, more details on poster submission are available on the <a href="https://www.aiepilepsy-neuro.com/"> AI in epilepsy conference website</a>. 
+        <p>Participants should provide a pre-trained model packaged as a Docker image. The Docker image should be downloadable from an image registry. The training data contain an example of a Docker file. Participants can have a maximum of three different submissions. An abstract describing the methodology and performance of the training data is optional. Participants are invited to submit a poster in addition to the challenge submission, more details on poster submission are available on the <a href="https://www.aiepilepsy-neuro.com/"> AI in epilepsy conference website</a>. 
+        </p>
         <p><strong>Docker requirements:</strong></p>
         <p>The docker image must contain two volumes, and define two environment variables:</p>
         <div className="codeblock">
@@ -162,8 +189,15 @@ ENV OUTPUT=""`}</code></pre>
       <div className="competition-card">
         <h3>Computing platform</h3>
         <p>
-          We will run all submitted models and algorithms on our HPC on premises. The device will have no internet access during the evaluation of the submissions. The computer is a DELL workstation with 2 Nvidia RTX 6000 GPUs, 32 CPU cores, and 48 GB RAM memory in each GPU. Windows 11 is the main OS but also Linux Subsystem is included (WSL ubuntu).
+          All submitted models will be evaluated on our on-premises high-performance computing (HPC) system. During the evaluation process, the device will have no internet access to ensure data security and fairness across submissions.
+The evaluation will be performed on a DELL workstation equipped with:
         </p>
+<ul>
+  <li><strong>2× NVIDIA RTX 6000 GPUs</strong> (48 GB RAM each)</li>
+  <li><strong>32 CPU cores</strong></li>
+  <li><strong>Windows 11</strong> operating system with <strong>Ubuntu (WSL)</strong> support</li>
+</ul>
+
       </div>
 
       <div className="competition-card">
@@ -175,12 +209,10 @@ ENV OUTPUT=""`}</code></pre>
           <div className="k">Abstract</div><div className="v">Brief method description</div>
         </div> */}
         <p className="smallprint">
-          Please submit your algorithms via submission form (link below).
-          The algorithms submitted here remain the strict property of the inventor. Neither the conference organizers nor the challenge sponsors have any intellectual property claims on the algorithms. The conference organizers will not share or disseminate them after the evaluation of the model. They will use the algorithms during the challenge to evaluate performance on a holdout dataset.
-
-To be eligible to receive the prize money, at least one co-author of the submitted model must be registered (in person or virtual) for the conference. Teams that are not registered can participate, but they will not be eligible to win.
+          Please submit your algorithms via submission form (link below). The algorithms submitted here remain the strict property of the inventor. Neither the conference organizers nor the challenge sponsors have any intellectual property claims on the algorithms. The challenge organizers will not share or disseminate them after the evaluation of the model and only use them during the challenge to evaluate performance on a holdout dataset. 
 
         </p>
+        
 
       </div>
 

@@ -9,8 +9,8 @@ export default function CompetitionAnouncement() {
 
       <div className="competition-content">
         <p>
-          In partnership with The International Conference on Artificial Intelligence in Epilepsy and Other Neurological Disorders (2026), 
-          the Section on Computational Neurology at Charité - Universitätsmedizin Berlin in Germany and partners are organizing a video-based seizure detection challenge. 
+          In partnership with <a href="https://www.aiepilepsy-neuro.com/">The International Conference on Artificial Intelligence in Epilepsy and Other Neurological Disorders (2026)</a>, 
+          the <a href="https://www.computational-neurology.org">Section on Computational Neurology at Charité - Universitätsmedizin Berlin in Germany</a> and partners are organizing a video-based seizure detection challenge. 
         </p>
 
     <Link to="/video_challenge" className="competition-button">

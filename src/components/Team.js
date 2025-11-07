@@ -16,11 +16,6 @@ const membersData = [
     image: '/images/team/alex.jpg',
     desc: ""
   },
-  { name: 'Amrit Kashyap', 
-    role: 'Postdoc', 
-    image: '/images/team/amrit.jpg',
-    desc: ""
-  },
   { name: 'Dominik D. Kranz', 
     role: 'PhD Student', 
     image: '/images/team/dominik.jpg',
@@ -31,28 +26,15 @@ const membersData = [
     image: 'images/team/ela_picture.jpg',
     desc: "As a neurology resident, I am interested in neurovascular medicine and using Artificial Intelligence to improve patient outcomes in neurocritical care and stroke medicine. In my research, I use routinely collected data for neurocritical and stroke unit patients to generate insights into different neurovascular pathologies. I am also fascinated by the broader implications of AI applications in everyday clinical practice and effects on neurological patients and the healthcare system at large."
   },
-  { name: 'Gadi Miron', 
-    role: 'Medical Doctor', 
-    image: '/images/team/gadi.jpg',
-    desc: <div>I am a neurologist and researcher with a special interest in epilepsy and digital health. My work focuses on understanding and addressing diagnostic challenges of people with epilepsy through computational analysis of EEG, imaging, and video data. Studies include AI-based video analysis of seizure semiology, retrospective clinical studies, EEG analysis for predicting seizures and long-term cognitive outcomes, and MRI analysis to better understand cognitive dysfunction in epilepsy. I also work to translate our research into clinical practice by developing a digital health tool, <a href="https://motusmed.de">https://motusmed.de</a>, currently being tested at Charité clinics.
-
-    </div>
-    
-  },
-  { name: 'Jonas Stelzer', 
-    role: 'Medical Student', 
-    image: 'images/team/JonasS.jpg',
-    desc: "Currently a medical student at Charité University Hospital with a background in Economics from UCL, I am fascinated by the relationship between physiological cycles, such as heart rate variability, and brain states. By leveraging wearables, I am interested in bridging the gap between costly, hard-to-access brain activity data and consumer-grade health monitoring."
-  },
   { name: 'Laura Krumm', 
     role: 'PhD Student', 
     image: 'images/team/LauraK.png',
     desc: ""
   },
-  { name: 'Lida Antonakopoulou', 
-    role: 'Medical Doctor', 
-    image: 'images/team/lidaA.png',
-    desc: ""
+  {name: 'Markus Klammer',
+    role:"Medical Doctor",
+    image:"images/team/Markus.jpg",
+    desc:"I am a clinical neurologist and specialize in the relationship between cardiac function and stroke. My interest lies in using deep learning on stroke imaging to explore patterns that link vascular physiology, brain injury, and patient outcomes, with the goal of improving prediction and personalized treatment strategies."
   },
   { name: 'Maximilian Schöls', 
     role: 'Medical Doctor', 
@@ -63,11 +45,6 @@ const membersData = [
     role: 'PhD Student', 
     image: '/images/team/Mustafa.jpg',
     desc: "Mustafa is a computer scientist working on data-driven pipelines to allow better long-term monitoring and treatment of neurological disorders. His current research involves applying state-of-the deep learning models and analytic tools on data recorded from wearables and videos to detect and predict seizures in epilepsy."
-  },
-  { name: 'Paul Müller', 
-    role: 'Postdoc', 
-    image: '/images/team/paul.jpg',
-    desc: "I am interested in cortical dynamics and their relation to cognitive function, especially in the context of epilepsy. Beyond my goal to improve our general understanding of cortical dynamics I aim to identify meaningful biomarkers for epilepsy management. My methods include neuronal, statistical and machine learning models, non-linear time series analysis within the framework of brain criticality, and the evaluation of behavioural testing."
   },
   { name: 'Robert Terziev', 
     role: 'Medical Doctor', 

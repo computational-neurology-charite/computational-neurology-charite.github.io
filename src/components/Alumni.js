@@ -4,6 +4,7 @@ import "./Alumni.css";
 const alumniNames = [
   "Amrit Kashyap",
   "Jonas Stelzer",
+  "Jessica Hochwald",
   "Paul Müller",
   "Gadi Miron",
   "Lida Antonakopoulou",
