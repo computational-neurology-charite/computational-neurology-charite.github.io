@@ -2,16 +2,16 @@ import React from "react";
 import "./Alumni.css";
 
 const alumniNames = [
-  "Amrit Kashyap",
-  "Jonas Stelzer",
-  "Jessica Hochwald",
-  "Paul Müller",
-  "Gadi Miron",
-  "Lida Antonakopoulou",
-  "Agustina Aragon Daud",
-  "Lily Strittmatter",
-  "Mario Andina",
-  "Georg von Arnim",
+  "Dr. Amrit Kashyap (Postdoc)",
+  "Jessica Hochwald (Bachelor's Thesis)",
+  "Paul Müller (Dr. rer. nat.)",
+  "Dr. Gadi Miron (Postdoc)",
+  "Lida Antonakopoulou (Internship)",
+  "Agustina Aragon Daud (Internship)",
+  "Lily Strittmatter (Bachelor's Thesis)",
+  "Mert Akgül (Bachelor's Thesis)",
+  "Mario Andina (Doctoral Thesis)",
+  "Georg von Arnim (Working Student)",
 ];
 
 export default function Alumni() {

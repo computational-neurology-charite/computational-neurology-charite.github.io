@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Team.css';
 const membersData = [
-  { name: 'Christian Meisel', 
+  { name: 'Prof. Dr. med. Dipl.-Phys. Christian Meisel', 
     role: 'Principal Investigator', 
     image: 'images/team/christian.jpg',
     desc: ''
@@ -31,14 +31,19 @@ const membersData = [
     image: 'images/team/LauraK.png',
     desc: ""
   },
-  {name: 'Markus Klammer',
+  {name: 'Dr. Markus Klammer',
     role:"Medical Doctor",
     image:"images/team/Markus.jpg",
     desc:"I am a clinical neurologist and specialize in the relationship between cardiac function and stroke. My interest lies in using deep learning on stroke imaging to explore patterns that link vascular physiology, brain injury, and patient outcomes, with the goal of improving prediction and personalized treatment strategies."
   },
-  { name: 'Maximilian Schöls', 
+  { name: 'Dr. Maximilian Schöls', 
     role: 'Medical Doctor', 
     image: 'images/team/Maximilian_Schoels.jpg',
+    desc: ""
+  },
+  { name: 'Jonas Stelzer', 
+    role: 'Medical Student', 
+    image: 'images/team/JonasS.jpg',
     desc: ""
   },
   { name: 'Mustafa Halimeh', 
@@ -46,15 +51,30 @@ const membersData = [
     image: '/images/team/Mustafa.jpg',
     desc: "Mustafa is a computer scientist working on data-driven pipelines to allow better long-term monitoring and treatment of neurological disorders. His current research involves applying state-of-the deep learning models and analytic tools on data recorded from wearables and videos to detect and predict seizures in epilepsy."
   },
-  { name: 'Robert Terziev', 
+  { name: 'Dr. Robert Terziev', 
     role: 'Medical Doctor', 
     image: '/images/team/robert.jpg',
+    desc: ""
+  },
+  { name: 'Simon Giglhuber', 
+    role: 'Master Student', 
+    image: 'images/team/placeholder.jpg',
     desc: ""
   },
   { name: 'Simon Vock', 
     role: 'PhD Student', 
     image: 'images/team/SimonV.jpg',
     desc: "I am fascinated by the parallels between artificial neural networks and biological brains. My research focuses on critical phase transitions in machine learning, exploring how networks of simple units can give rise to complex, intelligent behavior. By applying insights from deep learning and physics, I study neural systems with the aim of advancing our understanding of both artificial and biological intelligence. Through this work, I hope to contribute to the development of more efficient AI systems and innovative treatments for neurological disorders."
+  },
+    { name: 'Lennart Jürgensen', 
+    role: 'Medical Student', 
+    image: 'images/team/placeholder.jpg',
+    desc: ""
+  },
+    { name: 'Leon Neymeyer', 
+    role: 'Working Student', 
+    image: 'images/team/placeholder.jpg',
+    desc: ""
   },
   { name: 'Tim Wiegand', 
     role: 'Medical Doctor', 
@@ -71,14 +91,26 @@ const membersData = [
   // Add other team members
 ];
 
-function TeamCard({ member, isExpanded, onClick }) {
+//function TeamCard({ member, isExpanded, onClick }) {
+//  return (
+//    <div className={`team-card ${isExpanded ? 'expanded' : ''}`} onClick={onClick}>
+//      <img src={member.image} alt={member.name} />
+//      <h3>{member.name}</h3>
+//      <p>{member.role}</p>
+//      <p>{isExpanded ? member.desc : (member.desc === '' ? null : <body className={'more-text'}>More...</body>)}</p>
+    
+//    </div>
+//  );
+//}
+
+
+function TeamCard({ member, isExpanded, onClick, className = '' }) {
   return (
-    <div className={`team-card ${isExpanded ? 'expanded' : ''}`} onClick={onClick}>
+    <div className={`team-card ${isExpanded ? 'expanded' : ''} ${className}`} onClick={onClick}>
       <img src={member.image} alt={member.name} />
       <h3>{member.name}</h3>
       <p>{member.role}</p>
       <p>{isExpanded ? member.desc : (member.desc === '' ? null : <body className={'more-text'}>More...</body>)}</p>
-    
     </div>
   );
 }
@@ -102,6 +134,7 @@ function Team() {
             member={member}
             isExpanded={expandedId === member.name}
             onClick={() => handleCardClick(member.name)}
+            className={member.name === 'Prof. Dr. med. Dipl.-Phys. Christian Meisel' ? 'break-after' : ''}
           />
         ))}
       </div>
@@ -110,6 +143,10 @@ function Team() {
     </div>
   );
 }
+
+
+
+
 
 // function Team() {
 //   const [teamMembers, setTeamMembers] = useState([]);
