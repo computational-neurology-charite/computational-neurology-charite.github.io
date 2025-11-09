@@ -166,7 +166,7 @@ The file should have two columns:
 
       <div className="competition-card">
         <h3>Legal statement</h3>
-        <p>Participants must acknowledge that the shared data must only be used for this competition.</p>
+        <p>By downloading the data participants acknowledge that the shared data must only be used for this competition.</p>
       </div>
 
       <div className="competition-card">

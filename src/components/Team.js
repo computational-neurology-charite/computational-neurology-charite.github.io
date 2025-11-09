@@ -41,6 +41,11 @@ const membersData = [
     image: 'images/team/Maximilian_Schoels.jpg',
     desc: ""
   },
+  { name: 'Simon Giglhuber', 
+    role: 'Master Student', 
+    image: 'images/team/placeholder.jpg',
+    desc: ""
+  },
   { name: 'Jonas Stelzer', 
     role: 'Medical Student', 
     image: 'images/team/JonasS.jpg',
@@ -54,11 +59,6 @@ const membersData = [
   { name: 'Dr. Robert Terziev', 
     role: 'Medical Doctor', 
     image: '/images/team/robert.jpg',
-    desc: ""
-  },
-  { name: 'Simon Giglhuber', 
-    role: 'Master Student', 
-    image: 'images/team/placeholder.jpg',
     desc: ""
   },
   { name: 'Simon Vock', 
