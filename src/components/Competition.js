@@ -136,7 +136,7 @@ The file should have two columns:
 
       <div className="competition-card">
         <h3>Awards</h3>
-        <p>Our sponsors are generously offering $10,000 prizes for the winning participants. This prize money will be split among only the best two algorithms as follows:</p>
+        <p>Our sponsors are generously offering $10,000 prizes for the winning participants. This prize money will be split among only the best two participant teams as follows:</p>
         <ul className="awards">
           <li><strong>First place:</strong> $7,000</li>
           <li><strong>Second place:</strong> $3,000</li>
