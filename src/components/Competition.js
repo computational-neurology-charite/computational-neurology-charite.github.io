@@ -16,8 +16,8 @@ export default function Competition() {
         <h3>Key dates</h3>
         <div className="keydates">
           <div className="k">Mid November 2025</div><div className="v">Challenge begins.</div>
-          <div className="k">February 23, 2025</div><div className="v">Submission closes — submit early.</div>
-          <div className="k">March 16–19, 2025</div><div className="v">Winners announced during the AI in Epilepsy 2026 conference.</div>
+          <div className="k">February 23, 2026</div><div className="v">Submission closes — submit early.</div>
+          <div className="k">March 16–19, 2026</div><div className="v">Winners announced during the AI in Epilepsy 2026 conference.</div>
         </div>
       </div>
 

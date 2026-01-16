@@ -66,10 +66,10 @@ const membersData = [
     image: 'images/team/SimonV.jpg',
     desc: "I am fascinated by the parallels between artificial neural networks and biological brains. My research focuses on critical phase transitions in machine learning, exploring how networks of simple units can give rise to complex, intelligent behavior. By applying insights from deep learning and physics, I study neural systems with the aim of advancing our understanding of both artificial and biological intelligence. Through this work, I hope to contribute to the development of more efficient AI systems and innovative treatments for neurological disorders."
   },
-    { name: 'Lennart Jürgensen', 
+    { name: 'Lennert Jürgensen', 
     role: 'Medical Student', 
-    image: 'images/team/placeholder.jpg',
-    desc: ""
+    image: 'images/team/lennert.jpeg',
+    desc: "I am a 4th-year medical student at Charité and currently conducting my MD thesis in the Meisel Lab. My research focuses on how alterations in critical dynamics and brain structure shape cognition in drug-resistant focal epilepsy. By integrating MRI-based measures of cortical organization, intracranial EEG recordings, and cognitive assessments, I aim to link brain structure, dynamics, and cognition within a unified framework."
   },
     { name: 'Leon Neymeyer', 
     role: 'Working Student', 
