@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import CompetitionAnouncement from './components/CompetitionAnouncement';
 import Competition from './components/Competition';
+import CompetitionResults from './components/CompetitionResults';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
     }
   />
     <Route path="/video_challenge" element={<Competition />} />
+    <Route path="/video_challenge_results" element={<CompetitionResults />} />
        </Routes>
 
         <Footer />

@@ -16,6 +16,9 @@ export default function CompetitionAnouncement() {
     <Link to="/video_challenge" className="competition-button">
       Details
     </Link>
+    <Link to="/video_challenge_results" className="competition-button results-highlight">
+      Results
+    </Link>
       </div>
     </section>
   );

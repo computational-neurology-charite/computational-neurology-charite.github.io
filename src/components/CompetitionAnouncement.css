@@ -12,21 +12,35 @@
   color: #333;
 }
 
-.competition-button {
+#competition-announcement .competition-button {
   display: inline-block;
-  margin-top: 30px;
+  margin: 30px 10px 0 10px; /* Top, Right, Bottom, Left */
   padding: 12px 30px;
-  background: var(--card-color);
-  border-radius: 6px;
+  background: var(--card-color, #f3f4f6);
+  border-radius: 999px; /* Matches pill look from Competition.css */
   text-decoration: none;
   font-size: 1.1em;
   transition: 0.3s ease;
   color: black;
-  border: 1px solid #ccc;
+  border: 1px solid #dadde1;
 }
 
-.competition-button:hover {
-  background: var(--card-hover-color);
+#competition-announcement .competition-button:hover {
+  background: var(--card-hover-color, #e9ecef);
   transform: translateY(-3px);
   cursor: pointer;
+}
+
+#competition-announcement .results-highlight {
+  background: #2563eb !important; /* Force blue background */
+  color: white !important;
+  border-color: #1d4ed8;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+#competition-announcement .results-highlight:hover {
+  background: #1d4ed8 !important;
+  color: white !important;
+  box-shadow: 0 6px 15px rgba(37, 99, 235, 0.3);
 }
