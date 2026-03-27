@@ -19,6 +19,7 @@ export default function CompetitionResults() {
         <h3>Final Leaderboard</h3>
         <p>The ranking is based primarily on the F1 score. For teams with tied F1 scores, sensitivity was used as the secondary tie-breaker.</p>
         <p>In order to win the first or second prize at least one member of the team had to be registered for the conference, which is why the second place changed.</p>
+        <p>Duplicate entries were removed.</p>
         <Leaderboard />
       </div>
 
